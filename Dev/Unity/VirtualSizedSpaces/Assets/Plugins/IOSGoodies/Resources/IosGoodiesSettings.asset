@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d337701f362047288a07474cb94d118, type: 3}
+  m_Name: IosGoodiesSettings
+  m_EditorClassIdentifier: 
+  _isRateDialogEnabled: 1
+  _isContactPickerEnabled: 1
+  _isBiometricAuthEnabled: 1
+  _isSocialSharingEnabled: 1
+  _isCalenderAndRemindersEnabled: 1
+  _calendarUsageDescription: We need permission to use your calendar.
+  _remindersUsageDescription: Plist entry Added by IGProjectPostprocessor.cs script.
+    Describe to the user why you want reminders access here.
+  _biometricsUsageDescription: Plist entry Added by IGProjectPostprocessor.cs script.
+    Describe to the user why you want Face Id authentication access here.
+  _imagePickerUsageDescription: Plist entry Added by IGProjectPostprocessor.cs script.
+    Describe to the user why you want to pick images from Photos/Library here.
+  _photoPickerUsageDescription: Plist entry Added by IGProjectPostprocessor.cs script.
+    Describe to the user why you want to access camera here.
+  _addPhotoToGalleryUsageDescription: Plist entry Added by IGProjectPostprocessor.cs
+    script. Describe to the user why you want to save images to Library here.
+  _isImagePickerEnabled: 1

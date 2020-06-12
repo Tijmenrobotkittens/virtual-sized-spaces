@@ -1,0 +1,56 @@
+﻿#if UNITY_IOS || UNITY_IPHONE
+using UnityEditor.Callbacks;
+using System.Collections;
+using UnityEditor.iOS_I2Loc.Xcode;
+using System.IO;
+using System.Collections.Generic;
+using System;
+using UnityEditor;
+using UnityEngine;
+using System.Linq;
+
+
+
+    public class PostProcessBuild_IOS
+    {
+        // Add plist key and translation key pairs here
+        //private static Dictionary<string, string> plistStringMap = new Dictionary<string, string>
+        //{
+        //    {"NSCameraUsageDescription","System/settings_camera"}
+        //};
+
+
+        [PostProcessBuild(10000)]
+        public static void ChangeXcodePlist(BuildTarget buildTarget, string pathToBuiltProject)
+        {
+            if (buildTarget != BuildTarget.iOS)
+                return;
+
+            
+
+           
+            try
+            {
+                //----[ Export localized languages to the info.plist ]---------
+
+                //string plistPath = pathToBuiltProject + "/Info.plist";
+                //PlistDocument plist = new PlistDocument();
+                //plist.ReadFromString(File.ReadAllText(plistPath));
+
+                //PlistElementDict rootDict = plist.root;
+
+                //rootDict.SetString("UnityNotificationRequestAuthorizationOnAppLaunch", langCodes[0]);
+
+                //// Write to file
+                //File.WriteAllText(plistPath, plist.WriteToString());
+
+                //--[ Localize App Name ]----------
+
+            }
+            catch (System.Exception e)
+            {
+                Debug.LogError(e);
+            }
+        }
+    }
+#endif

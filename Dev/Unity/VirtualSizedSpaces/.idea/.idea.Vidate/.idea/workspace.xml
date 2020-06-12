@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Features" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Features" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d42a8383-287d-406c-9c84-2438915a895b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vidate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vidate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AWSSDK/AWSSDK.CognitoIdentity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AWSSDK/AWSSDK.CognitoIdentity.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AWSSDK/AWSSDK.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AWSSDK/AWSSDK.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AWSSDK/AWSSDK.S3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AWSSDK/AWSSDK.S3.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AWSSDK/AWSSDK.SecurityToken.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AWSSDK/AWSSDK.SecurityToken.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Demo.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Demo.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/Android/AgoraRtcEngineKit.plugin/libs/arm64-v8a/libagora-crypto.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/Android/AgoraRtcEngineKit.plugin/libs/arm64-v8a/libagora-crypto.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/Android/AgoraRtcEngineKit.plugin/libs/arm64-v8a/libagora-rtc-sdk.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/Android/AgoraRtcEngineKit.plugin/libs/arm64-v8a/libagora-rtc-sdk.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/Android/AgoraRtcEngineKit.plugin/libs/arm64-v8a/libagoraSdkCWrapper.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/Android/AgoraRtcEngineKit.plugin/libs/arm64-v8a/libagoraSdkCWrapper.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/Android/AgoraRtcEngineKit.plugin/libs/armeabi-v7a/libagora-crypto.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/Android/AgoraRtcEngineKit.plugin/libs/armeabi-v7a/libagora-crypto.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/Android/AgoraRtcEngineKit.plugin/libs/armeabi-v7a/libagora-rtc-sdk.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/Android/AgoraRtcEngineKit.plugin/libs/armeabi-v7a/libagora-rtc-sdk.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/Android/AgoraRtcEngineKit.plugin/libs/armeabi-v7a/libagoraSdkCWrapper.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/Android/AgoraRtcEngineKit.plugin/libs/armeabi-v7a/libagoraSdkCWrapper.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/Android/AgoraRtcEngineKit.plugin/libs/x86/libagora-crypto.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/Android/AgoraRtcEngineKit.plugin/libs/x86/libagora-crypto.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/Android/AgoraRtcEngineKit.plugin/libs/x86/libagora-rtc-sdk.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/Android/AgoraRtcEngineKit.plugin/libs/x86/libagora-rtc-sdk.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/Android/AgoraRtcEngineKit.plugin/libs/x86/libagoraSdkCWrapper.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/Android/AgoraRtcEngineKit.plugin/libs/x86/libagoraSdkCWrapper.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/iOS/AgoraRtcKit.framework/AgoraResources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/iOS/AgoraRtcKit.framework/AgoraResources.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/iOS/AgoraRtcKit.framework/AgoraRtcKit" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/iOS/AgoraRtcKit.framework/AgoraRtcKit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/iOS/AgoraRtcKit.framework/AgoraRtcKit.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/iOS/AgoraRtcKit.framework/AgoraRtcKit.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/iOS/AgoraRtcKit.framework/Headers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/iOS/AgoraRtcKit.framework/Headers.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/iOS/AgoraRtcKit.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/iOS/AgoraRtcKit.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/iOS/AgoraRtcKit.framework/Info.plist.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/iOS/AgoraRtcKit.framework/Info.plist.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/iOS/AgoraRtcKit.framework/Modules.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/iOS/AgoraRtcKit.framework/Modules.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/iOS/libagoraSdkCWrapper.a" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/iOS/libagoraSdkCWrapper.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/macOS/agoraSdkCWrapper.bundle/Contents/MacOS/agoraSdkCWrapper" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/macOS/agoraSdkCWrapper.bundle/Contents/MacOS/agoraSdkCWrapper" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/macOS/agoraSdkCWrapper.bundle/Contents/Resources/AgoraRtcKit.framework/AgoraRtcKit" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/macOS/agoraSdkCWrapper.bundle/Contents/Resources/AgoraRtcKit.framework/AgoraRtcKit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/macOS/agoraSdkCWrapper.bundle/Contents/Resources/AgoraRtcKit.framework/Versions/A/AgoraRtcKit" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/macOS/agoraSdkCWrapper.bundle/Contents/Resources/AgoraRtcKit.framework/Versions/A/AgoraRtcKit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/macOS/agoraSdkCWrapper.bundle/Contents/Resources/AgoraRtcKit.framework/Versions/Current/AgoraRtcKit" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/macOS/agoraSdkCWrapper.bundle/Contents/Resources/AgoraRtcKit.framework/Versions/Current/AgoraRtcKit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/x86/agoraSdkCWrapper.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/x86/agoraSdkCWrapper.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/x86/agora_rtc_sdk.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/x86/agora_rtc_sdk.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/x86_64/agoraSdkCWrapper.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/x86_64/agoraSdkCWrapper.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/x86_64/agora_rtc_sdk.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Plugins/x86_64/agora_rtc_sdk.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/README_ARFoundation.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/README_ARFoundation.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/README_ARFoundation.pdf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/README_ARFoundation.pdf.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/README_QuickStart.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/README_QuickStart.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/README_QuickStart.pdf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/README_QuickStart.pdf.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/releaseHistory.md" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/releaseHistory.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgoraEngine/releaseHistory.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AgoraEngine/releaseHistory.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Images/Heart.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Images/Heart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Images/circle.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Images/circle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Images/gradient.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Images/gradient.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Images/img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Images/img1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Images/img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Images/img2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Images/roundshadow.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Images/roundshadow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Images/shadow.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Images/shadow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Images/testimg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Images/testimg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Sounds/popup1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Sounds/popup1.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Texturesheets/CountryFlags.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Texturesheets/CountryFlags.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Texturesheets/Generic.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Texturesheets/Generic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Texturesheets/Generic2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Texturesheets/Generic2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Texturesheets/Generic3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Texturesheets/Generic3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Texturesheets/MenuAnimation.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Texturesheets/MenuAnimation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Texturesheets/ProfileCreation.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/Texturesheets/ProfileCreation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/UVMap.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/UVMap.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/button_2000.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets - dynamic/Resources/button_2000.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/_App_Icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/_App_Icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Best HTTP/Examples/Helpers/LinkSelect.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Best HTTP/Examples/Helpers/LinkSelect.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/Footer.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/Footer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/Footer_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/Footer_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/Header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/Header.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro Examples/Examples Assets/dotweenpro_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro Examples/Examples Assets/dotweenpro_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenPro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/DemiLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/DemiLib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/DemiEditor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/DemiEditor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blackSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blackSquare.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha10.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha15.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha25.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha50.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha80.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha80.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blueSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blueSquare.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/circle.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/circle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/greenSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/greenSquare.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/grid_bright.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/grid_bright.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/grid_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/grid_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alert.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alert.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignB.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignB.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBC.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBC.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBL.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBL.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBR.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBR.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCC.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCC.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCL.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCL.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCR.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCR.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignHC.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignHC.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignL.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignL.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignR.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignR.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignT.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignT.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTC.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTC.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTL.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTL.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTR.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTR.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignVC.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignVC.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera_border.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera_border.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog_border.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog_border.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment_border.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment_border.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_delete.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_delete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_demigiant.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_demigiant.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeHAlignT.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeHAlignT.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeVAlignL.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeVAlignL.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_end.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_end.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_closed.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_closed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_open.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_open.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart_border.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart_border.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_nodeArrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_nodeArrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_ok.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_ok.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_play.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_play.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_play_border.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_play_border.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull_border.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull_border.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_star.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_star.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_star_border.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_star_border.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui_border.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui_border.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility_off.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility_off.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/orangeSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/orangeSquare.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_atlas.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_atlas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_audio.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_audio.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_bundle.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_bundle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cog.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cog.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cross.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cross.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_demigiant.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_demigiant.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_folder.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_folder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_fonts.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_fonts.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_heart.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_heart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_materials.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_materials.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_models.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_models.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_particles.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_particles.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_play.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_play.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_prefab.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_prefab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_scripts.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_scripts.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_shaders.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_shaders.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_skull.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_skull.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_star.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_star.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_terrains.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_terrains.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_textures.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_textures.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/purpleSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/purpleSquare.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/redSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/redSquare.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorder.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderAlpha15.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderAlpha15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved02_darkBorders.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved02_darkBorders.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedAlpha.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedAlpha.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmptyThick.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmptyThick.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved_darkBorders.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved_darkBorders.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved_darkBordersAlpha.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved_darkBordersAlpha.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickEmpty.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickEmpty.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickerEmpty.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickerEmpty.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareCorners03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareCorners03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareCornersEmpty02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareCornersEmpty02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_empty.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_empty.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted_alpha.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted_alpha.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/transparentSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/transparentSquare.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_darkBorder.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_darkBorder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_whiteBorderAlpha.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_whiteBorderAlpha.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha10.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha15.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha25.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha50.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha80.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha80.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare_fadeOut_bt.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare_fadeOut_bt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/yellowSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/yellowSquare.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_analytics.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_analytics.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_analytics_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_analytics_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_auth.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_auth.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_auth_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_auth_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_cloud_messaging.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_cloud_messaging.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_cloud_messaging_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_cloud_messaging_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_config.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_config.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_config_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_config_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_crashlytics.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_crashlytics.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_crashlytics_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_crashlytics_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_database.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_database.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_database_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_database_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_dynamic_links.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_dynamic_links.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_dynamic_links_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_dynamic_links_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_functions.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_functions.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_functions_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_functions_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_storage.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_storage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_storage_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/fb_storage_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/firebase_lockup.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/firebase_lockup.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/firebase_lockup_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/Firebase/firebase_lockup_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Editor/Firebase.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/Editor/Firebase.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Editor/Firebase.Messaging.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/Editor/Firebase.Messaging.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Editor/generate_xml_from_google_services_json.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/Editor/generate_xml_from_google_services_json.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Editor/network_request.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/Editor/network_request.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Plugins/Firebase.Analytics.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/Plugins/Firebase.Analytics.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Plugins/Firebase.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/Plugins/Firebase.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Plugins/Firebase.Messaging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/Plugins/Firebase.Messaging.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Plugins/Firebase.Platform.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/Plugins/Firebase.Platform.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Plugins/Firebase.TaskExtension.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/Plugins/Firebase.TaskExtension.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Plugins/Google.MiniJson.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/Plugins/Google.MiniJson.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Plugins/iOS/Firebase.Analytics.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/Plugins/iOS/Firebase.Analytics.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Plugins/iOS/Firebase.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/Plugins/iOS/Firebase.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Plugins/iOS/Firebase.Messaging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/Plugins/iOS/Firebase.Messaging.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppAnalytics.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppAnalytics.bundle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppAnalytics.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppAnalytics.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppAnalytics.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppAnalytics.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppApp-6_16_1.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppApp-6_16_1.bundle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppApp-6_16_1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppApp-6_16_1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppApp-6_16_1.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppApp-6_16_1.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppMessaging.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppMessaging.bundle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppMessaging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppMessaging.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppMessaging.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppMessaging.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/m2repository/com/google/firebase/firebase-analytics-unity/6.16.1/firebase-analytics-unity-6.16.1.srcaar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/m2repository/com/google/firebase/firebase-analytics-unity/6.16.1/firebase-analytics-unity-6.16.1.srcaar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/m2repository/com/google/firebase/firebase-app-unity/6.16.1/firebase-app-unity-6.16.1.srcaar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/m2repository/com/google/firebase/firebase-app-unity/6.16.1/firebase-app-unity-6.16.1.srcaar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/m2repository/com/google/firebase/firebase-messaging-unity/6.16.1/firebase-messaging-unity-6.16.1.srcaar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/m2repository/com/google/firebase/firebase-messaging-unity/6.16.1/firebase-messaging-unity-6.16.1.srcaar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/00 - Splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/00 - Splash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/01 - Onboarding.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/01 - Onboarding.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/01a - Overlay Terms.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/01a - Overlay Terms.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/02a - Phonenumber.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/02a - Phonenumber.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/02a1 - Overlay Countries.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/02a1 - Overlay Countries.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/02b - Code.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/02b - Code.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/02c - Welkom terug.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/02c - Welkom terug.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/03a - Naam.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/03a - Naam.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/03b - Geboortedatum.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/03b - Geboortedatum.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/03c - Woonplaats.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/03c - Woonplaats.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/03c1 - Woonplaats.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/03c1 - Woonplaats.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/03d - Geslacht.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/03d - Geslacht.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/04a - Geslacht.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/04a - Geslacht.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/04a - Uitleg.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/04a - Uitleg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/04b - Afstand.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/04b - Afstand.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/04b - Geslacht.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/04b - Geslacht.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/04c - Afstand.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/04c - Afstand.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/05a - Enable Location.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/05a - Enable Location.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/05b - Enable Notifications.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/05b - Enable Notifications.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/06a - Uitleg.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/06a - Uitleg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/06b - Vragen.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/06b - Vragen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/06c - Starred.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/06c - Starred.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/07a - Uitleg.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/07a - Uitleg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/07b - Opnemen.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/07b - Opnemen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/07c - Opslaan.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/07c - Opslaan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/07d - Opgeslagen.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/07d - Opgeslagen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/07e - Taal.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/07e - Taal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/07f - Taal selecteren.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/07f - Taal selecteren.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/08a - Profiel Aangemaakt.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/08a - Profiel Aangemaakt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/08b - Geblokkeerd.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/08b - Geblokkeerd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/09a - Vidate.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/09a - Vidate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/09b - Rapporteren_Feedback.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/09b - Rapporteren_Feedback.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/09c - Rapporteren.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/09c - Rapporteren.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/09d - Feedback geven.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/09d - Feedback geven.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/09e - Geen profielen meer.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/09e - Geen profielen meer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/10 - Like.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/10 - Like.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/11a - Match.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/11a - Match.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/11b - Match.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/11b - Match.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/12a - Plannen.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/12a - Plannen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/12a1 - Plannen Unselected.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/12a1 - Plannen Unselected.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/12b - Date copy.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/12b - Date copy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/12b - Date.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/12b - Date.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/12b - Date_v2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/12b - Date_v2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/12c - Time copy.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/12c - Time copy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/12c - Time.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/12c - Time.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/12c - Time_v2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/12c - Time_v2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/12d - Bevestiging.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/12d - Bevestiging.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/13a - Plannen .png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/13a - Plannen .png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/13a1 - Plannen  Unselected.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/13a1 - Plannen  Unselected.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/13b - Gepland.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/13b - Gepland.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/14a - Vidates.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/14a - Vidates.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/14b - Vidates.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/14b - Vidates.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/14c - Vidates.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/14c - Vidates.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/15a - Reminder.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/15a - Reminder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/15b - Je hebt nu een vidate.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/15b - Je hebt nu een vidate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/15c - Weet je het zeker_.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/15c - Weet je het zeker_.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/15d - Jammer.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/15d - Jammer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/15e - Afgezegd.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/15e - Afgezegd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/15f - Verzet.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/15f - Verzet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/16a - Vidate 5 min.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/16a - Vidate 5 min.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/16b - Vidate Ophangen.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/16b - Vidate Ophangen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/16c - Vidate Opgehangen.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/16c - Vidate Opgehangen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/17a - 2e date_.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/17a - 2e date_.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/17b - Wachten.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/17b - Wachten.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/17c - Inplannen.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/17c - Inplannen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/17d - Aan het inplannen.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/17d - Aan het inplannen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/17e - Helaas.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/17e - Helaas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/17f - Helaas Reactie.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/17f - Helaas Reactie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/18 - Vidate 30 min.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/18 - Vidate 30 min.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/19a - Nummers uitwisselen_.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/19a - Nummers uitwisselen_.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/19b - Wachten.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/19b - Wachten.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/19c - Helaas Reactie.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/19c - Helaas Reactie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/19d - Helaas.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/19d - Helaas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/20 - Nummers uitgewisseld.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/20 - Nummers uitgewisseld.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/21a - Profiel.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/21a - Profiel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/21b - Profiel Naam.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/21b - Profiel Naam.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/21c - Profiel geboortedatum.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/21c - Profiel geboortedatum.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/21d - Profiel Geslacht.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/21d - Profiel Geslacht.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/21e - Profiel verwijderen_Uitloggen.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/21e - Profiel verwijderen_Uitloggen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/21f - Profiel Terms.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/21f - Profiel Terms.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/22 - Loader.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/22 - Loader.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Guides/XX - Vidates.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guides/XX - Vidates.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/I2/Localization/Examples/Common/Audio/frances.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/I2/Localization/Examples/Common/Audio/frances.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/I2/Localization/Examples/Common/Audio/ingles.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/I2/Localization/Examples/Common/Audio/ingles.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/I2/Localization/Examples/Common/Window.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/I2/Localization/Examples/Common/Window.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/I2/Localization/Examples/Resources/References/Sounds/espannol.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/I2/Localization/Examples/Resources/References/Sounds/espannol.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/I2/Localization/Examples/Resources/References/Sprites/L_EN.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/I2/Localization/Examples/Resources/References/Sprites/L_EN.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/I2/Localization/Examples/Resources/References/Sprites/L_ES.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/I2/Localization/Examples/Resources/References/Sprites/L_ES.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/I2/Localization/Examples/Resources/References/Sprites/L_FR.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/I2/Localization/Examples/Resources/References/Sprites/L_FR.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/I2/Localization/Examples/Resources/References/Textures/L_AR.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/I2/Localization/Examples/Resources/References/Textures/L_AR.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/I2/Localization/Examples/Resources/References/Textures/L_EN.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/I2/Localization/Examples/Resources/References/Textures/L_EN.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/I2/Localization/Examples/Resources/References/Textures/L_ES.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/I2/Localization/Examples/Resources/References/Textures/L_ES.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/I2/Localization/Examples/Resources/References/Textures/L_FR.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/I2/Localization/Examples/Resources/References/Textures/L_FR.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/I2/Localization/Scripts/Editor/Unity XCode/UnityEditor.iOS_I2Loc.Xcode.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/I2/Localization/Scripts/Editor/Unity XCode/UnityEditor.iOS_I2Loc.Xcode.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Parse/Plugins/Unity.Compat.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Parse/Plugins/Unity.Compat.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Parse/Plugins/Unity.Tasks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Parse/Plugins/Unity.Tasks.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidgoodieslib-release.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidgoodieslib-release.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.activity.activity-1.1.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.activity.activity-1.1.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.arch.core.core-runtime-2.1.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.arch.core.core-runtime-2.1.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.core.core-1.2.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.core.core-1.2.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.customview.customview-1.0.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.customview.customview-1.0.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.documentfile.documentfile-1.0.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.documentfile.documentfile-1.0.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.fragment.fragment-1.2.5.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.fragment.fragment-1.2.5.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.legacy.legacy-support-core-utils-1.0.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.legacy.legacy-support-core-utils-1.0.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.lifecycle.lifecycle-livedata-2.0.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.lifecycle.lifecycle-livedata-2.0.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.lifecycle.lifecycle-livedata-core-2.2.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.lifecycle.lifecycle-livedata-core-2.2.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.lifecycle.lifecycle-runtime-2.2.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.lifecycle.lifecycle-runtime-2.2.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.lifecycle.lifecycle-viewmodel-2.2.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.lifecycle.lifecycle-viewmodel-2.2.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.lifecycle.lifecycle-viewmodel-savedstate-2.2.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.lifecycle.lifecycle-viewmodel-savedstate-2.2.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.loader.loader-1.0.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.loader.loader-1.0.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.localbroadcastmanager.localbroadcastmanager-1.0.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.localbroadcastmanager.localbroadcastmanager-1.0.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.print.print-1.0.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.print.print-1.0.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.savedstate.savedstate-1.0.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.savedstate.savedstate-1.0.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.versionedparcelable.versionedparcelable-1.1.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.versionedparcelable.versionedparcelable-1.1.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.viewpager.viewpager-1.0.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.viewpager.viewpager-1.0.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.datatransport.transport-api-2.2.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.datatransport.transport-api-2.2.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.datatransport.transport-backend-cct-2.2.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.datatransport.transport-backend-cct-2.2.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.datatransport.transport-runtime-2.2.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.datatransport.transport-runtime-2.2.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-ads-identifier-17.0.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-ads-identifier-17.0.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-base-17.4.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-base-17.4.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-basement-17.4.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-basement-17.4.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-measurement-17.5.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-measurement-17.5.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-measurement-api-17.5.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-measurement-api-17.5.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-measurement-base-17.5.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-measurement-base-17.5.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-measurement-impl-17.5.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-measurement-impl-17.5.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-measurement-sdk-17.5.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-measurement-sdk-17.5.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-measurement-sdk-api-17.5.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-measurement-sdk-api-17.5.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-stats-17.0.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-stats-17.0.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-tasks-17.2.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-tasks-17.2.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-analytics-17.5.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-analytics-17.5.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-analytics-unity-6.16.1.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-analytics-unity-6.16.1.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-app-unity-6.16.1.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-app-unity-6.16.1.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-common-19.3.1.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-common-19.3.1.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-components-16.0.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-components-16.0.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-datatransport-17.0.3.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-datatransport-17.0.3.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-encoders-json-16.0.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-encoders-json-16.0.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-iid-20.2.3.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-iid-20.2.3.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-iid-interop-17.0.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-iid-interop-17.0.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-installations-16.3.3.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-installations-16.3.3.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-installations-interop-16.0.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-installations-interop-16.0.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-measurement-connector-18.0.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-measurement-connector-18.0.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-messaging-20.2.4.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-messaging-20.2.4.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-messaging-unity-6.16.1.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-messaging-unity-6.16.1.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/libsqlite3.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/libsqlite3.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/res/drawable-hdpi/notify_icon_small.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/res/drawable-hdpi/notify_icon_small.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/res/drawable-mdpi/notify_icon_small.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/res/drawable-mdpi/notify_icon_small.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/res/drawable-xhdpi/notify_icon_small.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/res/drawable-xhdpi/notify_icon_small.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/res/drawable-xxhdpi/notify_icon_small.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/res/drawable-xxhdpi/notify_icon_small.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/res/drawable-xxxhdpi/notify_icon_small.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/res/drawable-xxxhdpi/notify_icon_small.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/res/drawable/notify_icon_small.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/res/drawable/notify_icon_small.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_access_time_white_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_access_time_white_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_accessibility_white_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_accessibility_white_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_adb_white_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_adb_white_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_battery_std_white_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_battery_std_white_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_bluetooth_white_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_bluetooth_white_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_brightness_medium_white_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_brightness_medium_white_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_data_usage_white_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_data_usage_white_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_developer_mode_white_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_developer_mode_white_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_gps_fixed_white_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_gps_fixed_white_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_language_white_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_language_white_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_lock_white_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_lock_white_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_network_wifi_white_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_network_wifi_white_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_notifications_white_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_notifications_white_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_sd_storage_white_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_sd_storage_white_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_settings_white_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_settings_white_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_storage_white_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/Settings/ic_storage_white_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/AndroidGoodies/Example/Images/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/IOSGoodies/Editor/GUI/goodies_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/IOSGoodies/Editor/GUI/goodies_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/IOSGoodies/Editor/GUI/ic_contacts_black.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/IOSGoodies/Editor/GUI/ic_contacts_black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/IOSGoodies/Editor/GUI/ic_features.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/IOSGoodies/Editor/GUI/ic_features.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/IOSGoodies/Editor/GUI/ic_help.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/IOSGoodies/Editor/GUI/ic_help.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/IOSGoodies/Editor/GUI/icon_info.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/IOSGoodies/Editor/GUI/icon_info.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/IOSGoodies/Editor/GUI/info_plist.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/IOSGoodies/Editor/GUI/info_plist.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/IOSGoodies/Editor/GUI/ios-framework.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/IOSGoodies/Editor/GUI/ios-framework.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/IOSGoodies/Example/Resources/ic_close_white_3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/IOSGoodies/Example/Resources/ic_close_white_3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/IOSGoodies/Example/Resources/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/IOSGoodies/Example/Resources/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/NatSuite/Plugins/Android/NatCorder.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/NatSuite/Plugins/Android/NatCorder.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/NatSuite/Plugins/Android/NatRender.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/NatSuite/Plugins/Android/NatRender.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/NatSuite/Plugins/Windows/NatCorder.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/NatSuite/Plugins/Windows/NatCorder.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/NatSuite/Plugins/iOS/libNatCorder.a" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/NatSuite/Plugins/iOS/libNatCorder.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/NatSuite2/Plugins/Android/NatDevice.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/NatSuite2/Plugins/Android/NatDevice.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/NatSuite2/Plugins/Windows/NatDevice.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/NatSuite2/Plugins/Windows/NatDevice.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/NatSuite2/Plugins/iOS/libNatDevice.a" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/NatSuite2/Plugins/iOS/libNatDevice.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/NativeShare/Android/NativeShare.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/NativeShare/Android/NativeShare.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Firebase/libFirebaseCppAnalytics.a" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Firebase/libFirebaseCppAnalytics.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Firebase/libFirebaseCppAnalytics.a.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Firebase/libFirebaseCppAnalytics.a.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Firebase/libFirebaseCppApp.a" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Firebase/libFirebaseCppApp.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Firebase/libFirebaseCppApp.a.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Firebase/libFirebaseCppApp.a.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Firebase/libFirebaseCppMessaging.a" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Firebase/libFirebaseCppMessaging.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Firebase/libFirebaseCppMessaging.a.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Firebase/libFirebaseCppMessaging.a.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/libsqlite3.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/libsqlite3.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/x86_64/sqlite3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/x86_64/sqlite3.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/External/Wowmaking/JsonNet/Newtonsoft.Json.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/External/Wowmaking/JsonNet/Newtonsoft.Json.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Vidate/Prefabs/Scenes/Browse/Objects/VideoPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Vidate/Prefabs/Scenes/Browse/Objects/VideoPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Testvideo/alexander.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Testvideo/alexander.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Editor/TexturePackerImporter.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Editor/TexturePackerImporter.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/SpriteSheet/sprites.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/SpriteSheet/sprites.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0001.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0001.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0001_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0001_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0002.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0002.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0002_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0002_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0003.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0003.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0003_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0003_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0004.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0004.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0004_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0004_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0005.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0005.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0005_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0005_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0006.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0006.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0006_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0006_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0007.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0007.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0007_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0007_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0008.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0008.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0008_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0008_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0009.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0009.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0009_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0009_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0010.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0010.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0010_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0010_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0011.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0011.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0011_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0011_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0012.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0012.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0012_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/turn/0012_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0001.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0001.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0001_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0001_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0002.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0002.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0002_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0002_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0003.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0003.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0003_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0003_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0004.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0004.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0004_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0004_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0005.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0005.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0005_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0005_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0006.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0006.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0006_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0006_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0007.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0007.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0007_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0007_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0008.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0008.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0008_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0008_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0009.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0009.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0009_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0009_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0010.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0010.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0010_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0010_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0011.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0011.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0011_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0011_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0012.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0012.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0012_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0012_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0013.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0013.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0013_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0013_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0014.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0014.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0014_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0014_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0015.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0015.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0015_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0015_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0016.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0016.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0016_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/codeandweb.com/Example/Sprites/capguy/walk/0016_n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Res/Texturepacks/Texturepacker files/CountryFlags.tps" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Res/Texturepacks/Texturepacker files/CountryFlags.tps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Res/Texturepacks/Texturepacker files/Generic.tps" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Res/Texturepacks/Texturepacker files/Generic.tps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Res/Texturepacks/Texturepacker files/Generic2.tps" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Res/Texturepacks/Texturepacker files/Generic2.tps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Res/Texturepacks/Texturepacker files/Generic3.tps" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Res/Texturepacks/Texturepacker files/Generic3.tps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Res/Texturepacks/Texturepacker files/MenuAnimation.tps" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Res/Texturepacks/Texturepacker files/MenuAnimation.tps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Res/Texturepacks/Texturepacker files/ProfileCreation.tps" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Res/Texturepacks/Texturepacker files/ProfileCreation.tps" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vidate/Prefabs/UI/GenericButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../../Program Files/Unity/Hub/Editor/2019.4.4f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Graphic.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.0.1/Scripts/Runtime/TMP_InputField.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vidate/Controllers/SoundController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/Vidate/Prefabs/Scenes/Matches/ActiveDate.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Vidate/Prefabs/Scenes/Matches/MatchesScene.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Vidate/Controllers/DebuggerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Vidate/Prefabs/Scenes/Profile/ProfileOptionShare.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Vidate/Prefabs/Scenes/Profile/ProfileScene.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Test/playground.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Vidate/Data/Requests/FormConfigResponse.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Vidate/Data/Objects/ApiData.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Vidate/Data/UserData.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Vidate/Config/Config.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Robot Kittens/Utils/HelperFunctions.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Vidate/Controllers/AppController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Vidate/Prefabs/Scenes/Browse/BrowseScene.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Vidate/Prefabs/Scenes/Browse/Objects/VideoPanel.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="1guCKWCX99OSTQR7FkgHsqygg2T" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d42a8383-287d-406c-9c84-2438915a895b" name="Default Changelist" comment="" />
+      <created>1598955028352</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598955028352</updated>
+      <workItem from="1598955043183" duration="10137000" />
+      <workItem from="1599032459228" duration="22138000" />
+      <workItem from="1599136584860" duration="7186000" />
+      <workItem from="1599207662273" duration="20495000" />
+      <workItem from="1599463209198" duration="15260000" />
+      <workItem from="1599637724560" duration="23121000" />
+      <workItem from="1599722481363" duration="24293000" />
+      <workItem from="1599807883398" duration="23204000" />
+      <workItem from="1600068270520" duration="618000" />
+      <workItem from="1600069036627" duration="20760000" />
+      <workItem from="1600154045782" duration="9813000" />
+      <workItem from="1600168569446" duration="4648000" />
+      <workItem from="1600176051345" duration="8149000" />
+      <workItem from="1600238956291" duration="4087000" />
+      <workItem from="1600326236319" duration="3003000" />
+      <workItem from="1600411247455" duration="20308000" />
+      <workItem from="1600671324116" duration="24370000" />
+      <workItem from="1600711011801" duration="2913000" />
+      <workItem from="1600757732614" duration="21554000" />
+      <workItem from="1600850467517" duration="19497000" />
+      <workItem from="1600930832131" duration="5429000" />
+      <workItem from="1600937301780" duration="17982000" />
+      <workItem from="1601019709098" duration="22839000" />
+      <workItem from="1601278604744" duration="20916000" />
+      <workItem from="1601362100634" duration="24004000" />
+      <workItem from="1601449827695" duration="5191000" />
+      <workItem from="1601537746060" duration="21007000" />
+      <workItem from="1601903902916" duration="509000" />
+      <workItem from="1601969143169" duration="12275000" />
+      <workItem from="1602055507047" duration="6135000" />
+      <workItem from="1602081428347" duration="1177000" />
+      <workItem from="1602141151038" duration="12779000" />
+      <workItem from="1602227237149" duration="12767000" />
+      <workItem from="1602752238206" duration="840000" />
+      <workItem from="1602753463787" duration="1136000" />
+      <workItem from="1602755221125" duration="175000" />
+      <workItem from="1602755452117" duration="86000" />
+      <workItem from="1602755619854" duration="9866000" />
+      <workItem from="1603177530602" duration="9215000" />
+      <workItem from="1603264352711" duration="339000" />
+      <workItem from="1603265123334" duration="11183000" />
+      <workItem from="1603351816617" duration="2514000" />
+      <workItem from="1603698422429" duration="20007000" />
+      <workItem from="1603872022030" duration="10049000" />
+      <workItem from="1603889182071" duration="2058000" />
+      <workItem from="1603959471360" duration="1380000" />
+      <workItem from="1604045989884" duration="17097000" />
+      <workItem from="1604069123343" duration="4064000" />
+      <workItem from="1604305027794" duration="20965000" />
+      <workItem from="1604390721427" duration="6000000" />
+      <workItem from="1604407016831" duration="8069000" />
+      <workItem from="1604479869791" duration="1997000" />
+      <workItem from="1604481884169" duration="6655000" />
+      <workItem from="1604997546111" duration="19984000" />
+      <workItem from="1605084053803" duration="19468000" />
+      <workItem from="1605171553525" duration="12635000" />
+      <workItem from="1605255867041" duration="7064000" />
+      <workItem from="1605601076257" duration="1402000" />
+      <workItem from="1605603303443" duration="20477000" />
+      <workItem from="1605691582587" duration="20082000" />
+      <workItem from="1605775401793" duration="3441000" />
+      <workItem from="1605779138015" duration="1552000" />
+      <workItem from="1605861421856" duration="22960000" />
+      <workItem from="1606985499863" duration="16177000" />
+      <workItem from="1607071691795" duration="22609000" />
+      <workItem from="1607329930091" duration="9921000" />
+      <workItem from="1609150287382" duration="3751000" />
+      <workItem from="1609158153163" duration="12981000" />
+      <workItem from="1609232048665" duration="19020000" />
+      <workItem from="1609319998855" duration="8345000" />
+      <workItem from="1609331733473" duration="9447000" />
+      <workItem from="1609408281939" duration="1683000" />
+      <workItem from="1609754477591" duration="450000" />
+      <workItem from="1609754976588" duration="18563000" />
+      <workItem from="1609837305403" duration="20057000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

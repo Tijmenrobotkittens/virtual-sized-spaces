@@ -1,0 +1,5677 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0b0c553be8edd4682e9180fdd13e37, type: 3}
+  m_Name: I2Languages
+  m_EditorClassIdentifier: 
+  mSource:
+    UserAgreesToHaveItOnTheScene: 0
+    UserAgreesToHaveItInsideThePluginsFolder: 0
+    GoogleLiveSyncIsUptoDate: 1
+    mTerms:
+    - Term: month_1
+      TermType: 0
+      Description: 
+      Languages:
+      - januari
+      - January
+      Flags: 0000
+      Languages_Touch: []
+    - Term: month_2
+      TermType: 0
+      Description: 
+      Languages:
+      - februari
+      - February
+      Flags: 0000
+      Languages_Touch: []
+    - Term: month_3
+      TermType: 0
+      Description: 
+      Languages:
+      - maart
+      - March
+      Flags: 0000
+      Languages_Touch: []
+    - Term: month_4
+      TermType: 0
+      Description: 
+      Languages:
+      - april
+      - April
+      Flags: 0000
+      Languages_Touch: []
+    - Term: month_5
+      TermType: 0
+      Description: 
+      Languages:
+      - mei
+      - May
+      Flags: 0000
+      Languages_Touch: []
+    - Term: month_6
+      TermType: 0
+      Description: 
+      Languages:
+      - juni
+      - June
+      Flags: 0000
+      Languages_Touch: []
+    - Term: month_7
+      TermType: 0
+      Description: 
+      Languages:
+      - juli
+      - July
+      Flags: 0000
+      Languages_Touch: []
+    - Term: month_8
+      TermType: 0
+      Description: 
+      Languages:
+      - augustus
+      - August
+      Flags: 0000
+      Languages_Touch: []
+    - Term: month_9
+      TermType: 0
+      Description: 
+      Languages:
+      - september
+      - September
+      Flags: 0000
+      Languages_Touch: []
+    - Term: month_10
+      TermType: 0
+      Description: 
+      Languages:
+      - oktober
+      - October
+      Flags: 0000
+      Languages_Touch: []
+    - Term: month_11
+      TermType: 0
+      Description: 
+      Languages:
+      - november
+      - November
+      Flags: 0000
+      Languages_Touch: []
+    - Term: month_12
+      TermType: 0
+      Description: 
+      Languages:
+      - december
+      - December
+      Flags: 0000
+      Languages_Touch: []
+    - Term: month_1_short
+      TermType: 0
+      Description: 
+      Languages:
+      - jan
+      - Jan
+      Flags: 0000
+      Languages_Touch: []
+    - Term: month_2_short
+      TermType: 0
+      Description: 
+      Languages:
+      - feb
+      - Feb
+      Flags: 0000
+      Languages_Touch: []
+    - Term: month_3_short
+      TermType: 0
+      Description: 
+      Languages:
+      - mrt
+      - Mar
+      Flags: 0000
+      Languages_Touch: []
+    - Term: month_4_short
+      TermType: 0
+      Description: 
+      Languages:
+      - apr
+      - Apr
+      Flags: 0000
+      Languages_Touch: []
+    - Term: month_5_short
+      TermType: 0
+      Description: 
+      Languages:
+      - mei
+      - May
+      Flags: 0000
+      Languages_Touch: []
+    - Term: month_6_short
+      TermType: 0
+      Description: 
+      Languages:
+      - jun
+      - Jun
+      Flags: 0000
+      Languages_Touch: []
+    - Term: month_7_short
+      TermType: 0
+      Description: 
+      Languages:
+      - jul
+      - Jul
+      Flags: 0000
+      Languages_Touch: []
+    - Term: month_8_short
+      TermType: 0
+      Description: 
+      Languages:
+      - aug
+      - Aug
+      Flags: 0000
+      Languages_Touch: []
+    - Term: month_9_short
+      TermType: 0
+      Description: 
+      Languages:
+      - sep
+      - Sep
+      Flags: 0000
+      Languages_Touch: []
+    - Term: month_10_short
+      TermType: 0
+      Description: 
+      Languages:
+      - okt
+      - Oct
+      Flags: 0000
+      Languages_Touch: []
+    - Term: month_11_short
+      TermType: 0
+      Description: 
+      Languages:
+      - nov
+      - Nov
+      Flags: 0000
+      Languages_Touch: []
+    - Term: month_12_short
+      TermType: 0
+      Description: 
+      Languages:
+      - dec
+      - Dec
+      Flags: 0000
+      Languages_Touch: []
+    - Term: day_1
+      TermType: 0
+      Description: 
+      Languages:
+      - maandag
+      - Monday
+      Flags: 0000
+      Languages_Touch: []
+    - Term: day_2
+      TermType: 0
+      Description: 
+      Languages:
+      - dinsdag
+      - Tuesday
+      Flags: 0000
+      Languages_Touch: []
+    - Term: day_3
+      TermType: 0
+      Description: 
+      Languages:
+      - woensdag
+      - Wednesday
+      Flags: 0000
+      Languages_Touch: []
+    - Term: day_4
+      TermType: 0
+      Description: 
+      Languages:
+      - donderdag
+      - Thursday
+      Flags: 0000
+      Languages_Touch: []
+    - Term: day_5
+      TermType: 0
+      Description: 
+      Languages:
+      - vrijdag
+      - Friday
+      Flags: 0000
+      Languages_Touch: []
+    - Term: day_6
+      TermType: 0
+      Description: 
+      Languages:
+      - zaterdag
+      - Saturday
+      Flags: 0000
+      Languages_Touch: []
+    - Term: day_7
+      TermType: 0
+      Description: 
+      Languages:
+      - zondag
+      - Sunday
+      Flags: 0000
+      Languages_Touch: []
+    - Term: day_1_short
+      TermType: 0
+      Description: 
+      Languages:
+      - Ma
+      - Mon
+      Flags: 0000
+      Languages_Touch: []
+    - Term: day_2_short
+      TermType: 0
+      Description: 
+      Languages:
+      - Di
+      - Tue
+      Flags: 0000
+      Languages_Touch: []
+    - Term: day_3_short
+      TermType: 0
+      Description: 
+      Languages:
+      - Wo
+      - Wed
+      Flags: 0000
+      Languages_Touch: []
+    - Term: day_4_short
+      TermType: 0
+      Description: 
+      Languages:
+      - Do
+      - Thur
+      Flags: 0000
+      Languages_Touch: []
+    - Term: day_5_short
+      TermType: 0
+      Description: 
+      Languages:
+      - Vr
+      - Fri
+      Flags: 0000
+      Languages_Touch: []
+    - Term: day_6_short
+      TermType: 0
+      Description: 
+      Languages:
+      - Za
+      - Sat
+      Flags: 0000
+      Languages_Touch: []
+    - Term: day_7_short
+      TermType: 0
+      Description: 
+      Languages:
+      - Zo
+      - Sun
+      Flags: 0000
+      Languages_Touch: []
+    - Term: datenotation
+      TermType: 0
+      Description: 
+      Languages:
+      - '{dayofweek}-{dayofmonth}-{month}'
+      - '{dayofmonth}-{dayofweek}-{month}'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: next
+      TermType: 0
+      Description: 
+      Languages:
+      - Volgende
+      - Next
+      Flags: 0000
+      Languages_Touch: []
+    - Term: key1
+      TermType: 0
+      Description: 
+      Languages:
+      - nederlands
+      - "engels\t"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: allow
+      TermType: 0
+      Description: 
+      Languages:
+      - Toestaan
+      - Allow
+      Flags: 0000
+      Languages_Touch: []
+    - Term: yes
+      TermType: 0
+      Description: 
+      Languages:
+      - Ja
+      - Yes
+      Flags: 0000
+      Languages_Touch: []
+    - Term: no
+      TermType: 0
+      Description: 
+      Languages:
+      - Nee
+      - No
+      Flags: 0000
+      Languages_Touch: []
+    - Term: dontcare
+      TermType: 0
+      Description: 
+      Languages:
+      - Maakt niet uit
+      - Doesn't matter
+      Flags: 0000
+      Languages_Touch: []
+    - Term: year
+      TermType: 0
+      Description: 
+      Languages:
+      - jaar
+      - years
+      Flags: 0000
+      Languages_Touch: []
+    - Term: km
+      TermType: 0
+      Description: 
+      Languages:
+      - km
+      - km
+      Flags: 0000
+      Languages_Touch: []
+    - Term: prefexp
+      TermType: 0
+      Description: 
+      Languages:
+      - Om je te helpen de juiste Vidates te vinden willen we nog weten naar wie
+        je op zoek bent.
+      - To help you find the right Vidates, we want to know who you are looking for.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: questexp
+      TermType: 0
+      Description: 
+      Languages:
+      - 'We willen je graag een beetje beter leren kennen! Je krijgt nu een aantal
+        video''s te zien. Geef aan welke van de twee video''s het beste bij je past.
+        Zo kunnen we betere matches voor je maken. '
+      - You will now see a number of videos. Indicate each time which of the two
+        videos suits you best. This way we get to know you a little, so we can find
+        better matches for you.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: achtung
+      TermType: 0
+      Description: 
+      Languages:
+      - Time for a game of this or that! You will now see a number of videos. Indicate
+        each time which of the two videos suits you best. This way we get to know
+        you a little, so we can find better matches for you.
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: lorum
+      TermType: 0
+      Description: 
+      Languages:
+      - We would like to get to know you a little better! You will now see a number
+        of videos. Indicate which of the two videos suits you best. This way we can
+        make better matches for you.
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: unlimited_amount
+      TermType: 0
+      Description: 
+      Languages:
+      - ongelimiteerd
+      - unlimited
+      Flags: 0000
+      Languages_Touch: []
+    - Term: birthdaynotation
+      TermType: 0
+      Description: 
+      Languages:
+      - '{day}-{month}-{year}'
+      - '{month}-{day}-{year}'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: waitingfor
+      TermType: 0
+      Description: 
+      Languages:
+      - Nog even wachten op {name}...
+      - Just wait for {name} ...
+      Flags: 0000
+      Languages_Touch: []
+    - Term: city
+      TermType: 0
+      Description: 
+      Languages:
+      - Woonplaats
+      - City
+      Flags: 0000
+      Languages_Touch: []
+    - Term: language
+      TermType: 0
+      Description: 
+      Languages:
+      - taal
+      - language
+      Flags: 0000
+      Languages_Touch: []
+    - Term: save
+      TermType: 0
+      Description: 
+      Languages:
+      - Opslaan
+      - Save
+      Flags: 0000
+      Languages_Touch: []
+    - Term: camera
+      TermType: 0
+      Description: 
+      Languages:
+      - camera
+      - camera
+      Flags: 0000
+      Languages_Touch: []
+    - Term: microphone
+      TermType: 0
+      Description: 
+      Languages:
+      - microfoon
+      - microphone
+      Flags: 0000
+      Languages_Touch: []
+    - Term: location
+      TermType: 0
+      Description: 
+      Languages:
+      - locatie
+      - location
+      Flags: 0000
+      Languages_Touch: []
+    - Term: calendar
+      TermType: 0
+      Description: 
+      Languages:
+      - kalender
+      - calendar
+      Flags: 0000
+      Languages_Touch: []
+    - Term: add_to_calendar_message
+      TermType: 0
+      Description: 
+      Languages:
+      - Vidate met {name}
+      - Vidate with {name}
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_5min_title
+      TermType: 0
+      Description: 
+      Languages:
+      - De eerste Vidate zit er alweer op!
+      - 'The first Vidate is already over! '
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_5min_body
+      TermType: 0
+      Description: 
+      Languages:
+      - "Wil je een tweede \nVidate van 30 minuten\nmet <b>{name}</b>?"
+      - "Would you like a second \n30-minute Vidate\nwith <b>{name}</b>?"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_alert_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Je hebt niet eeuwig de tijd!
+      - Time's running out!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_alert_body
+      TermType: 0
+      Description: 
+      Languages:
+      - Je hebt nog {seconds} seconden om te reageren. Als je geen keuze maakt, verdwijnt
+        je match en kom je deze niet meer tegen.
+      - You still have {seconds} seconds to react. If you do not make a choice, this
+        match will be deleted.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_wait
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Spannend! Nog even wachten
+
+        op de reactie van {name}...'
+      - 'Exciting! Just wait for
+
+        the response from {name}...'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_second_title
+      TermType: 0
+      Description: 
+      Languages:
+      - 'YES! {name} wil ook
+
+        een tweede Vidate!'
+      - 'YES! {name} would also
+
+        like a second Vidate!'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_second_body
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Leer elkaar beter kennen tijdens een tweede
+
+        Vidate van 30 minuten.
+        Waar wacht je nog op?'
+      - 'Get to know each other better in a second
+
+        30-minute Vidate. What
+        are you waiting for?'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_second_body2
+      TermType: 0
+      Description: 
+      Languages:
+      - '{name} krijgt als eerste de kans om de tweede Vidate in te plannen. Als
+        {name} je te lang laat wachten kan jij deze ook plannen in het ''match-menu''. '
+      - '{name} will be the first to get the chance to schedule the Vidate. If {name}
+        makes you wait too long, you can also plan in the ''match menu''.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_second_planning_title
+      TermType: 0
+      Description: 
+      Languages:
+      - "{name} is nu een \ndatum aan het plannen\nvoor de tweede Vidate!"
+      - "{name} is now \nplanning a second Vidate!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_second_planning_body
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Je ontvangt een pushnotificatie als {name} zijn/haar voorkeuren heeft doorgegeven.
+        Reageer binnen 48 uur zodat je je match niet verliest. Dat zou zonde zijn
+        natuurlijk. '
+      - You will receive a notification when {name} has selected his/her preferred
+        dates. Watch your notifications and respond within 48 hours.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_second_canceled_title
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Helaas, {name}
+
+        wil geen tweede Vidate'
+      - "Unfortunately, \n{name} doesn't want\na second Vidate"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_second_canceledon_body
+      TermType: 0
+      Description: 
+      Languages:
+      - "Jammer, maar niet getreurd! Check\nandere video\u2019s en vind een nieuwe
+        Vidate."
+      - 'Too bad, but don''t worry! Find a new Vidate by checking out other videos. '
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_second_finished_title
+      TermType: 0
+      Description: 
+      Languages:
+      - En dat was Vidate nummer 2...
+      - And that was Vidate number 2 ...
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_second_finished_body
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Wil je telefoonnummers uitwisselen
+
+        met {name}?'
+      - "Would you like to\nexchange phone numbers \nwith {name}?"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_second_wait_title
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Spannend! '
+      - 'Exciting! '
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_second_wait_body
+      TermType: 0
+      Description: 
+      Languages:
+      - '{name} heeft nog {seconds} seconden om te
+
+        reageren. Nog even geduld...'
+      - '{name} still has {seconds} seconds
+
+        to respond. Be patient...'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_second_finished_canceledon_title
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Helaas, {name} wil
+
+        geen nummers uitwisselen'
+      - "Unfortunately, {name} \ndoesn't want to \nexchange phone numbers"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_success_title
+      TermType: 0
+      Description: 
+      Languages:
+      - MATCH!
+      - MATCH!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_success_body
+      TermType: 0
+      Description: 
+      Languages:
+      - "Jullie nummers zijn gedeeld. Wat leuk! Je kunt het nummer van {name} direct
+        opslaan in je contacten of terug vinden bij je \u2018Afgeronde Vidates\u2019.
+        Veel plezier samen!"
+      - Your phone numbers have been shared. Nice! You can save {name}'s number in
+        your contacts or find it in your "Completed Vidates". Have fun together!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_one_minute
+      TermType: 0
+      Description: 
+      Languages:
+      - minuut
+      - minute
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_minutes
+      TermType: 0
+      Description: 
+      Languages:
+      - minuten
+      - minutes
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_left
+      TermType: 0
+      Description: 
+      Languages:
+      - "Oh-oh, {name} heeft het \ngesprek be\xEBindigd. Je kan\nnog even wachten
+        of {name}\nterug komt en anders het\ngesprek ook afsluiten."
+      - "Oh-oh, {name} has \nended the conversation. \nYou can wait a bit for \n{name}
+        to come back \nor end the conversation."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_didnotarriveyet_title
+      TermType: 0
+      Description: 
+      Languages:
+      - '{name} is er nog niet'
+      - '{name} is not there yet'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_didnotarriveyet_body
+      TermType: 0
+      Description: 
+      Languages:
+      - "Zucht. {name} is te laat. Je kan natuurlijk even wachten maar je mag ook
+        een reminder sturen zodat {name} weet dat je wacht. Mocht je niet langer
+        willen wachten dan kan je de Vidate verlaten. {name} krijgt dan nog \xE9\xE9n
+        kans om het goed te maken met je."
+      - Oh-oh, {name} is too late. You can wait but you can also send a reminder
+        so that {name} knows that you are waiting. If you don't want to wait any
+        longer, you can leave the Vidate. {name} will then have one more chance to
+        make it up to you.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_didnotarriveyet_title2
+      TermType: 0
+      Description: 
+      Languages:
+      - Vergeten of vergeven?
+      - Forget or forgive?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_didnotarriveyet_body2
+      TermType: 0
+      Description: 
+      Languages:
+      - Je kan nog even blijven wachten op {name}, maar je kan natuurlijk ook op
+        zoek naar een nieuwe Vidate (die jou niet laat wachten :-))!
+      - You can wait a little longer for {name}, but you can also look for a new
+        Vidate (someone who will not keep you waiting :-))!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_didnotarriveyet_reminder_title
+      TermType: 0
+      Description: 
+      Languages:
+      - 'De reminder
+
+        is verstuurd!'
+      - "The reminder \nhas been sent!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_didnotarriveyet_reminder_body
+      TermType: 0
+      Description: 
+      Languages:
+      - "{name} heeft jouw reminder ontvangen. Als {name} niet op komt dagen geven
+        wij {name} nog \xE9\xE9n kans om dit goed te maken."
+      - '{name} has received your reminder. If {name} doesn''t show up, we''ll give
+        {name} one more chance to make amends.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_vidateiswaiting_reminder_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Oei...
+      - Oh...
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_vidateiswaiting_reminder_body
+      TermType: 0
+      Description: 
+      Languages:
+      - "Ben jij de Vidate vergeten? Dan heb je nog \xE9\xE9n laatste kans om een
+        nieuwe datum te plannen!"
+      - Did you forget the Vidate? Then you have one last chance to plan a new date!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_timeranout_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Time is up!
+      - Time has run out!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_timeranout_body
+      TermType: 0
+      Description: 
+      Languages:
+      - Te laat! Je hebt niet binnen de tijd geantwoord. Dit betekent helaas dat
+        er automatisch nee is geantwoord op {name}. Vind een nieuwe Vidate!
+      - You're too late. You did not answer in time. Unfortunately, this means that
+        we will automatically send a no to {name}. Find a new Vidate!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_second_date_no_no_title
+      TermType: 0
+      Description: 
+      Languages:
+      - "Twee zielen, \xE9\xE9n gedachte..."
+      - Great minds think alike...
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_second_date_no_no_body
+      TermType: 0
+      Description: 
+      Languages:
+      - '{name} en jij willen allebei niet voor de tweede Vidate gaan. Jammer, maar
+        jullie zijn het in ieder geval met elkaar eens. Zoek direct een nieuwe Vidate!'
+      - '{name} and you both won''t go for the second date. Too bad, but at least
+        both of you share the same thought. Search for a new Vidate!'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_exchange_numbers_no_no_title
+      TermType: 0
+      Description: 
+      Languages:
+      - "Twee zielen, \xE9\xE9n gedachte..."
+      - Great minds think alike...
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Vidate/vidate_exchange_numbers_no_no_body
+      TermType: 0
+      Description: 
+      Languages:
+      - '{name} en jij willen allebei geen nummers uitwisselen. Jammer, maar jullie
+        zijn het in ieder geval met elkaar eens. Zoek direct een nieuwe Vidate!'
+      - '{name} and you both don''t want to exchange numbers. Too bad, but at least
+        both of you share the same thought. Search for a new Vidate!'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/questions_1_1
+      TermType: 0
+      Description: 
+      Languages:
+      - Televisiekijken
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/questions_1_2
+      TermType: 0
+      Description: 
+      Languages:
+      - Sporten
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/questions_2_1
+      TermType: 0
+      Description: 
+      Languages:
+      - Malediven
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/questions_2_2
+      TermType: 0
+      Description: 
+      Languages:
+      - Beeld met actieve vakantie
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/questions_3_1
+      TermType: 0
+      Description: 
+      Languages:
+      - Dorp
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/questions_3_2
+      TermType: 0
+      Description: 
+      Languages:
+      - Stad
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/questions_4_1
+      TermType: 0
+      Description: 
+      Languages:
+      - Wel roken
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/questions_4_2
+      TermType: 0
+      Description: 
+      Languages:
+      - Niet roken
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/questions_5_1
+      TermType: 0
+      Description: 
+      Languages:
+      - Zelf koken
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/questions_5_2
+      TermType: 0
+      Description: 
+      Languages:
+      - Thuisbezorgd.nl
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/questions_6_1
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/questions_6_2
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/questions_7_1
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/questions_7_2
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/questions_8_1
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/questions_8_2
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/questions_9_1
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/questions_9_2
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/questions_10_1
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/questions_10_2
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Onboarding/title
+      TermType: 0
+      Description: 
+      Languages:
+      - Welkom bij Vidate!
+      - Welcome to Vidate!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Onboarding/body
+      TermType: 0
+      Description: 
+      Languages:
+      - "Vidate is d\xE9 video datingapp van Nederland. Een glimlach, een knipoog,
+        een grappige opmerking en de vlinders in je buik beginnen te vliegen. Bij
+        Vidate brengen we de echte wereld via jouw telefoon naar je toe. "
+      - Vidate is THE video dating app in the Netherlands. All it takes is a smile,
+        a wink, a funny comment and you'll have butterflies in your stomach. Vidate
+        brings the real world of dating to your phone.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Onboarding/video_text
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Wat is Vidate?
+
+        Check de video!'
+      - 'What is Vidate?
+
+        Check this video!'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Onboarding/conditions_text
+      TermType: 0
+      Description: 
+      Languages:
+      - Ik ga akkoord met de <u><link="terms">algemene voorwaarden</link></u> en
+        <u><link="privacy">privacy policy.</link></u>
+      - I agree with the <u><link="terms">terms & conditions</link></u> and <u><link="privacy">privacy
+        policy.</link></u>
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Onboarding/terms_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Algemene voorwaarden
+      - Terms & Conditions
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Onboarding/terms_context
+      TermType: 0
+      Description: 
+      Languages:
+      - "The service \"Vidate\" is offered over the internet by the company Vidate
+        BV. The use of Vidate is subject to the below terms and conditions. Using
+        Vidate constitutes acceptance of these terms and conditions.\nDeviations
+        from these terms and conditions is possible only by means of written confirmation
+        by Vidate BV.\n\n<b>Article 1. Use of the service</b>\n1.1. The service Vidate
+        allows you to publish a profile for yourself, participate in online discussions
+        and get in contact with other users. Vidate BV does not actively assist in
+        doing so but does moderate to ensure the service is used legally and appropriately.
+        \n1.2. To use Vidate, you first need to register. After completing registration,
+        you can directly log into your account and use the service. \n1.3. You must
+        secure access to your account using the username and password against third
+        parties. In particular you must keep the password strictly confidential.
+        Vidate BV may assume that all actions undertaken from your account after
+        logging in with your username and password is authorized and supervised by
+        you. This means you are liable for these actions, unless and until you have
+        notified Vidate BV that someone else knows your password. \n1.4. Vidate processes
+        your personal data. You give your consent for all forms of processing within
+        the scope of the service. Consult the privacy statement of Vidate BV for
+        more information.\n\n<b>Article 2. Terms of use</b>\n2.1. It it is not permitted
+        to use Vidate for any purpose that violates Dutch or other applicable law
+        or regulation. This includes (among others) the storage or transmission of
+        data using the service that is slanderous, libelous or racist, or to create
+        profiles on Vidate under the names of other people or to pretend to be another
+        person, or a moderator/maintainer of Vidate.\n2.2. In addition, on Vidate
+        it is forbidden to:\nuse indecent language;\npublish information where it
+        is unwanted (offtopic);\npublish information that is pornographic or erotic
+        (even if legal under applicable law);\npublish information in violation of
+        copyright or hyperlinks to such information;\nviolate the privacy of third
+        party, for example by distributing their personal data without permission
+        or clear need or the repeated harassment of third parties with unwanted communications;\nexercise
+        commercial activities;\nand to do anything that violates applicable netiquette.\n2.3.
+        Should Vidate BV discover that you violate any of the above, or receive a
+        complaint alleging the same, then Vidate BV may intervene to end the violation. 
+        \n2.4. If in the opinion of Vidate BV the continued functioning of the computer
+        systems or network of Vidate BV or third parties is actually or under threat
+        of being damaged or jeopardized, for example through excessive transmission
+        of e-mail or other data, leaks of personal data or virus activity, Vidate
+        BV may take all steps it deems reasonably necessary to end or avert such
+        damage or jeopardy. Vidate BV in particular is entitled to change your contributions
+        at its own discretion.\n2.5. Vidate BV is at all times entitled to file a
+        criminal complaint for any offenses committed through or using the service.
+        In addition Vidate BV is entitled to supply your name, address, IP-address
+        and other identifying data to a third party alleging that you violate its
+        rights or these terms and conditions, provided the validity of the complaint
+        is clear, no other way of obtaining this information exists and the third
+        party has an evident interest in obtaining this information.\n2.6. Vidate
+        BV may recoup from you all damages it suffers as a result of your violation
+        of these terms of use. You agree and hold harmless Vidate BV from all third-party
+        claims arising out of your violation of these terms of use.\n\n<b>Article
+        3. Availability and maintenance</b>\n3.1. Vidate BV uses its best efforts
+        to have the service available at all times but makes no guarantees about
+        uninterrupted availability.\n3.2. Vidate BV actively maintains Vidate. Maintenance
+        can take place at any time, even if this may negatively impact the availability
+        of the service. Maintenance is announced in advance whenever possible.\n3.3.
+        Vidate BV may from time to time adapt Vidate. Your feedback and suggestions
+        are welcome but ultimately Vidate BV decides which adaptations to carry out
+        (or not).\n\n<b>Article 4. Intellectual property</b>\n4.1. The service Vidate,
+        the accompanying software as well as all information and images on the website
+        is the intellectual property of Vidate BV. None of these items may be copied
+        or used without prior written permission of Vidate BV, except and to the
+        extent permitted by mandatory law.\n4.2. Information you store or process
+        using the service is and remains your property (or the property of your suppliers
+        or licensors). Vidate BV receives an unlimited license for use of this information,
+        including the right to sell (sublicense) the information to third parties
+        and the right to use this information for other services of Vidate BV. \n4.3.
+        The license of the previous clause is perpetual and irrevocable. The license
+        remains in force after termination of the agreement. In exceptional circumstances
+        where a serious reason calls for it, Vidate BV may decide to adapt or remove
+        the information. \n4.4. You may change or remove information you publish
+        or store using the service at your own discretion. \n4.5. If you send information
+        to Vidate BV, for example a bug report or suggestion for improvement, you
+        grant Vidate BV a perpetual and unlimited license to use this information
+        for the service. This does not apply to information you expressly mark as
+        confidential.\n4.6. Vidate BV shall refrain from accessing data you store
+        or transfer using Vidate, unless this is necessary for a good provision of
+        the service or Vidate BV is forced to do so by law or order of competent
+        authority. In these cases Vidate BV shall use its best efforts to limit access
+        to the information as much as possible.\n\n<b>Article 5. Compensation for
+        the service</b>\n5.1. To offer you Vidate free of charge, Vidate BV presents
+        advertisements of its sponsors on Vidate.\n5.2. It is not permitted to block
+        advertisements shown to you. Vidate BV is entitled to suspend or block your
+        access to the service if advertisement blocking is detected.\n5.3. Consult
+        the Vidate BV privacy policy to learn more about your privacy in connection
+        with advertisements.\n5.4. Because the service is started directly at your
+        express request, a payment cannot be refunded under the Distance Selling
+        Act.\n\n<b>Article 6. Limitation of liability</b>\n6.1. Except in case of
+        intentional misconduct or gross negligence Vidate BV shall not be liable
+        for the use of the service or any damages in connection therewith.\n6.2.
+        Vidate BV in no event is liable for indirect damages, consequential damages,
+        lost profits, missed savings or damages through business interruption.\n6.3.
+        Damages may only be claimed if reported in writing to Vidate BV at most two
+        months after discovery.\n6.4. In case of force majeure Vidate BV is never
+        required to compensate damages suffered by you. Force majeure includes among
+        others disruptions or unavailability of the internet, telecommunication infrastructure,
+        power interruptions, riots, traffic jams, strikes, company disruptions, interruptions
+        in supply, fires and floods.\n\n<b>Article 7. Term and termination</b>\n7.1.
+        This agreement enters into force as soon as you first use the service and
+        then remains in force until terminated.\n7.2. If you entered into this agreement
+        as a consumer, you may terminate the agreement at any time with a notice
+        period of one month, calculated from the moment of the notice. Non-consumers
+        can terminate the agreement with a notice period of two months.\n7.3. Vidate
+        BV is entitled to terminate the agreement if you have not used the service
+        at all in the last 18 months. In such an event Vidate BV shall first send
+        a reminder mail to the e-mail address connected to your account.\n\n<b>Article
+        8. Changes to terms</b>\n8.1. Vidate BV may change or add to these terms
+        and conditions as well as any prices at any time.\n8.2. Vidate BV shall announce
+        through the service changes or additions at least thirty days before their
+        taking effect.\n8.3. If you do not want to accept a change or addition, you
+        can terminate the agreement until the date the changes take effect. Use of
+        Vidate after the date of effect shall constitute your acceptance of the changed
+        or added-to terms and conditions.\n\n<b>Miscellaneous provisions</b>\nDutch
+        law applies to this agreement.\nExcept to the extent determined otherwise
+        by mandatory applicable law all disputes arising in connection with Online
+        dating shall be brought before the competent Dutch court for the principal
+        place of business of Vidate BV.\nFor any clause in these terms and conditions
+        that demand that a statement must be done \"in writing\" to be legally valid,
+        a statement by e-mail or communication through the Vidate service shall be
+        sufficient provided with sufficient certainty the authenticity of the sender
+        can be established and the integrity of the statement has not been compromised.\nThe
+        version of any communication of information as recorded by Vidate BV shall
+        be deemed to be authentic, unless you supply proof to the contrary.\nIn case
+        any part of these terms and conditions are declared legally invalid, this
+        shall not affect the validity of the whole of the agreement. The parties
+        shall in such an event agree on one or more replacement provisions that approximate
+        the original intent of the invalid provision(s) within the limits of the
+        law.\nVidate BV is entitled to transfer its rights and obligations under
+        this agreement to a third party as part of an acquisition of Vidate or the
+        associated business activities.\n"
+      - "The service \"Vidate\" is offered over the internet by the company Vidate
+        BV. The use of Vidate is subject to the below terms and conditions. Using
+        Vidate constitutes acceptance of these terms and conditions.\nDeviations
+        from these terms and conditions is possible only by means of written confirmation
+        by Vidate BV.\n\n<b>Article 1. Use of the service</b>\n1.1. The service Vidate
+        allows you to publish a profile for yourself, participate in online discussions
+        and get in contact with other users. Vidate BV does not actively assist in
+        doing so but does moderate to ensure the service is used legally and appropriately.
+        \n1.2. To use Vidate, you first need to register. After completing registration,
+        you can directly log into your account and use the service. \n1.3. You must
+        secure access to your account using the username and password against third
+        parties. In particular you must keep the password strictly confidential.
+        Vidate BV may assume that all actions undertaken from your account after
+        logging in with your username and password is authorized and supervised by
+        you. This means you are liable for these actions, unless and until you have
+        notified Vidate BV that someone else knows your password. \n1.4. Vidate processes
+        your personal data. You give your consent for all forms of processing within
+        the scope of the service. Consult the privacy statement of Vidate BV for
+        more information.\n\n<b>Article 2. Terms of use</b>\n2.1. It it is not permitted
+        to use Vidate for any purpose that violates Dutch or other applicable law
+        or regulation. This includes (among others) the storage or transmission of
+        data using the service that is slanderous, libelous or racist, or to create
+        profiles on Vidate under the names of other people or to pretend to be another
+        person, or a moderator/maintainer of Vidate.\n2.2. In addition, on Vidate
+        it is forbidden to:\nuse indecent language;\npublish information where it
+        is unwanted (offtopic);\npublish information that is pornographic or erotic
+        (even if legal under applicable law);\npublish information in violation of
+        copyright or hyperlinks to such information;\nviolate the privacy of third
+        party, for example by distributing their personal data without permission
+        or clear need or the repeated harassment of third parties with unwanted communications;\nexercise
+        commercial activities;\nand to do anything that violates applicable netiquette.\n2.3.
+        Should Vidate BV discover that you violate any of the above, or receive a
+        complaint alleging the same, then Vidate BV may intervene to end the violation. 
+        \n2.4. If in the opinion of Vidate BV the continued functioning of the computer
+        systems or network of Vidate BV or third parties is actually or under threat
+        of being damaged or jeopardized, for example through excessive transmission
+        of e-mail or other data, leaks of personal data or virus activity, Vidate
+        BV may take all steps it deems reasonably necessary to end or avert such
+        damage or jeopardy. Vidate BV in particular is entitled to change your contributions
+        at its own discretion.\n2.5. Vidate BV is at all times entitled to file a
+        criminal complaint for any offenses committed through or using the service.
+        In addition Vidate BV is entitled to supply your name, address, IP-address
+        and other identifying data to a third party alleging that you violate its
+        rights or these terms and conditions, provided the validity of the complaint
+        is clear, no other way of obtaining this information exists and the third
+        party has an evident interest in obtaining this information.\n2.6. Vidate
+        BV may recoup from you all damages it suffers as a result of your violation
+        of these terms of use. You agree and hold harmless Vidate BV from all third-party
+        claims arising out of your violation of these terms of use.\n\n<b>Article
+        3. Availability and maintenance</b>\n3.1. Vidate BV uses its best efforts
+        to have the service available at all times but makes no guarantees about
+        uninterrupted availability.\n3.2. Vidate BV actively maintains Vidate. Maintenance
+        can take place at any time, even if this may negatively impact the availability
+        of the service. Maintenance is announced in advance whenever possible.\n3.3.
+        Vidate BV may from time to time adapt Vidate. Your feedback and suggestions
+        are welcome but ultimately Vidate BV decides which adaptations to carry out
+        (or not).\n\n<b>Article 4. Intellectual property</b>\n4.1. The service Vidate,
+        the accompanying software as well as all information and images on the website
+        is the intellectual property of Vidate BV. None of these items may be copied
+        or used without prior written permission of Vidate BV, except and to the
+        extent permitted by mandatory law.\n4.2. Information you store or process
+        using the service is and remains your property (or the property of your suppliers
+        or licensors). Vidate BV receives an unlimited license for use of this information,
+        including the right to sell (sublicense) the information to third parties
+        and the right to use this information for other services of Vidate BV. \n4.3.
+        The license of the previous clause is perpetual and irrevocable. The license
+        remains in force after termination of the agreement. In exceptional circumstances
+        where a serious reason calls for it, Vidate BV may decide to adapt or remove
+        the information. \n4.4. You may change or remove information you publish
+        or store using the service at your own discretion. \n4.5. If you send information
+        to Vidate BV, for example a bug report or suggestion for improvement, you
+        grant Vidate BV a perpetual and unlimited license to use this information
+        for the service. This does not apply to information you expressly mark as
+        confidential.\n4.6. Vidate BV shall refrain from accessing data you store
+        or transfer using Vidate, unless this is necessary for a good provision of
+        the service or Vidate BV is forced to do so by law or order of competent
+        authority. In these cases Vidate BV shall use its best efforts to limit access
+        to the information as much as possible.\n\n<b>Article 5. Compensation for
+        the service</b>\n5.1. To offer you Vidate free of charge, Vidate BV presents
+        advertisements of its sponsors on Vidate.\n5.2. It is not permitted to block
+        advertisements shown to you. Vidate BV is entitled to suspend or block your
+        access to the service if advertisement blocking is detected.\n5.3. Consult
+        the Vidate BV privacy policy to learn more about your privacy in connection
+        with advertisements.\n5.4. Because the service is started directly at your
+        express request, a payment cannot be refunded under the Distance Selling
+        Act.\n\n<b>Article 6. Limitation of liability</b>\n6.1. Except in case of
+        intentional misconduct or gross negligence Vidate BV shall not be liable
+        for the use of the service or any damages in connection therewith.\n6.2.
+        Vidate BV in no event is liable for indirect damages, consequential damages,
+        lost profits, missed savings or damages through business interruption.\n6.3.
+        Damages may only be claimed if reported in writing to Vidate BV at most two
+        months after discovery.\n6.4. In case of force majeure Vidate BV is never
+        required to compensate damages suffered by you. Force majeure includes among
+        others disruptions or unavailability of the internet, telecommunication infrastructure,
+        power interruptions, riots, traffic jams, strikes, company disruptions, interruptions
+        in supply, fires and floods.\n\n<b>Article 7. Term and termination</b>\n7.1.
+        This agreement enters into force as soon as you first use the service and
+        then remains in force until terminated.\n7.2. If you entered into this agreement
+        as a consumer, you may terminate the agreement at any time with a notice
+        period of one month, calculated from the moment of the notice. Non-consumers
+        can terminate the agreement with a notice period of two months.\n7.3. Vidate
+        BV is entitled to terminate the agreement if you have not used the service
+        at all in the last 18 months. In such an event Vidate BV shall first send
+        a reminder mail to the e-mail address connected to your account.\n\n<b>Article
+        8. Changes to terms</b>\n8.1. Vidate BV may change or add to these terms
+        and conditions as well as any prices at any time.\n8.2. Vidate BV shall announce
+        through the service changes or additions at least thirty days before their
+        taking effect.\n8.3. If you do not want to accept a change or addition, you
+        can terminate the agreement until the date the changes take effect. Use of
+        Vidate after the date of effect shall constitute your acceptance of the changed
+        or added-to terms and conditions.\n\n<b>Miscellaneous provisions</b>\nDutch
+        law applies to this agreement.\nExcept to the extent determined otherwise
+        by mandatory applicable law all disputes arising in connection with Online
+        dating shall be brought before the competent Dutch court for the principal
+        place of business of Vidate BV.\nFor any clause in these terms and conditions
+        that demand that a statement must be done \"in writing\" to be legally valid,
+        a statement by e-mail or communication through the Vidate service shall be
+        sufficient provided with sufficient certainty the authenticity of the sender
+        can be established and the integrity of the statement has not been compromised.\nThe
+        version of any communication of information as recorded by Vidate BV shall
+        be deemed to be authentic, unless you supply proof to the contrary.\nIn case
+        any part of these terms and conditions are declared legally invalid, this
+        shall not affect the validity of the whole of the agreement. The parties
+        shall in such an event agree on one or more replacement provisions that approximate
+        the original intent of the invalid provision(s) within the limits of the
+        law.\nVidate BV is entitled to transfer its rights and obligations under
+        this agreement to a third party as part of an acquisition of Vidate or the
+        associated business activities.\n"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Onboarding/wrongcode
+      TermType: 0
+      Description: 
+      Languages:
+      - Onjuiste code
+      - Wrong code
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Onboarding/privacy_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Privacybeleid
+      - Privacy Policy
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Onboarding/privacy_context
+      TermType: 0
+      Description: 
+      Languages:
+      - "<i>This privacy statement was last updated on January 1st, 2021</i>\n\nYour
+        privacy and the protection of personal data is of great importance to Vidate.
+        Therefore, when processing your personal data, we conform to the requirements
+        of the applicable data protection legislation, like the General Data Protection
+        Regulation. This means we:\nclearly specify our purposes before we process
+        personal data, by using this privacy statement;\nlimit our collection of
+        personal data to only the personal data needed for legitimate purposes;\nfirst
+        ask for permission to process your personal data in cases where your permission
+        is required;\ntake appropriate security measures to protect your personal
+        data and we demand the same from parties who process personal data on our
+        behalf;\nrespect your rights, for example to access, correct or delete your
+        personal data held by us.\n\nVidate B.V. is the party responsible for all
+        data processing within our dating app. We respect the privacy of our users
+        and ensure your personal data to be handles confidentially. In this privacy
+        statement, we will inform you about the personal data we collect and for
+        which purposes within our app. We recommend that you read it carefully.\n\nIf
+        you have any questions regarding the processing of personal data, you can
+        contact us via the contact details at the bottom of this privacy statement.
+        \n\n<b>Purposes of data processing</b>\n\n<b>Registration</b>\nTo properly
+        use our app, we require you to register beforehand. You will have to provide
+        some information about yourself. For this purpose, we use your name, phone
+        number, gender, date of birth, city of residence, dating preferences (male/female/everyone),
+        the introduction film you provide and personality results. We do this on
+        the basis of your consent and to perform the agreement we have with you (which
+        means we need this information, for you to use the app properly). We store
+        this information as long as you have an account with us and six months after
+        you close your account. We will retain this data so that you do not have
+        to re-enter it every time you visit our app, and in order to contact you
+        in connection with the execution of the agreement, and for invoicing and
+        payment. If we believe the information provided is inappropriate, such as
+        displaying intimidating or inappropriate text or images, we will block the
+        account.\n\n<b>Subscription</b>\nVia the Vidate app, you can take out a paid
+        subscription. We use your personal data to complete the payment. For this
+        purpose, we use your name and address details, phone number, payment details,
+        gender, birth date and profile picture. We store this information in your
+        account until you cancel your subscription. Certain types of personal data
+        will be retained for a longer period with regards to the legal tax retention. 
+        \n\n<b>Reporting or feedback</b>\nVia the reporting or feedback button in
+        the app, you can ask questions or make any request. For this purpose, we
+        use your Vidate profile, phone number, email address and message you wish
+        to send to us. We do this to contact you on your request. We store this information
+        until we are sure that you are satisfied with our response and six months
+        thereafter. This way we can easily access the information in case you have
+        any following questions and train our customer service to improve even more. 
+        \n\n<b>Statistics and profiling</b>\nWe keep statistics on the use of our
+        app. These statistics help us to, for example, only show you information
+        that is relevant to you. We may combine personal data to get to know more
+        about you. We will of course respect your privacy at all times. If you do
+        not want us to do these statistics, please let us know.\n\nFor this purpose,
+        we use your name and address details, phone number, gender, birth date, personality
+        results and interest results. We do this on the basis of your consent. We
+        store this information for six months.\n\n<b>Social media</b>\nYou can find
+        Vidate on social media. You can follow us with your social media account
+        to keep informed about new products or services. You can object at all times
+        against this promotional communication. On social media, you can block us
+        or use the cancellation option. You can also inform us through your account.\n\n<b>Location</b>\nTo
+        enable us to find matches nearby, we ask your consent to determine your location.
+        You can revoke your consent at any time, but please mind that, if you do
+        so, we can no longer offer this functionality. This location data and other
+        data can also be stored and processed by the provider of the navigation/mapping
+        software, such as Google Maps, but the data could also be used by, for example,
+        Google or Apple itself. We have no control over their actions. We recommend
+        that you read the applicable privacy statement of the provider in question.\n\n<b>App
+        store</b>\nYou can download our app via a third-party app store, such as
+        the Apple Store or the Google Play Store. We have no influence on which personal
+        data the provider will process or to what purpose it will be processed. We
+        recommend that you read the applicable privacy statement of the provider
+        in question.\n\n\n<b>Providing data to third parties</b>\nVidate will only
+        share your information with third parties if this is permitted on the basis
+        of the current legislation. We may provide your personal data to third parties
+        if we have a legal basis to do so, or if the third party is our supplier.
+        In such case, we will conclude an appropriate agreement with the supplier.
+        We currently may share personal data with our IT and service provider.\n\n<b>Google
+        Analytics</b>\nWe use Google Analytics in our app. This tool helps us to
+        gain insight into user behavior and to improve the user experience based
+        on this information. The information that we obtain, including your device\u2019s
+        IP address, is transferred to Google and stored by Google on servers in the
+        United States. The last part of the IP address is not visible, and the cookies
+        expire within two years after the session. We are aware that at this moment
+        there is no adequate level of protection anymore for the processing of personal
+        data in the United States. We are investigating the possibilities.\n\nWe
+        have set op Google Analytics in a privacy friendly manner, which means that
+        we have concluded agreements about how we handle the collected data, including
+        that Google is not permitted to share and use the information obtained for
+        other Google services. However, Google may provide information to third parties
+        if Google is legally required to do so, or to the extent that such third
+        parties process the information on Google\u2019s behalf. We have no influence
+        on this. For more information, please visit Google\u2019s Privacy Policy.\n\n<b>Advertisements</b>\nOur
+        app shows local advertisements. We use your location to give you the best
+        advertising experience.\n\n<b>Security</b>\nWe take security measures to
+        reduce misuse of and unauthorized access to personal data. We take responsibility
+        in the security of your personal data. We renew our security measures to
+        ensure safe storage of personal data and keep track what might go wrong.\n\n<b>Changes
+        to this privacy statement</b>\nIf our services change, our privacy statement
+        needs to change as well. We reserve the right to modify this statement. We
+        recommend that you consult this statement on a regular basis, so that you
+        remain informed of any changes.\n\n<b>Your rights</b>\nYou can always contact
+        us if you have any questions regarding our privacy statement or wish to access,
+        rectify or delete your personal data.\n\n<b>You have the following rights
+        regarding your personal data:</b>\nRight of access: you have the right to
+        see what kind of personal data we process about you;\nRight of rectification:
+        you have the right to rectify any personal data we have processed about you,
+        if this information is (partially) wrong;\nRight to complain: you have the
+        right to file a complaint against the processing of your personal data by
+        us, or against direct marketing;\nRight to be forgotten: you can file a request
+        with us to remove any personal data we process of you;\nRight to data portability:
+        if technically possible, you have the right to ask us to transfer your processed
+        personal data to a third party;\nRight to restriction of processing: you
+        can file a request with us to (temporarily) restrict the processing of your
+        personal data.\nRight to revoke your consent, when we process your data with
+        your consent.\n\nIf you exercise any of the rights mentioned above, we might
+        ask to identify yourself, to confirm it is your personal data. To do so,
+        we will request certain information to ensure that you are the person, to
+        whom the personal data belongs.\n\nWe will usually comply with your request
+        within 30 days. However, this term may be extended if the request is proven
+        to be complex or tied to a specific right. You will be timely notified about
+        a possible extension of this term.\n\nIf you would like to exercise one of
+        your rights, you can make this known by e-mailing us at info@vidate.app.
+        You can also contact us via the contact details at the bottom of this page
+        or via the feedback button within the app.\n\n<b>Complaints</b>\nIf you want
+        to file a complaint about our use of personal data, please send an email
+        with the details of your complaint to info@vidate.app. We will look into
+        and respond to any complaint we receive.\n\nIf you think that we are not
+        helping you in the right way, you have the right to file a complaint at the
+        national supervisory authority. For the Netherlands, this is the Autoriteit
+        Persoonsgegevens.\n\n<b>Contact details</b>\nIf you have any questions about
+        our privacy statement or about your rights, please contact us via the details
+        below:\n\n<b>Vidate Holding B.V.\nChamber of Commerce number: 80700918.\n\n\nE-mail:
+        info@vidate.app</b>\n"
+      - "<i>This privacy statement was last updated on January 1st, 2021</i>\n\nYour
+        privacy and the protection of personal data is of great importance to Vidate.
+        Therefore, when processing your personal data, we conform to the requirements
+        of the applicable data protection legislation, like the General Data Protection
+        Regulation. This means we:\nclearly specify our purposes before we process
+        personal data, by using this privacy statement;\nlimit our collection of
+        personal data to only the personal data needed for legitimate purposes;\nfirst
+        ask for permission to process your personal data in cases where your permission
+        is required;\ntake appropriate security measures to protect your personal
+        data and we demand the same from parties who process personal data on our
+        behalf;\nrespect your rights, for example to access, correct or delete your
+        personal data held by us.\n\nVidate B.V. is the party responsible for all
+        data processing within our dating app. We respect the privacy of our users
+        and ensure your personal data to be handles confidentially. In this privacy
+        statement, we will inform you about the personal data we collect and for
+        which purposes within our app. We recommend that you read it carefully.\n\nIf
+        you have any questions regarding the processing of personal data, you can
+        contact us via the contact details at the bottom of this privacy statement.
+        \n\n<b>Purposes of data processing</b>\n\n<b>Registration</b>\nTo properly
+        use our app, we require you to register beforehand. You will have to provide
+        some information about yourself. For this purpose, we use your name, phone
+        number, gender, date of birth, city of residence, dating preferences (male/female/everyone),
+        the introduction film you provide and personality results. We do this on
+        the basis of your consent and to perform the agreement we have with you (which
+        means we need this information, for you to use the app properly). We store
+        this information as long as you have an account with us and six months after
+        you close your account. We will retain this data so that you do not have
+        to re-enter it every time you visit our app, and in order to contact you
+        in connection with the execution of the agreement, and for invoicing and
+        payment. If we believe the information provided is inappropriate, such as
+        displaying intimidating or inappropriate text or images, we will block the
+        account.\n\n<b>Subscription</b>\nVia the Vidate app, you can take out a paid
+        subscription. We use your personal data to complete the payment. For this
+        purpose, we use your name and address details, phone number, payment details,
+        gender, birth date and profile picture. We store this information in your
+        account until you cancel your subscription. Certain types of personal data
+        will be retained for a longer period with regards to the legal tax retention. 
+        \n\n<b>Reporting or feedback</b>\nVia the reporting or feedback button in
+        the app, you can ask questions or make any request. For this purpose, we
+        use your Vidate profile, phone number, email address and message you wish
+        to send to us. We do this to contact you on your request. We store this information
+        until we are sure that you are satisfied with our response and six months
+        thereafter. This way we can easily access the information in case you have
+        any following questions and train our customer service to improve even more. 
+        \n\n<b>Statistics and profiling</b>\nWe keep statistics on the use of our
+        app. These statistics help us to, for example, only show you information
+        that is relevant to you. We may combine personal data to get to know more
+        about you. We will of course respect your privacy at all times. If you do
+        not want us to do these statistics, please let us know.\n\nFor this purpose,
+        we use your name and address details, phone number, gender, birth date, personality
+        results and interest results. We do this on the basis of your consent. We
+        store this information for six months.\n\n<b>Social media</b>\nYou can find
+        Vidate on social media. You can follow us with your social media account
+        to keep informed about new products or services. You can object at all times
+        against this promotional communication. On social media, you can block us
+        or use the cancellation option. You can also inform us through your account.\n\n<b>Location</b>\nTo
+        enable us to find matches nearby, we ask your consent to determine your location.
+        You can revoke your consent at any time, but please mind that, if you do
+        so, we can no longer offer this functionality. This location data and other
+        data can also be stored and processed by the provider of the navigation/mapping
+        software, such as Google Maps, but the data could also be used by, for example,
+        Google or Apple itself. We have no control over their actions. We recommend
+        that you read the applicable privacy statement of the provider in question.\n\n<b>App
+        store</b>\nYou can download our app via a third-party app store, such as
+        the Apple Store or the Google Play Store. We have no influence on which personal
+        data the provider will process or to what purpose it will be processed. We
+        recommend that you read the applicable privacy statement of the provider
+        in question.\n\n\n<b>Providing data to third parties</b>\nVidate will only
+        share your information with third parties if this is permitted on the basis
+        of the current legislation. We may provide your personal data to third parties
+        if we have a legal basis to do so, or if the third party is our supplier.
+        In such case, we will conclude an appropriate agreement with the supplier.
+        We currently may share personal data with our IT and service provider.\n\n<b>Google
+        Analytics</b>\nWe use Google Analytics in our app. This tool helps us to
+        gain insight into user behavior and to improve the user experience based
+        on this information. The information that we obtain, including your device\u2019s
+        IP address, is transferred to Google and stored by Google on servers in the
+        United States. The last part of the IP address is not visible, and the cookies
+        expire within two years after the session. We are aware that at this moment
+        there is no adequate level of protection anymore for the processing of personal
+        data in the United States. We are investigating the possibilities.\n\nWe
+        have set op Google Analytics in a privacy friendly manner, which means that
+        we have concluded agreements about how we handle the collected data, including
+        that Google is not permitted to share and use the information obtained for
+        other Google services. However, Google may provide information to third parties
+        if Google is legally required to do so, or to the extent that such third
+        parties process the information on Google\u2019s behalf. We have no influence
+        on this. For more information, please visit Google\u2019s Privacy Policy.\n\n<b>Advertisements</b>\nOur
+        app shows local advertisements. We use your location to give you the best
+        advertising experience.\n\n<b>Security</b>\nWe take security measures to
+        reduce misuse of and unauthorized access to personal data. We take responsibility
+        in the security of your personal data. We renew our security measures to
+        ensure safe storage of personal data and keep track what might go wrong.\n\n<b>Changes
+        to this privacy statement</b>\nIf our services change, our privacy statement
+        needs to change as well. We reserve the right to modify this statement. We
+        recommend that you consult this statement on a regular basis, so that you
+        remain informed of any changes.\n\n<b>Your rights</b>\nYou can always contact
+        us if you have any questions regarding our privacy statement or wish to access,
+        rectify or delete your personal data.\n\n<b>You have the following rights
+        regarding your personal data:</b>\nRight of access: you have the right to
+        see what kind of personal data we process about you;\nRight of rectification:
+        you have the right to rectify any personal data we have processed about you,
+        if this information is (partially) wrong;\nRight to complain: you have the
+        right to file a complaint against the processing of your personal data by
+        us, or against direct marketing;\nRight to be forgotten: you can file a request
+        with us to remove any personal data we process of you;\nRight to data portability:
+        if technically possible, you have the right to ask us to transfer your processed
+        personal data to a third party;\nRight to restriction of processing: you
+        can file a request with us to (temporarily) restrict the processing of your
+        personal data.\nRight to revoke your consent, when we process your data with
+        your consent.\n\nIf you exercise any of the rights mentioned above, we might
+        ask to identify yourself, to confirm it is your personal data. To do so,
+        we will request certain information to ensure that you are the person, to
+        whom the personal data belongs.\n\nWe will usually comply with your request
+        within 30 days. However, this term may be extended if the request is proven
+        to be complex or tied to a specific right. You will be timely notified about
+        a possible extension of this term.\n\nIf you would like to exercise one of
+        your rights, you can make this known by e-mailing us at info@vidate.app.
+        You can also contact us via the contact details at the bottom of this page
+        or via the feedback button within the app.\n\n<b>Complaints</b>\nIf you want
+        to file a complaint about our use of personal data, please send an email
+        with the details of your complaint to info@vidate.app. We will look into
+        and respond to any complaint we receive.\n\nIf you think that we are not
+        helping you in the right way, you have the right to file a complaint at the
+        national supervisory authority. For the Netherlands, this is the Autoriteit
+        Persoonsgegevens.\n\n<b>Contact details</b>\nIf you have any questions about
+        our privacy statement or about your rights, please contact us via the details
+        below:\n\n<b>Vidate Holding B.V.\nChamber of Commerce number: 80700918.\n\n\nE-mail:
+        info@vidate.app</b>\n"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Onboarding/gender_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Geslachtsinformatie
+      - Gender
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Onboarding/gender_content
+      TermType: 0
+      Description: 
+      Languages:
+      - Bij Vidate erkennen wij dat er meer dan 2 genders zijn. Iedereen is welkom
+        en wordt gerespecteerd.
+      - Vidate recognizes that there are more than two genders. Vidate respects and
+        welcomes everyone, irrespective of gender
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Onboarding/
+      TermType: 0
+      Description: 
+      Languages:
+      - Registeren
+      - Register
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Onboarding/wrongnumber
+      TermType: 0
+      Description: 
+      Languages:
+      - Incorrect nummer
+      - Wrong number
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ProfileCreation/birthdatetitle
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is je geboortedatum?
+      - What's your date of birth?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ProfileCreation/nametitle
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is je naam?
+      - What's your name?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ProfileCreation/gendertitle
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is je geslacht?
+      - What's your gender?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ProfileCreation/residencetitle
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is je woonplaats?
+      - What's your residence?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ProfileCreation/man
+      TermType: 0
+      Description: 
+      Languages:
+      - Man
+      - Male
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ProfileCreation/woman
+      TermType: 0
+      Description: 
+      Languages:
+      - Vrouw
+      - Female
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ProfileCreation/more
+      TermType: 0
+      Description: 
+      Languages:
+      - Overig
+      - Other
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ProfileCreation/genderpreftitle
+      TermType: 0
+      Description: 
+      Languages:
+      - Waar gaat jouw hart sneller van kloppen?
+      - What are you looking for?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ProfileCreation/agepreftitle
+      TermType: 0
+      Description: 
+      Languages:
+      - Leeftijdsbereik
+      - Age range
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ProfileCreation/locationtitle
+      TermType: 0
+      Description: 
+      Languages:
+      - Locatie inschakelen
+      - Enable location
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ProfileCreation/locationbody
+      TermType: 0
+      Description: 
+      Languages:
+      - Om de app te gebruiken hebben we toegang nodig tot je locatie.
+      - To use the app, we need access to your location.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ProfileCreation/distancetitle
+      TermType: 0
+      Description: 
+      Languages:
+      - Maximale afstand
+      - Maximum distance
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ProfileCreation/notificationtitle
+      TermType: 0
+      Description: 
+      Languages:
+      - Notificaties inschakelen
+      - Enable notifications
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ProfileCreation/notificationbody
+      TermType: 0
+      Description: 
+      Languages:
+      - Zo ontvang je een melding als je een match hebt of je Vidate begint.
+      - Enable your notifications. This way we can let you know that your Vidate
+        is starting, or that you have a match.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ProfileCreation/search
+      TermType: 0
+      Description: 
+      Languages:
+      - zoeken
+      - search
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ProfileCreation/starred_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Wil je alleen profielen zien die hetzelfde antwoord geven als jij?
+      - Do you only want to see profiles that give the same answer as you?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ProfileCreation/starred_yes
+      TermType: 0
+      Description: 
+      Languages:
+      - Ja
+      - Yes
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ProfileCreation/starred_caution
+      TermType: 0
+      Description: 
+      Languages:
+      - '<b>Let op:</b> wanneer je hier voor ''ja'' kiest, mis je een heleboel andere
+        leuke profielen. '
+      - <b>Caution:</b> if you answer 'yes', the amount of shown profiles will be
+        limited.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ProfileCreation/starred_doesnotmatter
+      TermType: 0
+      Description: 
+      Languages:
+      - Maakt niet uit
+      - Doesn't matter
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ProfileCreation/finished_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Jouw profiel is aangemaakt
+      - "Your profile has \nbeen created"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ProfileCreation/finished_context
+      TermType: 0
+      Description: 
+      Languages:
+      - "We zijn n\xE8t live. Het kan daardoor voorkomen dat je snel door de profielen
+        heen bent. "
+      - We've only just launched the Vidate app. Therefore, you might get quickly
+        through all available profiles, for now.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ProfileCreation/finished_startvidate
+      TermType: 0
+      Description: 
+      Languages:
+      - Let's Vidate!
+      - Let's Vidate!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ProfileCreation/men
+      TermType: 0
+      Description: 
+      Languages:
+      - Mannen
+      - Men
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ProfileCreation/women
+      TermType: 0
+      Description: 
+      Languages:
+      - Vrouwen
+      - Women
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ProfileCreation/all
+      TermType: 0
+      Description: 
+      Languages:
+      - Iedereen
+      - Everyone
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ProfileCreation/alreadygavepermission
+      TermType: 0
+      Description: 
+      Languages:
+      - Je hebt al toestemming gegeven.
+      - You already gave permission.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ProfileCreation/skip
+      TermType: 0
+      Description: 
+      Languages:
+      - Overslaan
+      - Skip
+      Flags: 0000
+      Languages_Touch: []
+    - Term: NumberRegistration/registrationtitle
+      TermType: 0
+      Description: 
+      Languages:
+      - Vul je telefoonnummer in
+      - Fill in your phone number
+      Flags: 0000
+      Languages_Touch: []
+    - Term: NumberRegistration/registrationbody
+      TermType: 0
+      Description: 
+      Languages:
+      - Vul je telefoonnummer in om je te registreren en maak direct een profiel
+        aan!
+      - Enter your phone number to register and create a profile right away!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: NumberRegistration/smstitle
+      TermType: 0
+      Description: 
+      Languages:
+      - Vul je code in
+      - Enter your code
+      Flags: 0000
+      Languages_Touch: []
+    - Term: NumberRegistration/smsbody
+      TermType: 0
+      Description: 
+      Languages:
+      - Vul de code in die je via sms hebt ontvangen.
+      - Enter the code we have just texted.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: NumberRegistration/sendcode
+      TermType: 0
+      Description: 
+      Languages:
+      - Verstuur de code opnieuw
+      - Send code again
+      Flags: 0000
+      Languages_Touch: []
+    - Term: RecordVideo/title
+      TermType: 0
+      Description: 
+      Languages:
+      - Neem je profielvideo op
+      - Record your profile video
+      Flags: 0000
+      Languages_Touch: []
+    - Term: RecordVideo/body
+      TermType: 0
+      Description: 
+      Languages:
+      - Ja, zonder filter. Gewoon zoals je bent! Je video moet minimaal <b>5</b>
+        en maximaal <b>20</b> seconden lang zijn. Zorg ervoor dat je zichtbaar bent,
+        anders wordt je profielvideo verwijderd.
+      - Yes, without filter. Just the way you are! Your video must be a minimum of
+        <b> 5 </b> and a maximum of <b> 20 </b> seconds. Make sure you are visible,
+        otherwise your profile video will be deleted.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: RecordVideo/recordbutton_text
+      TermType: 0
+      Description: 
+      Languages:
+      - Neem je video op
+      - Record your video
+      Flags: 0000
+      Languages_Touch: []
+    - Term: RecordVideo/examplebutton_text
+      TermType: 0
+      Description: 
+      Languages:
+      - Inspiratie nodig?
+      - Need inspiration?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: RecordVideo/topic_0
+      TermType: 0
+      Description: 
+      Languages:
+      - Hoe heet je?
+      - What's your name?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: RecordVideo/topic_1
+      TermType: 0
+      Description: 
+      Languages:
+      - Hoe oud ben je?
+      - How old are you?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: RecordVideo/topic_2
+      TermType: 0
+      Description: 
+      Languages:
+      - Waar woon je?
+      - Where do you live?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: RecordVideo/topic_3
+      TermType: 0
+      Description: 
+      Languages:
+      - Vertel iets over jezelf
+      - Tell something about yourself
+      Flags: 0000
+      Languages_Touch: []
+    - Term: RecordVideo/saved_title
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Je profielvideo
+
+        is opgeslagen'
+      - 'Your profile video
+
+        is saved'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: RecordVideo/saved_context
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Super! Je kan je profielvideo altijd weer wijzigen in je instellingen. '
+      - Great! You can always change your profile video in your settings.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: RecordVideo/saved_retry
+      TermType: 0
+      Description: 
+      Languages:
+      - Neem video opnieuw op
+      - Re-record the video
+      Flags: 0000
+      Languages_Touch: []
+    - Term: RecordVideo/saved_ok
+      TermType: 0
+      Description: 
+      Languages:
+      - Ok
+      - Ok
+      Flags: 0000
+      Languages_Touch: []
+    - Term: RecordVideo/language_title_1
+      TermType: 0
+      Description: 
+      Languages:
+      - In welke taal heb jij je video opgenomen?
+      - In what language did you record your profile video?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: RecordVideo/language_title_2
+      TermType: 0
+      Description: 
+      Languages:
+      - In welke taal wil je dat de andere video's zijn opgenomen?
+      - In what language would you like to see the other profile videos?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: RecordVideo/search
+      TermType: 0
+      Description: 
+      Languages:
+      - Zoeken
+      - Search
+      Flags: 0000
+      Languages_Touch: []
+    - Term: RecordVideo/
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: RecordVideo/change_video_button
+      TermType: 0
+      Description: 
+      Languages:
+      - Wijzig profielvideo
+      - Change profilevideo
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Languages/language_all
+      TermType: 0
+      Description: 
+      Languages:
+      - Alle
+      - All
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Languages/language_dutch
+      TermType: 0
+      Description: 
+      Languages:
+      - Nederlands
+      - Dutch
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Languages/language_english
+      TermType: 0
+      Description: 
+      Languages:
+      - Engels
+      - English
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Languages/language_german
+      TermType: 0
+      Description: 
+      Languages:
+      - Duits
+      - German
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Languages/language_french
+      TermType: 0
+      Description: 
+      Languages:
+      - Frans
+      - French
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Languages/language_polish
+      TermType: 0
+      Description: 
+      Languages:
+      - Pools
+      - Polish
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Languages/language_russian
+      TermType: 0
+      Description: 
+      Languages:
+      - Russisch
+      - Russian
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Languages/language_spanish
+      TermType: 0
+      Description: 
+      Languages:
+      - Spaans
+      - Spanish
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Countries/nl
+      TermType: 0
+      Description: 
+      Languages:
+      - Nederland
+      - Netherlands
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Countries/be
+      TermType: 0
+      Description: 
+      Languages:
+      - Belgie
+      - Belgium
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Countries/fr
+      TermType: 0
+      Description: 
+      Languages:
+      - Frankrijk
+      - France
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_1
+      TermType: 0
+      Description: 
+      Languages:
+      - Welk huishoudelijk klusje vind jij verschrikkelijk?
+      - What household chore do you detest?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_2
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat zou je doen als je alle tijd van de wereld had?
+      - What would you do if you had all the time in the world?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_3
+      TermType: 0
+      Description: 
+      Languages:
+      - "Welk gerecht zou je de hele dag eten als je maar \xE9\xE9n gerecht mocht
+        kiezen?"
+      - 'What dish could you eat all day? '
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_4
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat zou je anders doen als je deze week opnieuw mocht doen?
+      - What would you do differently if you could this week again?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_5
+      TermType: 0
+      Description: 
+      Languages:
+      - Als je een tijdmachine hebt, waar ga je dan heen?
+      - If you had a time machine, where would you travel?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_6
+      TermType: 0
+      Description: 
+      Languages:
+      - Waar heb je het meeste spijt van?
+      - What is your biggest regret?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_7
+      TermType: 0
+      Description: 
+      Languages:
+      - Als je een eigen bedrijf mag starten, wat zou je dan gaan doen?
+      - If you were to start your own business, what would you do?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_8
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat zou je graag in een glazen bol willen zien?
+      - If you could consult a crystal ball, what would you like to discover?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_9
+      TermType: 0
+      Description: 
+      Languages:
+      - Welke superkracht zou je willen hebben?
+      - If you had super powers, what would they be?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_10
+      TermType: 0
+      Description: 
+      Languages:
+      - "Als je \xE9\xE9n dag mag ruilen met een ander persoon, wie zou dit dan zijn?"
+      - If you could swap places with another person for a day, who would you be?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_11
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is je lievelingsserie?
+      - What's your favorite series?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_12
+      TermType: 0
+      Description: 
+      Languages:
+      - Hoe had je het liefst willen heten?
+      - If you could choose your own name, what would it be?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_13
+      TermType: 0
+      Description: 
+      Languages:
+      - Ben je een denker of doener?
+      - Are you a thinker or doer?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_14
+      TermType: 0
+      Description: 
+      Languages:
+      - Ben je een pessimist of optimist?
+      - Are you an optimist or a pessimist?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_15
+      TermType: 0
+      Description: 
+      Languages:
+      - Welk cijfer geef je je leven?
+      - What grade do you give your life?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_16
+      TermType: 0
+      Description: 
+      Languages:
+      - Heb je ooit in het ziekenhuis gelegen? Waarvoor?
+      - Have you ever been in hospital?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_17
+      TermType: 0
+      Description: 
+      Languages:
+      - Ben jij een buiten- of een binnenmens?
+      - Are you an outdoor or an indoor person?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_18
+      TermType: 0
+      Description: 
+      Languages:
+      - Ben jij een ochtend- of een avondmens?
+      - Are you a morning or an evening person?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_19
+      TermType: 0
+      Description: 
+      Languages:
+      - Welke spelletjes speel je het liefst?
+      - Do you like games?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_20
+      TermType: 0
+      Description: 
+      Languages:
+      - Huil je weleens bij een film?
+      - Do you ever cry during a movie?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_21
+      TermType: 0
+      Description: 
+      Languages:
+      - Wie is je beste vriend(in)?
+      - Who is your best friend?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_22
+      TermType: 0
+      Description: 
+      Languages:
+      - Geloof jij in leven op een andere planeet?
+      - Do you believe in life on other planets?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_23
+      TermType: 0
+      Description: 
+      Languages:
+      - Wanneer werd je voor het laatst verrast?
+      - When did you last receive a surprise?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_24
+      TermType: 0
+      Description: 
+      Languages:
+      - Ga je liever naar de zon of naar de sneeuw?
+      - Do you prefer a sun or a skiing vacation?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_25
+      TermType: 0
+      Description: 
+      Languages:
+      - Wanneer heb je voor het laatst iemand geholpen?
+      - When was the last time you helped someone?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_26
+      TermType: 0
+      Description: 
+      Languages:
+      - Geloof je in liefde op het eerste gezicht?
+      - Do you believe in love at first sight?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_27
+      TermType: 0
+      Description: 
+      Languages:
+      - Geloof jij in toeval?
+      - Do you believe in luck?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_28
+      TermType: 0
+      Description: 
+      Languages:
+      - Wanneer was de laatste keer dat jij iets voor het eerst hebt gedaan?
+      - When was the last time you did something for the first time?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_29
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is jouw stopwoord?
+      - Do you have a catch phrase?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_30
+      TermType: 0
+      Description: 
+      Languages:
+      - Liever een jaar geen tv of een jaar geen suiker?
+      - Would you prefer no TV or no sugar for a year?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_31
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is je grootste wens?
+      - What's your biggest wish?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_32
+      TermType: 0
+      Description: 
+      Languages:
+      - Heb je ooit iets gedaan waarmee je in de problemen kwam?
+      - Have you ever done anything that got you into trouble?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_33
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is het laatste complimentje dat je gekregen hebt?
+      - What's the latest compliment you received?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_34
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat was je laatste leugentje?
+      - What was your last lie?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_35
+      TermType: 0
+      Description: 
+      Languages:
+      - Ben je social media fan?
+      - Are you a social media fan?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_36
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat zeggen anderen over jou?
+      - What do others say about you?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_37
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is je uitlaatklep?
+      - What do you do to relax?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_38
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is het langste dat je ooit zonder slaap bent geweest?
+      - What's the longest you ever stayed awake for?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_39
+      TermType: 0
+      Description: 
+      Languages:
+      - Hoe ziet je ideale vrije dag eruit?
+      - What's your ideal day off?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_40
+      TermType: 0
+      Description: 
+      Languages:
+      - Hoe ziet jouw droomhuis eruit?
+      - What would your dream house look like?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_41
+      TermType: 0
+      Description: 
+      Languages:
+      - Hoe ziet jouw ideale vakantie eruit?
+      - What would be your perfect vacation?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_42
+      TermType: 0
+      Description: 
+      Languages:
+      - Hoe ziet jouw ochtendritueel eruit?
+      - What's your morning ritual?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_43
+      TermType: 0
+      Description: 
+      Languages:
+      - Hoe ziet jouw perfecte date er uit?
+      - What does your perfect date look like?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_44
+      TermType: 0
+      Description: 
+      Languages:
+      - Hoe ziet jouw verre toekomst eruit?
+      - What does your distant future look like?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_45
+      TermType: 0
+      Description: 
+      Languages:
+      - Hoe zou je dag eruit zien als je miljonair was?
+      - If you were a millionaire, what would your day look like?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_46
+      TermType: 0
+      Description: 
+      Languages:
+      - Hoeveel paar schoenen heb je?
+      - How many pairs of shoes do you have?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_47
+      TermType: 0
+      Description: 
+      Languages:
+      - Hoeveel stappen zet jij op een dag?
+      - How many steps do you take in a day?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_48
+      TermType: 0
+      Description: 
+      Languages:
+      - Hoeveel tijd breng jij door met jouw familie?
+      - How much time do you spend with your family?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_49
+      TermType: 0
+      Description: 
+      Languages:
+      - Ben je een kattenfan of een hondenliefhebber?
+      - Do you prefer cats or dogs?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_50
+      TermType: 0
+      Description: 
+      Languages:
+      - In welke film zou jij de hoofdpersoon willen zijn?
+      - In what movie would you like to play the lead?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_51
+      TermType: 0
+      Description: 
+      Languages:
+      - In welk land zou je het liefst willen wonen?
+      - Which country would you like to live in?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_52
+      TermType: 0
+      Description: 
+      Languages:
+      - In welke sport zou jij een olympisch atleet willen zijn?
+      - Which Olympic sport would you compete in?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_53
+      TermType: 0
+      Description: 
+      Languages:
+      - Liever een stedentrip of strandvakantie?
+      - Would you prefer a city trip or a beach vacation?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_54
+      TermType: 0
+      Description: 
+      Languages:
+      - Ben jij een koning in koken of een held in bestellen?
+      - Do you prefer to cook yourself or order a takeout?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_55
+      TermType: 0
+      Description: 
+      Languages:
+      - Hoe veel tijd zit jij per dag op je telefoon?
+      - How much time do you spend on your phone each day?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_56
+      TermType: 0
+      Description: 
+      Languages:
+      - Maak je liever een bos- of een strandwandeling?
+      - Do you prefer to walk in a forest or on the beach?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_57
+      TermType: 0
+      Description: 
+      Languages:
+      - Maakt geld gelukkig?
+      - Does money make you happy?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_58
+      TermType: 0
+      Description: 
+      Languages:
+      - Waar ben je geboren?
+      - Where are you born?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_59
+      TermType: 0
+      Description: 
+      Languages:
+      - Met wie zou jij een kopje thee willen drinken?
+      - Who would you like to drink a cup of tea with?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_60
+      TermType: 0
+      Description: 
+      Languages:
+      - Met wie heb je al lang niet meer bijgepraat?
+      - Who haven't you caught up with in a long time?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_61
+      TermType: 0
+      Description: 
+      Languages:
+      - Met wie heb je voor het laatst contact gehad via WhatsApp?
+      - Who did you last talk to via Whatsapp?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_62
+      TermType: 0
+      Description: 
+      Languages:
+      - Heb je een studie gedaan?
+      - Did you study?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_63
+      TermType: 0
+      Description: 
+      Languages:
+      - Met wie zou jij graag 24 uur willen doorbrengen?
+      - Who would you like to spend 24 hours with?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_64
+      TermType: 0
+      Description: 
+      Languages:
+      - Naar welke dag in de geschiedenis zou je terug willen?
+      - If you could go back in time, what day would you choose?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_65
+      TermType: 0
+      Description: 
+      Languages:
+      - Naast wie zou jij het liefst willen wonen?
+      - If you could choose your neighbor, who would it be?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_66
+      TermType: 0
+      Description: 
+      Languages:
+      - Een goed boek of een goede film?
+      - A good book or a good movie?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_67
+      TermType: 0
+      Description: 
+      Languages:
+      - Op welke onbeantwoorde vraag wil je graag antwoord?
+      - Is there a particular question you would like an answer to?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_68
+      TermType: 0
+      Description: 
+      Languages:
+      - Tegen wie kijk jij op?
+      - Who do you look up to?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_69
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is je grootste blunder?
+      - What's your biggest blunder?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_70
+      TermType: 0
+      Description: 
+      Languages:
+      - Van welke gebeurtenis heb je het meest geleerd?
+      - 'What event in your life have you learnt from the most?            '
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_71
+      TermType: 0
+      Description: 
+      Languages:
+      - Waar word jij gelukkig van?
+      - What makes you happy?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_72
+      TermType: 0
+      Description: 
+      Languages:
+      - Van wie had jij vroeger een poster boven je bed hangen?
+      - What poster used to hang above your bed?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_73
+      TermType: 0
+      Description: 
+      Languages:
+      - Van wie zou jij de gedachten willen lezen?
+      - Whose mind would you like to read?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_74
+      TermType: 0
+      Description: 
+      Languages:
+      - Voor wie zou jij een fanclub oprichten?
+      - Who would you like to start a fan club for?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_75
+      TermType: 0
+      Description: 
+      Languages:
+      - Waar ben je het meest bang voor?
+      - What are you most afraid of?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_76
+      TermType: 0
+      Description: 
+      Languages:
+      - Waar ben je trots op?
+      - What are you proud of?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_77
+      TermType: 0
+      Description: 
+      Languages:
+      - Waar ben jij dankbaar voor?
+      - What are you grateful for?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_78
+      TermType: 0
+      Description: 
+      Languages:
+      - Waar geef jij je geld aan uit?
+      - What do you spend your money on?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_79
+      TermType: 0
+      Description: 
+      Languages:
+      - Heb je ergens spijt van?
+      - Do you regret anything?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_80
+      TermType: 0
+      Description: 
+      Languages:
+      - Waar heb jij afgelopen week het meest van genoten?
+      - What did you enjoy most last week?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_81
+      TermType: 0
+      Description: 
+      Languages:
+      - Waar kijk je als eerst naar bij een man/vrouw?
+      - What do you look for first in a man/woman?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_82
+      TermType: 0
+      Description: 
+      Languages:
+      - Waar krijg jij de meeste energie van?
+      - What gives you (the most) energy?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_83
+      TermType: 0
+      Description: 
+      Languages:
+      - Waar mag ik je 's nachts voor wakker maken?
+      - What can I wake you up for at night?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_84
+      TermType: 0
+      Description: 
+      Languages:
+      - Waar schaam je je het meest voor?
+      - What are you most ashamed of?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_85
+      TermType: 0
+      Description: 
+      Languages:
+      - Waar stoor jij je snel aan?
+      - What annoys you?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_86
+      TermType: 0
+      Description: 
+      Languages:
+      - Waar vlieg je heen als het nu zou kunnen?
+      - If you could take any flight, where would you fly to?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_87
+      TermType: 0
+      Description: 
+      Languages:
+      - Waar word jij enthousiast van?
+      - What gives you energy?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_88
+      TermType: 0
+      Description: 
+      Languages:
+      - Waar zie je jezelf over 5 jaar?
+      - Where do you see yourself in five years?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_89
+      TermType: 0
+      Description: 
+      Languages:
+      - Waar zou je beroemd mee willen zijn?
+      - What would you like to be famous for?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_90
+      TermType: 0
+      Description: 
+      Languages:
+      - Waar zou je het liefst 10 minuten gratis winkelen?
+      - If you could shop for free for ten minutes, where would it be?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_91
+      TermType: 0
+      Description: 
+      Languages:
+      - Zou je ergens beter in willen zijn?
+      - What would you like to be better at?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_92
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is je grootste angst?
+      - What is your biggest fear?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_93
+      TermType: 0
+      Description: 
+      Languages:
+      - Heb je vroeger een penvriend(in) gehad?
+      - Have you ever had a pen pal?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_94
+      TermType: 0
+      Description: 
+      Languages:
+      - Wanneer heb je voor het laatst gehuild?
+      - When was the last time you cried?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_95
+      TermType: 0
+      Description: 
+      Languages:
+      - Wanneer vind jij iemand oud?
+      - At what age do you consider someone old?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_96
+      TermType: 0
+      Description: 
+      Languages:
+      - Wanneer was je voor het laatst trots op jezelf?
+      - When were you last proud of yourself?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_97
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat eet je het liefst?
+      - What's your favorite food?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_98
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat doe je het liefst op een regenachtige dag?
+      - What would you like to do on a rainy day?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_99
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat doe jij het liefst in het weekend?
+      - What do you like doing in the weekend?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_100
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat doe jij het liefst in je vrije tijd?
+      - What do you like doing in your spare time?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_101
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat eet je bij je ontbijt?
+      - What do you have for breakfast?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_102
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat heb je altijd nog een keer tegen je ex willen zeggen?
+      - If there's one thing you would like to say to your ex, what would it be?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_103
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat heb je het laatst gekocht?
+      - What's your latest purchase?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_104
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat inspireert jou?
+      - What inspires you?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_105
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is de grootste gok die je ooit hebt genomen?
+      - What has been your biggest gamble so far?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_106
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is de grootste prijs die je ooit gewonnen hebt?
+      - What's the biggest prize you have ever won?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_107
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is de gekste droom die je hebt gehad?
+      - Can you remember your dreams?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_108
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is de laatste film die je hebt gezien?
+      - Which movie did you see last?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_109
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is de leukste vakantie die je ooit hebt gehad?
+      - What's the best vacation you've ever had?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_110
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is de meest vreemde plek waar je ooit geslapen hebt?
+      - What's the weirdest place you've ever slept?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_111
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is de mooiste herinnering uit jouw kindertijd?
+      - What's your best childhood memory?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_112
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is de mooiste plek die je ooit hebt bezocht?
+      - What's the most beautiful place you have ever visited?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_113
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat zijn je goede eigenschappen?
+      - What are your best qualities?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_114
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is het avontuurlijkste dat je ooit hebt gedaan?
+      - What's the most adventurous thing you've ever done?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_115
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is het leukste feestje waar je ooit bent geweest?
+      - What's the best party you've ever been to?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_116
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is het liefste wat iemand voor je gedaan heeft?
+      - What's the sweetest thing someone's ever done for you?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_117
+      TermType: 0
+      Description: 
+      Languages:
+      - Welk nummer heb je het meest geluisterd?
+      - Which song have you listened to the most?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_118
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is het moeilijkste wat je ooit hebt gedaan?
+      - What's the hardest thing you've ever done?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_119
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is je leukste bijbaan geweest?
+      - What's been your favorite part-time job?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_120
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is je ergste nachtmerrie?
+      - What's your worst nightmare?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_121
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is je favoriete guilty pleasure liedje?
+      - What's your favorite 'so bad, it's good' song?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_122
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is je favoriete gerecht?
+      - What's your favorite dish?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_123
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is je favoriete spel?
+      - What's your favorite game?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_124
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is je favoriete kledingstuk?
+      - What's your favorite item of clothing?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_125
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is jouw doel in het leven?
+      - What's your purpose in life?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_126
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is jouw favoriete app?
+      - What's your favorite app?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_127
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is jouw favoriete boek?
+      - What's your favorite book?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_128
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is jouw favoriete dag van de week?
+      - What's your favorite day of the week?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_129
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is jouw favoriete dag van het jaar?
+      - What's your favorite day of the year?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_130
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is jouw favoriete drankje?
+      - What's your favorite drink?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_131
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is jouw favoriete feestdag?
+      - What's your favorite holiday?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_132
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is jouw favoriete ijssmaak?
+      - What's your favorite ice cream flavor?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_133
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is jouw favoriete seizoen van het jaar?
+      - What's your favorite season of the year?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_134
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is jouw favoriete sport?
+      - What's your favorite sport?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_135
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is jouw favoriete sprookje?
+      - What's your favorite fairy tale?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_136
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is jouw grootste prestatie tot nu toe?
+      - What's your biggest achievement to date?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_137
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is jouw grootste wens?
+      - What's your biggest wish?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_138
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is jouw kostbaarste bezit?
+      - What's your most precious possession?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_139
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is jouw lievelingsplek?
+      - What's your favorite place?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_140
+      TermType: 0
+      Description: 
+      Languages:
+      - Heb je tattoos?
+      - Do you have tattoos?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_141
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is voor jou belangrijk in een relatie?
+      - What's important to you in a relationship?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_142
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat maakt jou uniek?
+      - What makes you unique?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_143
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat staat er altijd bij jou in de koelkast?
+      - What's always in your fridge?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_144
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat staat er nog op je bucketlist?
+      - What's still on your bucket list?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_145
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat stel je altijd uit?
+      - What do you always put off?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_146
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat vind jij het allerbelangrijkste in het leven?
+      - What do you think is the most important thing in life?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_147
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat waardeer jij het meest in vriendschap?
+      - What do you value most in friendship?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_148
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat wil je voor je volgende verjaardag bereikt hebben?
+      - What would you like to achieve before your next birthday?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_149
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat wilde je worden toen je klein was?
+      - What did you want to be when you were a child?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_150
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat zijn jouw (verborgen) talenten?
+      - What are your (hidden) talents?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_151
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat zou je absoluut niet kunnen missen?
+      - What's the one thing you cannot absolutely live without?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_152
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat zou je als eerste doen wanneer je de loterij zou winnen?
+      - What would you do first if you won the lottery?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_153
+      TermType: 0
+      Description: 
+      Languages:
+      - "Wat zou je doen als je \xE9\xE9n dag 10.000 euro mocht opmaken?"
+      - "What would you do if you could spend \u20AC10,000 in one day?"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_154
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat zou je doen als je onzichtbaar was?
+      - What would you do if you were invisible?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_155
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat zou je doen met 10 miljoen?
+      - "What would you do with \u20AC10m?"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_156
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat zou je wensen als je 3 wensen had?
+      - What would you wish for if you had three wishes?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_157
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat zou je willen veranderen in de wereld?
+      - If you could change one thing in the world, what would it be?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_158
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat zou jij het liefst tegen je jongere zelf zeggen?
+      - What would you most like to say to your younger self?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_159
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat zou jij veranderen als je minister-president was?
+      - What would you like to change if you were president?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_160
+      TermType: 0
+      Description: 
+      Languages:
+      - Welk dier zou je voor een dag willen zijn?
+      - What kind of animal would you like to be for a day?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_161
+      TermType: 0
+      Description: 
+      Languages:
+      - Welk doel wil jij dit jaar bereiken?
+      - What goals would you like to achieve this year?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_162
+      TermType: 0
+      Description: 
+      Languages:
+      - Welk fictief karakter zou jij tot leven willen brengen?
+      - What fictional character would you like to meet?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_163
+      TermType: 0
+      Description: 
+      Languages:
+      - Welk muziekinstrument zou je willen leren bespelen?
+      - What musical instrument would you like to learn to play?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_164
+      TermType: 0
+      Description: 
+      Languages:
+      - Welk nummer zou je zingen tijdens een karaoke-avond?
+      - What song would you like to sing at a karaoke night?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_165
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is je favoriete sport?
+      - Do you like to sport?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_166
+      TermType: 0
+      Description: 
+      Languages:
+      - Welke BN'ers heb je ooit ontmoet?
+      - Have you ever met a celebrity?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_167
+      TermType: 0
+      Description: 
+      Languages:
+      - Welke bordspellen staan er in jouw top 3?
+      - Which are your top-three board games?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_168
+      TermType: 0
+      Description: 
+      Languages:
+      - Heb je een bijnaam?
+      - Do you have a nickname?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_169
+      TermType: 0
+      Description: 
+      Languages:
+      - Welke gave zou je willen hebben?
+      - What talent would you like to have?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_170
+      TermType: 0
+      Description: 
+      Languages:
+      - Welke landen heb je allemaal bezocht?
+      - Which countries have you visited?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_171
+      TermType: 0
+      Description: 
+      Languages:
+      - Zou je je naam willen veranderen?
+      - Would you like to change your name?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_172
+      TermType: 0
+      Description: 
+      Languages:
+      - Welke taal zou je nog willen leren?
+      - Would you like to learn another language?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_173
+      TermType: 0
+      Description: 
+      Languages:
+      - Wie heb je het laatst gebeld?
+      - Who did you call last?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_174
+      TermType: 0
+      Description: 
+      Languages:
+      - Wie is jouw grootste voorbeeld?
+      - Who inspires you?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_175
+      TermType: 0
+      Description: 
+      Languages:
+      - Welk vak op school vond je het leukst?
+      - What was your favorite subject in school?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_176
+      TermType: 0
+      Description: 
+      Languages:
+      - Wie was jouw eerste liefde?
+      - Who was your first love?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: VidateSubjects/subject_177
+      TermType: 0
+      Description: 
+      Languages:
+      - Zing je wel eens onder de douche?
+      - Do you ever sing in the shower?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Browse/complete_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Je bent door de profielen heen die voldoen aan jouw voorkeuren
+      - There are no more profiles that meet your chosen preferences
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Browse/complete_body
+      TermType: 0
+      Description: 
+      Languages:
+      - "Vidate is n\xE8t live! Een datingapp zonder profielen is natuurlijk een
+        beetje treurig, maar we moeten ergens beginnen. We zijn hard aan het werk
+        om nieuwe gebruikers aan te trekken. Je kan eventueel je voorkeuren aanpassen
+        om meer profielen te vinden en anders hopen we je over een paar dagen weer
+        terug te zien. "
+      - Vidate has only just gone live! A dating app without profiles is a bit sad,
+        but we have to start somewhere. We are working hard to get more Vidate users.
+        You can always adjust your preferences to find more profiles that match.
+        Otherwise we hope to see you again in a few days.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Browse/complete_button
+      TermType: 0
+      Description: 
+      Languages:
+      - Voorkeuren aanpassen
+      - Change preferences
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GenericButtons/button_changemind
+      TermType: 0
+      Description: 
+      Languages:
+      - Nee, toch niet
+      - No, I reconsider
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GenericButtons/button_later
+      TermType: 0
+      Description: 
+      Languages:
+      - Later
+      - Later
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GenericButtons/button_plan
+      TermType: 0
+      Description: 
+      Languages:
+      - Vidate plannen
+      - Plan the Vidate
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GenericButtons/button_suggestdates
+      TermType: 0
+      Description: 
+      Languages:
+      - Data voorstellen
+      - Suggest dates
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GenericButtons/button_ok
+      TermType: 0
+      Description: 
+      Languages:
+      - Ok
+      - Ok
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GenericButtons/button_cancel
+      TermType: 0
+      Description: 
+      Languages:
+      - Annuleren
+      - Cancel
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GenericButtons/button_confirm
+      TermType: 0
+      Description: 
+      Languages:
+      - Vidate bevestigen
+      - Confirm your Vidate
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GenericButtons/button_otherdate
+      TermType: 0
+      Description: 
+      Languages:
+      - Ander moment
+      - Another time
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GenericButtons/button_changemind2
+      TermType: 0
+      Description: 
+      Languages:
+      - Ik wil toch niet
+      - I've changed my mind
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GenericButtons/button_callnow
+      TermType: 0
+      Description: 
+      Languages:
+      - Nu bellen
+      - Call now
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GenericButtons/button_cancel_cancel
+      TermType: 0
+      Description: 
+      Languages:
+      - Nee, ik wil toch Vidaten
+      - No, I still want to Vidate
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GenericButtons/button_cancel_confirm
+      TermType: 0
+      Description: 
+      Languages:
+      - Ja, verwijder deze match
+      - Yes, please delete this match
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GenericButtons/button_findnew
+      TermType: 0
+      Description: 
+      Languages:
+      - Vind nieuwe Vidates
+      - Find new Vidates
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GenericButtons/button_continue
+      TermType: 0
+      Description: 
+      Languages:
+      - Blijf Vidaten
+      - Keep Vidating
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GenericButtons/button_hangup
+      TermType: 0
+      Description: 
+      Languages:
+      - Ophangen
+      - Hang up
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GenericButtons/button_planlater
+      TermType: 0
+      Description: 
+      Languages:
+      - Later inplannen
+      - Schedule later
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GenericButtons/button_plannow
+      TermType: 0
+      Description: 
+      Languages:
+      - Nu inplannen
+      - Schedule now
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GenericButtons/button_contacts
+      TermType: 0
+      Description: 
+      Languages:
+      - Opslaan in contacten
+      - Save to contacts
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GenericButtons/button_yes
+      TermType: 0
+      Description: 
+      Languages:
+      - Ja
+      - Yes
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GenericButtons/button_no
+      TermType: 0
+      Description: 
+      Languages:
+      - Nee
+      - No
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GenericButtons/button_newdates
+      TermType: 0
+      Description: 
+      Languages:
+      - Nieuwe tijd voorstellen
+      - Suggest alternative time
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GenericButtons/button_lookforward
+      TermType: 0
+      Description: 
+      Languages:
+      - Zin in!
+      - Yes!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GenericButtons/button_leave
+      TermType: 0
+      Description: 
+      Languages:
+      - Gesprek verlaten
+      - Leave conversation
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GenericButtons/button_sendreminder
+      TermType: 0
+      Description: 
+      Languages:
+      - Stuur een reminder
+      - Send a reminder
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GenericButtons/button_redoplan
+      TermType: 0
+      Description: 
+      Languages:
+      - Vidate verzetten
+      - Reschedule the Vidate
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GenericButtons/button_keepwaiting
+      TermType: 0
+      Description: 
+      Languages:
+      - Blijf wachten
+      - Keep waiting
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_dates_sent_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Verstuurd!
+      - Sent!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_dates_sent_body
+      TermType: 0
+      Description: 
+      Languages:
+      - We sturen je een notificatie als {name} heeft gereageerd. Je kunt je matches
+        ook terug vinden in het menu.
+      - We will send you a notification when {name} has responded. You can also find
+        your matches in the menu.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_dates_reminder_5min_title
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Over {minutes} {aom}
+
+        begint je Vidate'
+      - 'In {minutes} {aom} your
+
+        Vidate will start'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_dates_reminder_5min_body
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Je hebt een Vidate van <b>5 minuten</b>.
+
+        Ben je er klaar voor? '
+      - 'You have a <b>5 minutes</b> Vidate.
+
+        Are you ready?'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_dates_reminder_30min_title
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Over 30 minuten
+
+        begint je Vidate.'
+      - 'In 30 minutes your
+
+        Vidate will start.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_dates_reminder_30min_body
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Je hebt een Vidate van <b>30 minuten</b>.
+
+        Ben je er klaar voor? '
+      - 'You have a <b>30 minutes</b> Vidate.
+
+        Are you ready?'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_now_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Vidate met {name}
+      - Vidate with {name}
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_now_firstdate_body
+      TermType: 0
+      Description: 
+      Languages:
+      - Veel plezier met de eerste Vidate!
+      - Have fun with your first Vidate!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_now_seconddate_body
+      TermType: 0
+      Description: 
+      Languages:
+      - Veel plezier met de tweede Vidate!
+      - Have fun with your second Vidate!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_now_callnow
+      TermType: 0
+      Description: 
+      Languages:
+      - Nu bellen
+      - Call now
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_cancel_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Weet je het zeker?
+      - Are you sure?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_cancel_body
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Als je afzegt wordt de
+
+        match opgeheven.'
+      - 'If you cancel, this match
+
+        will be deleted.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_cancel_button_1
+      TermType: 0
+      Description: 
+      Languages:
+      - Nee, ik wil toch Vidaten
+      - No, I'd like to Vidate
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_cancel_button_2
+      TermType: 0
+      Description: 
+      Languages:
+      - Ja, verwijder deze match
+      - Yes, delete this match
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_cancel_body_2
+      TermType: 0
+      Description: 
+      Languages:
+      - Als je deze match opheft komen jullie elkaar niet meer tegen.
+      - If you cancel this match, you will not see each other again.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_canceled_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Jammer...
+      - Too bad...
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_canceled_body
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Ga meteen op zoek naar
+
+        een nieuwe Vidate. '
+      - "Start looking for a new \nVidate immediately."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_canceled_button
+      TermType: 0
+      Description: 
+      Languages:
+      - Vind nieuwe Vidates
+      - Find new Vidates
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_othercancel_title
+      TermType: 0
+      Description: 
+      Languages:
+      - '{name} heeft
+
+        de Vidate afgezegd'
+      - "{name} has \ncancelled your Vidate"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_othercancel_body
+      TermType: 0
+      Description: 
+      Languages:
+      - "Dat is jammer... Ga direct op \nzoek naar een nieuwe Vidate."
+      - "That's too bad... Start looking for \na new Vidate immediately."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_reschedule_title
+      TermType: 0
+      Description: 
+      Languages:
+      - "{name} wil \nde Vidate verzetten."
+      - '{name} wants to
+
+        reschedule your Vidate.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_reschedule_body
+      TermType: 0
+      Description: 
+      Languages:
+      - Je ontvangt een pushnotificatie als er nieuwe data gekozen zijn. Je kan dit
+        ook terug vinden in het Match-menu.
+      - You will receive a notification when new dates has been chosen. You can also
+        find this in your Match menu.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_hangup_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Nu ophangen?
+      - Finish the call now?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_hangup_body
+      TermType: 0
+      Description: 
+      Languages:
+      - Als je ophangt kun je een tweede Vidate van 30 minuten met {name} inplannen
+        of de match verwijderen.
+      - When you hang up, you can schedule a second 30-minute Vidate with {name}
+        or delete the match.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_hangup_body2
+      TermType: 0
+      Description: 
+      Languages:
+      - Als je ophangt kun je je nummer delen met {name} of de match verwijderen.
+      - When you hang up you can share your number with {name} or delete the match.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_hangup_button_1
+      TermType: 0
+      Description: 
+      Languages:
+      - Blijven Vidaten
+      - Keep Vidating
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_hangup_button_2
+      TermType: 0
+      Description: 
+      Languages:
+      - Ophangen
+      - Finish this call
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_hungup_title
+      TermType: 0
+      Description: 
+      Languages:
+      - "{name} heeft \nopgehangen"
+      - "{name} has \nfinished the call"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_hungup_body
+      TermType: 0
+      Description: 
+      Languages:
+      - Maar geen paniek... Je kan direct op zoek naar een nieuwe Vidate.
+      - But no panic.. just keep searching for a new Vidate!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_dates_confirmed_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Vidate ingepland!
+      - Vidate planned!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_dates_confirmed_body
+      TermType: 0
+      Description: 
+      Languages:
+      - Je Vidate met {name} is op {date} om {time} uur. We sturen je 15 minuten
+        van tevoren een reminder. Je kunt je Vidates ook terug vinden in het Match
+        menu.
+      - Your Vidate with {name} is on {date} at {time}. We will send you a 15-minute
+        reminder. You can also find your Vidates in your Match menu.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_dates_confirmed_button_1
+      TermType: 0
+      Description: 
+      Languages:
+      - Toevoegen aan mijn agenda
+      - Add to my calendar
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_delete_account_title
+      TermType: 0
+      Description: 
+      Languages:
+      - "Weet je zeker dat\nje je account wil \nverwijderen?"
+      - "Are you sure \nyou want to delete\nyour account?"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_delete_account_body
+      TermType: 0
+      Description: 
+      Languages:
+      - Als je je account opheft worden al je instellingen en gegevens verwijderd.
+      - If you delete your account, all your settings and data will be removed.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_delete_account_button_1
+      TermType: 0
+      Description: 
+      Languages:
+      - Blijven Vidaten
+      - Keep Vidating
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_delete_account_button_2
+      TermType: 0
+      Description: 
+      Languages:
+      - Account verwijderen
+      - Delete account
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_blocked_title
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Je account
+
+        is geblokkeerd'
+      - 'Your account is
+
+        blocked'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_blocked_body
+      TermType: 0
+      Description: 
+      Languages:
+      - "Je profielvideo is ongepast. De video is verwijderd en je account is (tijdelijk)
+        geblokkeerd. \n\nOm de blokkering op te heffen kun je per e-mail contact
+        op nemen en zal je bericht in behandeling worden genomen."
+      - 'Your profile video contains inappropriate content. The video has been deleted
+        and your account is (temporarily) blocked.
+
+
+        If you would like your
+        account to be unblocked, you can contact us by email. Your request will then
+        be processed.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_blocked_button
+      TermType: 0
+      Description: 
+      Languages:
+      - Neem contact op
+      - Contact us
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_blocked_title2
+      TermType: 0
+      Description: 
+      Languages:
+      - Let op!
+      - Pay Attention!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_blocked_body2
+      TermType: 0
+      Description: 
+      Languages:
+      - "Je profielvideo voldoet helaas niet aan de kwaliteitseisen. Je video is
+        daarom verwijderd. \n\nUpload een nieuwe video om weer zichtbaar te zijn
+        in de app."
+      - 'Unfortunately your profile video does not meet our quality standards. The
+        video has been deleted.
+
+
+        Upload a new video to be visible in the
+        app again.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_blocked_button2
+      TermType: 0
+      Description: 
+      Languages:
+      - Verander mijn profielvideo
+      - Change profile video
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_welcomeback_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Welkom terug!
+      - Welcome back!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_welcomeback_body
+      TermType: 0
+      Description: 
+      Languages:
+      - ' '
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_welcomeback_button
+      TermType: 0
+      Description: 
+      Languages:
+      - Start Vidate!
+      - Start Vidate!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_match_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Je hebt een match!
+      - You have a match!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_match_body
+      TermType: 0
+      Description: 
+      Languages:
+      - '{name} ziet jou ook wel zitten.
+
+        Plan meteen de eerste Vidate!'
+      - '{name} likes you too.
+
+        Plan your first Vidate now!'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_match_no
+      TermType: 0
+      Description: 
+      Languages:
+      - Nee, toch niet
+      - 'No, let''s cancel      '
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_match_body_other
+      TermType: 0
+      Description: 
+      Languages:
+      - Jullie kunnen nu de eerste Vidate plannen.
+      - You can now schedule the first Vidate.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_match_later
+      TermType: 0
+      Description: 
+      Languages:
+      - Later
+      - Later
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_match_planvidate
+      TermType: 0
+      Description: 
+      Languages:
+      - Vidate plannen
+      - Plan your Vidate
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_date_suggestions_received_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Nieuwe Vidate!
+      - New Vidate!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_date_suggestions_received_body
+      TermType: 0
+      Description: 
+      Languages:
+      - '{name} heeft data doorgegeven voor jullie Vidate. Reageer op het verzoek
+        om de Vidate in te plannen.'
+      - '{name} has chosen dates for your Vidate. Reply to confirm your Vidate.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_date_suggestions_received_button
+      TermType: 0
+      Description: 
+      Languages:
+      - Reageer op verzoek
+      - Please reply to request
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_cancelmatch_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Jammer...
+      - Too bad...
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_cancelmatch_body
+      TermType: 0
+      Description: 
+      Languages:
+      - '{name} heeft er voor gekozen
+
+        toch geen Vidate in te plannen.'
+      - '{name} has decided not
+
+        to plan a Vidate with you.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_report_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Rapporteren
+      - Report
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_report_title_2
+      TermType: 0
+      Description: 
+      Languages:
+      - Rapporteer gebruiker
+      - Report user
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_report_content
+      TermType: 0
+      Description: 
+      Languages:
+      - Is de inhoud van deze video ongepast? Rapporteer de video en dan nemen we
+        deze melding zo snel mogelijk in behandeling.
+      - Is the content of this video inappropriate? Report the video and we will
+        take care of it as soon as possible.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_report_content_2
+      TermType: 0
+      Description: 
+      Languages:
+      - Vind je wat je gezien hebt ongepast? Rapporteer deze gebruiker en dan nemen
+        we deze melding zo snel mogelijk in behandeling.
+      - Is the content of this video call or the user inappropriate? Report the user
+        and we will take care of it as soon as possible.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_report_button
+      TermType: 0
+      Description: 
+      Languages:
+      - Video rapporteren
+      - Report video
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_report_button2
+      TermType: 0
+      Description: 
+      Languages:
+      - Gebruiker rapporteren
+      - Report User
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_feedback_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Feedback
+      - Feedback
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_feedback_heading
+      TermType: 0
+      Description: 
+      Languages:
+      - Feedback
+      - Feedback
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_feedback_content
+      TermType: 0
+      Description: 
+      Languages:
+      - "Vidate is n\xE9t gestart en zijn vol aan het doorontwikkelen. Wij zijn dus
+        erg benieuwd naar jouw mening over Vidate. Heb je opmerkingen en/of verbeterpunten?
+        Laat het ons weten!"
+      - Vidate has only just launched. Therefore, we are still further developing
+        our app, and would like you to share your opinion about Vidate with us. Do
+        you have any comments and/or feedback, please let us know!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_feedback_button
+      TermType: 0
+      Description: 
+      Languages:
+      - Versturen
+      - Send
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_feedback_received_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Bedankt!
+      - Thank you!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_feedback_received_body
+      TermType: 0
+      Description: 
+      Languages:
+      - Jouw feedback is waardevolle informatie om onze app te verbeteren. Ons team
+        gaat er direct mee aan de slag!
+      - Your feedback is valuable information to improve our app. Our team will take
+        a look at it!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_report_received_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Gemeld
+      - Reported
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_report_received_body
+      TermType: 0
+      Description: 
+      Languages:
+      - "Jouw melding is verzonden. Wij reageren binnen \xE9\xE9n werkdag."
+      - Your report has been sent. We will get back to you within a day.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_second_date_accept_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Leuk!
+      - Great!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_second_date_accept_body
+      TermType: 0
+      Description: 
+      Languages:
+      - Als {name} ook in is voor een tweede Vidate kunnen jullie direct gaan plannen.
+      - If {name} also wants a second Vidate, one of you can suggest new dates.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_second_date_accept_exchangenumbers_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Spannend!
+      - Exciting!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_second_date_accept_exchangenumbers_body
+      TermType: 0
+      Description: 
+      Languages:
+      - Als {name} ook enthousiast is krijgen jullie elkaars telefoonnummer.
+      - If {name} wants to exchange numbers, you'll get each other's numbers!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_permission_denied_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Toestemming voor {permission}
+      - Permission {permission}
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_permission_denied_body
+      TermType: 0
+      Description: 
+      Languages:
+      - We hebben jouw toestemming nodig, zodat we de juiste matches kunnen maken.
+        Om akkoord te geven voor je {permission}, klik op Instellingen. Je kan ook
+        naar je Instellingen > Vidate.
+      - We need your permission so that we can make the right matches. To agree to
+        your {permission}, click Settings. You can also go to your Settings > Vidate.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_permission_denied_button
+      TermType: 0
+      Description: 
+      Languages:
+      - Instellingen
+      - Settings
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_logout_title
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Weet je zeker dat
+
+        je wilt uitloggen?'
+      - "Are you sure you \nwant to log out?"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_logout_body
+      TermType: 0
+      Description: 
+      Languages:
+      - Hierna moet je opnieuw inloggen om de app te kunnen gebruiken.
+      - When you're logged out you have to log in again to use the app.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_dislike_person_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Dislike!
+      - Dislike!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_dislike_person_body
+      TermType: 0
+      Description: 
+      Languages:
+      - Niet helemaal jouw type? Je verwijdert deze persoon nu <b>permanent</b> uit
+        je feed. Weet je het zeker?
+      - This action removes the person <b>permanently</b>. This profile won't appear
+        in your feed again. So are you sure you don't like this profile?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_user_planning_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat toevallig!
+      - What a coincidence!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Overlays/overlay_user_planning_body
+      TermType: 0
+      Description: 
+      Languages:
+      - '{name} is op dit moment een Vidate aan het plannen. Nog heel even geduld..'
+      - '{name} is currently planning a Vidate. Hold your horses..'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Matches/date_unplanned
+      TermType: 0
+      Description: 
+      Languages:
+      - Ongepland
+      - Unplanned
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Matches/date_planned
+      TermType: 0
+      Description: 
+      Languages:
+      - Gepland
+      - Planned
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Matches/date_waiting
+      TermType: 0
+      Description: 
+      Languages:
+      - Wachtend op reactie
+      - Waiting for response
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Matches/date_active
+      TermType: 0
+      Description: 
+      Languages:
+      - Actieve Vidates
+      - Active Vidates
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Matches/date_finished
+      TermType: 0
+      Description: 
+      Languages:
+      - Afgeronde Vidates
+      - Completed Vidates
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Matches/date_react
+      TermType: 0
+      Description: 
+      Languages:
+      - Reageer op de voorgestelde data
+      - Please respond to the proposed dates
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Matches/date_expire
+      TermType: 0
+      Description: 
+      Languages:
+      - Je match verloopt over <b>{days}d {hours}u {minutes}m</b>
+      - Your match expires in <b>{days}d {hours}u {minutes}m</b>
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Matches/date_date
+      TermType: 0
+      Description: 
+      Languages:
+      - '{day} {dateinmonth} {month} {year} - <b>{hour}:{minutes}u</b>'
+      - '{day} {dateinmonth} {month} {year} - <b>{hour}:{minutes}u</b>'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Matches/date_no_completed_dates_title
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Je hebt nog geen
+
+        nummers uitgewisseld'
+      - 'You haven''t exchanged
+
+        phone numbers yet'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Matches/date_no_completed_dates_body
+      TermType: 0
+      Description: 
+      Languages:
+      - "Na je tweede Vidate kunnen jullie telefoonnummers uitwisselen. Zo heb je
+        in \xE9\xE9n overzicht de telefoonnummers van je succesvolle Vidates."
+      - When your second Vidate has finished, you'll have the option to exchange
+        phone numbers. This way you'll have all phone numbers of all your successful
+        Vidates in one easy overview.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Matches/
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Matches/date_no_active_dates_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Je hebt geen actieve matches
+      - You don't have any active matches
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Matches/date_no_active_dates_body
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Zodra je een match hebt gemaakt vind je ''m hier en kun je een Vidate inplannen.
+        Waar wacht je nog op? '
+      - Once you've made a match, you'll find it here. Here you can manage your matches
+        and schedule your Vidates. What are you waiting for?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Matches/date_first_date
+      TermType: 0
+      Description: 
+      Languages:
+      - Eerste Vidate
+      - First Vidate
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Matches/date_second_date
+      TermType: 0
+      Description: 
+      Languages:
+      - Tweede Vidate
+      - Second Vidate
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Matches/date_active_call
+      TermType: 0
+      Description: 
+      Languages:
+      - Nu bellen
+      - Call now
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Matches/date_expire_noday
+      TermType: 0
+      Description: 
+      Languages:
+      - Je match verloopt in <b>{hours}u {minutes}m</b>
+      - Your match expires in <b>{hours}u {minutes}m</b>
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Matches/date_missed_call
+      TermType: 0
+      Description: 
+      Languages:
+      - Gemiste Vidate
+      - Missed Vidate
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Matches/date_missed_call_body
+      TermType: 0
+      Description: 
+      Languages:
+      - "We geven je nog \xE9\xE9n kans om een nieuwe Vidate in te plannen."
+      - We give you one more chance to schedule a new Vidate.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Matches/date_missed_call_other_user_body
+      TermType: 0
+      Description: 
+      Languages:
+      - Je match heeft de Vidate gemist, maar er kan nog een nieuwe datum ingepland
+        worden.
+      - Your match missed the Vidate, but a new date can still be scheduled.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile/profile_logout
+      TermType: 0
+      Description: 
+      Languages:
+      - Uitloggen
+      - Log out
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile/profile_removeaccount
+      TermType: 0
+      Description: 
+      Languages:
+      - Account verwijderen
+      - Delete account
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile/profile_profile
+      TermType: 0
+      Description: 
+      Languages:
+      - Profiel
+      - Profile
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile/profile_video
+      TermType: 0
+      Description: 
+      Languages:
+      - Profielvideo wijzigen
+      - Change profile video
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile/profile_questions
+      TermType: 0
+      Description: 
+      Languages:
+      - Interesses wijzigen
+      - Change interests
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile/profile_location
+      TermType: 0
+      Description: 
+      Languages:
+      - Locatie
+      - Location
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile/profile_showmeto
+      TermType: 0
+      Description: 
+      Languages:
+      - Mij weergeven
+      - Show me
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile/profile_agerange
+      TermType: 0
+      Description: 
+      Languages:
+      - Leeftijdsbereik
+      - Age range
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile/profile_distance
+      TermType: 0
+      Description: 
+      Languages:
+      - Maximale afstand
+      - Maximum distance
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile/profile_push
+      TermType: 0
+      Description: 
+      Languages:
+      - Pushmeldingen
+      - Push notifications
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile/profile_language
+      TermType: 0
+      Description: 
+      Languages:
+      - Taal wijzigen
+      - Change language
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile/profile_feedback
+      TermType: 0
+      Description: 
+      Languages:
+      - Feedback
+      - Feedback
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile/profile_preference_divider
+      TermType: 0
+      Description: 
+      Languages:
+      - Voorkeuren
+      - Preferences
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile/profile_personal_divider
+      TermType: 0
+      Description: 
+      Languages:
+      - Persoonlijk
+      - Personal
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile/profile_settings_divider
+      TermType: 0
+      Description: 
+      Languages:
+      - Instellingen
+      - Settings
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile/profile_other_divider
+      TermType: 0
+      Description: 
+      Languages:
+      - Overig
+      - Other
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile/profile_title_name
+      TermType: 0
+      Description: 
+      Languages:
+      - Naam
+      - Name
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile/profile_title_birthdate
+      TermType: 0
+      Description: 
+      Languages:
+      - Geboortedatum
+      - Date of birth
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile/profile_title_gender
+      TermType: 0
+      Description: 
+      Languages:
+      - Geslacht
+      - Gender
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile/profile_title_city
+      TermType: 0
+      Description: 
+      Languages:
+      - Woonplaats
+      - Residence
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile/profile_title_language
+      TermType: 0
+      Description: 
+      Languages:
+      - Taal
+      - Language
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile/profile_title_prefgender
+      TermType: 0
+      Description: 
+      Languages:
+      - Geslachtsvoorkeur
+      - Gender preference
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile/profile_video_profile_language
+      TermType: 0
+      Description: 
+      Languages:
+      - Taal andere profielen
+      - Language other profiles
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile/profile_version
+      TermType: 0
+      Description: 
+      Languages:
+      - Versie
+      - Version
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile/profile_share
+      TermType: 0
+      Description: 
+      Languages:
+      - Deel Vidate met je vrienden
+      - Share Vidate with your friends
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile/profile_share_body
+      TermType: 0
+      Description: 
+      Languages:
+      - Deze nieuwe datingapp is echt iets voor jou! Als dank voor deze tip wil ik
+        graag op je bruiloft komen ;-) Download Vidate via https://vidate.app.
+      - I really think this is the datingapp for you! In return for this tip I would
+        like to come to your future wedding ;-) Download Vidate from https://vidate.app.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Notifications/notification_title_minutes
+      TermType: 0
+      Description: 
+      Languages:
+      - Vi(up)date
+      - Vi(up)date
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Notifications/notification_body_minutes
+      TermType: 0
+      Description: 
+      Languages:
+      - Je Vidate met {name} begint bijna!
+      - Your Vidate with {name} is about to start!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Notifications/
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Notifications/notification_match_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Vi(up)date
+      - Vi(up)date
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Notifications/notification_match_body
+      TermType: 0
+      Description: 
+      Languages:
+      - Hooray! Je hebt een match met {name}!
+      - Hooray! You have a match with {name}!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Notifications/notification_dates_suggested_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Vi(up)date
+      - Vi(up)date
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Notifications/notification_dates_suggested_body
+      TermType: 0
+      Description: 
+      Languages:
+      - Er zijn data voorgesteld voor een nieuwe Vidate met {name}!
+      - Dates are suggested for a new Vidate with {name}!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Notifications/notification_dates_accepted_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Vi(up)date
+      - Vi(up)date
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Notifications/notification_dates_accepted_body
+      TermType: 0
+      Description: 
+      Languages:
+      - Nieuwe Vidate met {name} gepland!
+      - New Vidate with {name} planned!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Notifications/overlay_dates_now_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Vi(up)date
+      - Vi(up)date
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Notifications/overlay_dates_now_body
+      TermType: 0
+      Description: 
+      Languages:
+      - Je Vidate met {name} begint nu!
+      - Your Vidate with {name} starts now!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Notifications/overlay_reminder_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Vi(up)date
+      - Vi(up)date
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Notifications/overlay_reminder_body
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Duurt lang. {name} wacht op je! '
+      - Hurry! {name} is waiting for you!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Notifications/vidate_missed_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Vi(up)date
+      - Vi(up)date
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Notifications/vidate_missed_body
+      TermType: 0
+      Description: 
+      Languages:
+      - Oh oh, je hebt de Vidate met {name} gemist.
+      - You've missed the Vidate with {name}.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PlanDate/plan_title
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Stel 3 verschillende
+
+        momenten voor'
+      - 'Suggest three
+
+        different moments'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PlanDate/plan_body
+      TermType: 0
+      Description: 
+      Languages:
+      - Je match kan deze accepteren, weigeren of een ander moment voorstellen. Geef
+        elkaar de tijd om te reageren!
+      - Your match is then able to accept, decline your request or can request for
+        another date/time. Allow each other the time to respond!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PlanDate/plan_choose
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Kies een moment
+
+        voor de Vidate'
+      - 'Choose a time
+
+        for your Vidate'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PlanDate/plandate_moments_default_text
+      TermType: 0
+      Description: 
+      Languages:
+      - Selecteer een datum en tijd
+      - Select a date and time
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PlanDate/plandate_dateselection_next_button
+      TermType: 0
+      Description: 
+      Languages:
+      - Volgende
+      - Next
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PlanDate/plandate_body
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Je match kan deze accepteren, weigeren of een ander moment voorstellen.
+        Geef je match even de tijd om te reageren! '
+      - Your match is then able to accept, decline your request or can request for
+        another date/time. Make sure you give your match enough time to respond to
+        your proposal.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PlanDate/plandate_button
+      TermType: 0
+      Description: 
+      Languages:
+      - Data voorstellen
+      - Request dates
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PlanDate/plandate_dateselection_ok_button
+      TermType: 0
+      Description: 
+      Languages:
+      - Ok
+      - Ok
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PlanDate/plandate_moments_body
+      TermType: 0
+      Description: 
+      Languages:
+      - Je match kan deze accepteren, weigeren of een ander moment voorstellen.
+      - Your match is then able to accept, decline your request or can request for
+        another date/time.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PlanDate/plandate_moments_button
+      TermType: 0
+      Description: 
+      Languages:
+      - Data voorstellen
+      - Request dates
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PlanDate/plandate_moments_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Stel 3 momenten voor
+      - Suggest three different moments
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PlanDate/plandate_timeselection_next_button
+      TermType: 0
+      Description: 
+      Languages:
+      - Volgende
+      - Next
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PlanDate/plandate_timeselection_ok_button
+      TermType: 0
+      Description: 
+      Languages:
+      - Ok
+      - Ok
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PlanDate/plandate_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Stel 3 momenten voor
+      - Request 3 moments
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PlanDate/plantdate_moment_default_text
+      TermType: 0
+      Description: 
+      Languages:
+      - Selecteer een datum en tijd
+      - Select a date and time.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PlanDate/plantdate_moments_default_text
+      TermType: 0
+      Description: 
+      Languages:
+      - Selecteer een datum en tijd
+      - Select a date and time.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PlanDate/plantdate_selection_next_button
+      TermType: 0
+      Description: 
+      Languages:
+      - Volgende
+      - Next
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PlanDate/plantdate_your_dates
+      TermType: 0
+      Description: 
+      Languages:
+      - Jouw voorgestelde tijden
+      - Your suggested dates
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PlanDate/plantdate_planned_dates
+      TermType: 0
+      Description: 
+      Languages:
+      - De geplande Vidate
+      - The planned Vidate
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PlanDate/plandate_date_already_planned
+      TermType: 0
+      Description: 
+      Languages:
+      - Er is al een Vidate gepland op deze tijd
+      - A Vidate is already planned on this time
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Website/section_title1
+      TermType: 0
+      Description: 
+      Languages:
+      - Vidate
+      - Vidate
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Website/header_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Omdat je in het echt veel leuker bent
+      - Because you're perfect just the way you are
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Website/header_bodycopy
+      TermType: 0
+      Description: 
+      Languages:
+      - "Een glimlach, een knipoog en een fijne vibe. Hartjes op je scherm, vlinders
+        in je buik. Vidate maakt online daten \xE9cht persoonlijk. Vergeet de standaard
+        \u2018hi, hoe is het\u2019 openingszin. Jouw Vidate spat van het scherm.
+        Inderdaad, omdat je in het echt veel leuker bent."
+      - 'A smile, a wink, a great vibe. Hearts flying all over your screen. Butterflies
+        in your stomach. Vidate turns online dating into a truly personal experience.
+        No need to start with a pick-up line like  ''hi, how are you?''. Your Vidate
+        will burst off your screen. Because you and your Vidate are even nicer in
+        real life. '
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Website/section_title_what
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is Vidate?
+      - What is Vidate?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Website/title_what
+      TermType: 0
+      Description: 
+      Languages:
+      - De videodatingapp van Nederland
+      - THE video dating app in the Netherlands
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Website/bodycopy_what
+      TermType: 0
+      Description: 
+      Languages:
+      - "Vidate is d\xE9 datingapp die volledig bestaat uit video. Bij Vidate beoordeel
+        je elkaar op basis van een profielfilmpje van maximaal 20 seconden. Dit filmpje
+        maak je in de app en kan niet bewerkt worden. Is ook nergens voor nodig,
+        toch? Naast leeftijds-, afstands- en geslachtsvoorkeur kies je ook een aantal
+        interesses die jij belangrijk vindt. Daarmee leggen wij de perfecte match
+        en skippen we de waste. Laat de vonken maar komen!\n\nEen eerste indruk is
+        snel gemaakt. Daarom duurt de eerste Vidate altijd 5 minuten. Willen jullie
+        elkaar beter leren kennen? Dan plan je via de app direct een tweede Vidate
+        van 30 minuten. In deze Vidate helpen we je graag een handje door je verschillende
+        onderwerpen te geven waar je over kan praten. Date nummero 2 ook een succes?
+        Dan krijg je elkaars telefoonnummer en wordt het tijd voor een echte date.
+        Wij knijpen er tussenuit en laten Cupido de rest doen!"
+      - "Vidate is THE dating app that only uses video. You like each other based
+        on a 20-second profile video. You record this video in the Vidate app. Therefore,
+        the video cannot be edited. But who needs editing!  \n\nYou choose those
+        interests that matter to you, next to the age range you prefer, the distance
+        you're prepared to travel and your gender preference. Based on that we will
+        find your perfect match(es), and not waste your time. Let the sparks fly!
+        \n\nFirst impressions are made fast. That's why your first Vidate will only
+        take five minutes. Would you like to get to know each other better? Plan
+        a second Vidate straightaway via the app. This Vidate will be 30 minutes.
+        During this Vidate we will help you a little by sharing lots of different
+        subjects for you to talk about. Is your second Vidate as good or even better
+        than the first one? Let's exchange phone numbers. Time for a real date. No
+        need for Vidate any longer. Cupido will do the rest! "
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Website/section_title_how
+      TermType: 0
+      Description: 
+      Languages:
+      - Hoe werkt Vidate?
+      - How does Vidate work?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Website/title_how
+      TermType: 0
+      Description: 
+      Languages:
+      - Videodaten in 3 simpele stappen
+      - Video dating explained in three simple steps
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Website/step1_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Maak je profielvideo
+      - Record your profile video
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Website/step1_bodycopy
+      TermType: 0
+      Description: 
+      Languages:
+      - "Ready? Set? Action! Neem een korte profielvideo op. Zonder filter. Zo ziet
+        jouw potenti\xEBle date wie je \xE9cht bent. "
+      - Ready? Set? Action! Record a short profile video. Without filter. This way
+        your potential date sees who you really are.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Website/step2_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Matchen en plannen
+      - Match and plan
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Website/step2_bodycopy
+      TermType: 0
+      Description: 
+      Languages:
+      - "Scroll door andere profielvideo\u2019s als jij en sla jouw droompartner
+        virtueel aan de haak! Nu kun je je eerste Vidate inplannen!"
+      - Scroll through all profile videos. And hook up virtually with your dream
+        partner! Now you can schedule your first Vidate!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Website/step3_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Let's Vidate!
+      - Let's Vidate!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Website/step3_bodycopy
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Trek je mooiste kleren aan en maak er een fantastische 5 minuten van. Kunnen
+        jullie geen genoeg van elkaar krijgen? Dan komt er een tweede Vidate van
+        30 minuten. '
+      - Dress up, be yourself and have the best five minutes ever. If you just can't
+        get enough of each other, arrange a second Vidate. This one will be 30 minutes.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Website/faq_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Veelgestelde vragen
+      - Frequently asked questions
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Website/question1
+      TermType: 0
+      Description: 
+      Languages:
+      - Hoe maak ik een Vidate-account aan?
+      - How do I create a Vidate account?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Website/answer1
+      TermType: 0
+      Description: 
+      Languages:
+      - Download Vidate voor iOS of Android (links). Na het invoeren van je telefoonnummer
+        ontvang jij een unieke code. Vul deze in en doorloop de stappen om je profiel
+        aan te maken. Het is niet mogelijk om Vidate te gebruiken zonder aangemaakt
+        profiel. Filmpjes die niet voldoen aan de kwaliteitseisen van Vidate worden
+        binnen 24 uur geblokkeerd.
+      - 'Download Vidate for iOS or Android. After registering your telephone number,
+        we will send you a unique code.  Use this code and complete all steps to
+        create your Vidate profile. Unfortunately, it isn''t possible to use Vidate
+        without a Vidate profile. Also, videos that do not comply with Vidate''s
+        standards will be blocked within 24 hours. '
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Website/question2
+      TermType: 0
+      Description: 
+      Languages:
+      - Is Vidate gratis?
+      - Can you use Vidate for free?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Website/answer2
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Vidate is gratis en zal altijd gratis blijven voor gebruikers. '
+      - Vidate is free and will always be free for Vidate users
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Website/question3
+      TermType: 0
+      Description: 
+      Languages:
+      - Wat is de minimumleeftijd voor Vidate?
+      - What's Vidate's minimum age?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Website/answer3
+      TermType: 0
+      Description: 
+      Languages:
+      - De minimumleeftijd voor Vidate is 18 jaar.
+      - To use Vidate, you will need to be 18 years or older
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Website/e-mail_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Contactformulier
+      - Our contact form
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Website/footer_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Download Vidate
+      - Download Vidate
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Website/
+      TermType: 0
+      Description: 
+      Languages:
+      - Vidate is bereikbaar via het mailadres info@vidate.app. Omdat jij niet te
+        lang wil wachten op de ware liefde, zorgen wij ervoor dat jij altijd binnen
+        24 uur antwoord hebt op je vraag.
+      - You can reach Vidate by sending an email to info@vidate.app. We understand
+        that you do not want to wait too long to find your perfect match. So no stress,
+        we will always get back to you wihtin 24 hours.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Errors/1
+      TermType: 0
+      Description: 
+      Languages:
+      - Validation on phone number failed
+      - Validation on phone number failed
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Errors/2
+      TermType: 0
+      Description: 
+      Languages:
+      - SMS sending failed
+      - SMS sending failed
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Errors/4
+      TermType: 0
+      Description: 
+      Languages:
+      - Phone or code are not correctly formatted
+      - Phone or code are not correctly formatted
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Errors/5
+      TermType: 0
+      Description: 
+      Languages:
+      - Phone number or code not correct
+      - Phone number or code not correct
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Errors/6
+      TermType: 0
+      Description: 
+      Languages:
+      - Token not valid
+      - Token not valid
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Errors/7
+      TermType: 0
+      Description: 
+      Languages:
+      - Birthday not correct
+      - Birthday not correct
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Errors/8
+      TermType: 0
+      Description: 
+      Languages:
+      - Match is not yours
+      - Match is not yours
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Errors/9
+      TermType: 0
+      Description: 
+      Languages:
+      - matchid is not a number
+      - matchid is not a number
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Errors/10
+      TermType: 0
+      Description: 
+      Languages:
+      - No match found
+      - No match found
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Errors/11
+      TermType: 0
+      Description: 
+      Languages:
+      - Type not found
+      - Type not found
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Errors/12
+      TermType: 0
+      Description: 
+      Languages:
+      - User cannot do this action
+      - User cannot do this action
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Errors/13
+      TermType: 0
+      Description: 
+      Languages:
+      - Dates not received correctly
+      - Dates not received correctly
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Errors/14
+      TermType: 0
+      Description: 
+      Languages:
+      - Data sent not complete
+      - Data sent not complete
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Errors/15
+      TermType: 0
+      Description: 
+      Languages:
+      - Zero records available
+      - Zero records available
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Errors/16
+      TermType: 0
+      Description: 
+      Languages:
+      - ID sent is not a a number
+      - Id sent is not a a number
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Errors/17
+      TermType: 0
+      Description: 
+      Languages:
+      - You cannot match yourself
+      - You cannot match yourself
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Errors/18
+      TermType: 0
+      Description: 
+      Languages:
+      - Videocall, but no date chosen
+      - Videocall, but no date chosen
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Errors/19
+      TermType: 0
+      Description: 
+      Languages:
+      - Dateresult not complete
+      - Dateresult not complete
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Permissions/camera
+      TermType: 0
+      Description: 
+      Languages:
+      - Wij hebben toestemming nodig voor het gebruik van je camera voor het aanmaken
+        van je account en om te kunnen videobellen.
+      - We need permission to use your camera.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Permissions/microphone
+      TermType: 0
+      Description: 
+      Languages:
+      - Wij hebben toestemming nodig voor het gebruik van je microfoon voor het aanmaken
+        van je account en om te kunnen videobellen.
+      - We need permission to use your microphone.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Permissions/locatie
+      TermType: 0
+      Description: 
+      Languages:
+      - Wij hebben toestemming nodig voor het gebruik van je locatie om je te kunnen
+        koppelen aan andere gebruikers.
+      - We need permission to use your location.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Permissions/agenda
+      TermType: 0
+      Description: 
+      Languages:
+      - Wij hebben toestemming nodig voor het gebruik van je agenda om de date te
+        kunnen plannen.
+      - We need permission to use your calendar.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Permissions/
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - ' '
+      Flags: 0000
+      Languages_Touch: []
+    CaseInsensitiveTerms: 0
+    OnMissingTranslation: 1
+    mTerm_AppName: 
+    mLanguages:
+    - Name: Dutch
+      Code: nl
+      Flags: 0
+    - Name: English
+      Code: en
+      Flags: 0
+    IgnoreDeviceLanguage: 0
+    _AllowUnloadingLanguages: 0
+    Google_WebServiceURL: https://script.google.com/a/angrymen.nl/macros/s/AKfycbxoL5fue2dLd78QyU41ak1zOAwwM1Sd3Qt5JTLd/exec
+    Google_SpreadsheetKey: 1OOi0uyb44HmOOWDcooVK58x-2L6gvcXIRPb3PZgl8To
+    Google_SpreadsheetName: I2Loc Vidate Localization
+    Google_LastUpdatedVersion: 1610269996185
+    Google_Password: Wybertjes123c
+    GoogleUpdateFrequency: 1
+    GoogleInEditorCheckFrequency: 0
+    GoogleUpdateSynchronization: 2
+    GoogleUpdateDelay: 0
+    Assets: []
+    Spreadsheet_LocalFileName: 
+    Spreadsheet_LocalCSVSeparator: ','
+    Spreadsheet_LocalCSVEncoding: utf-8
+    Spreadsheet_SpecializationAsRows: 1
