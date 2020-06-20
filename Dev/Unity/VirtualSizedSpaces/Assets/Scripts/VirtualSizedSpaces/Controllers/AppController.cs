@@ -21,33 +21,9 @@ public class AppController : UiElement
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
         Config.Environment = Environment;
         Config.StartedIsolated = false;
-#if PLATFORM_ANDROID
         Config.SafetyY = HelperFunctions.GetTopSafeArea();
-#endif
-
-#if PLATFORM_IOS
-        Config.SafetyY = Screen.height - Screen.safeArea.height;
-#endif
-
         Config.SafetyBottom = HelperFunctions.GetBottomSafeArea() / 2;
-
-       
-       
-        
-     
     }
-
-
-#if UNITY_EDITOR
-
-    void OnValidate()
-    {
-
-
-    }
-
-#endif
-
 
     private void LoadScenesAndStart()
     {
