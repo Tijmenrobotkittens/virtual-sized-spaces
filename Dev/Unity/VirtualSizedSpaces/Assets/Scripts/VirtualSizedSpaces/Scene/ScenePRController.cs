@@ -9,7 +9,7 @@ public class ScenePRController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        new Scatter("Cube",100,0.5f,100,100);
+        new Scatter("Cube",this.gameObject,500,0.5f,800,800);
     }
 
     // Update is called once per frame
