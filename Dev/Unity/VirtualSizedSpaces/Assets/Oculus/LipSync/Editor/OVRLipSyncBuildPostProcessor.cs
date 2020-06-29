@@ -58,40 +58,40 @@ class OVRLipSyncBuildPostProcessor : MonoBehaviour
 
     private static void AddEmbeddedBinary(string projectPath)
     {
-        const string buildPhaseName = "Embed Libraries";
-        const string dylibName = "libOVRLipSync.dylib";
+        //const string buildPhaseName = "Embed Libraries";
+        //const string dylibName = "libOVRLipSync.dylib";
 
-        var project = new PBXProject();
-        project.ReadFromFile(projectPath);
+        //var project = new PBXProject();
+        //project.ReadFromFile(projectPath);
 
-        // Don't add the same library twice
-        if (project.FindFileGuidByProjectPath(dylibName) != null)
-        {
-            return;
-        }
+        //// Don't add the same library twice
+        //if (project.FindFileGuidByProjectPath(dylibName) != null)
+        //{
+        //    return;
+        //}
 
-        var targetGUID = project.TargetGuidByName(PBXProject.GetUnityTargetName());
-        // Limit the target to ARM64
-        project.SetBuildProperty(targetGUID, "ARCHS", "arm64");
+        //var targetGUID = project.TargetGuidByName(PBXProject.GetUnityTargetName());
+        //// Limit the target to ARM64
+        //project.SetBuildProperty(targetGUID, "ARCHS", "arm64");
 
-        // Add dylib to the project
-        var dylibGUID = project.AddFile(
-            Path.Combine(Application.dataPath, "Oculus/LipSync/Plugins/iOS/" + dylibName),
-            dylibName);
-        // Copy it to the same folder as executable
-        var embedPhaseGuid = project.AddCopyFilesBuildPhase(targetGUID, buildPhaseName, "", "6");
-        project.AddFileToBuildSection(targetGUID, embedPhaseGuid, dylibGUID);
-        var content = project.WriteToString();
+        //// Add dylib to the project
+        //var dylibGUID = project.AddFile(
+        //    Path.Combine(Application.dataPath, "Oculus/LipSync/Plugins/iOS/" + dylibName),
+        //    dylibName);
+        //// Copy it to the same folder as executable
+        //var embedPhaseGuid = project.AddCopyFilesBuildPhase(targetGUID, buildPhaseName, "", "6");
+        //project.AddFileToBuildSection(targetGUID, embedPhaseGuid, dylibGUID);
+        //var content = project.WriteToString();
 
-        // Add CodeSignOnCopy attribute ot the library using an ugly regex
-        content = Regex.Replace(content,
-            "(?<="+ buildPhaseName + ")(?:.*)(\\/\\* " + Regex.Escape(dylibName) + " \\*\\/)(?=; };)",
-            m => m.Value.Replace(
-                    "/* " + dylibName + " */",
-                    "/* " + dylibName + " */; settings = {ATTRIBUTES = (CodeSignOnCopy, );}"
-                    )
-                    );
-        File.WriteAllText(projectPath, content);
+        //// Add CodeSignOnCopy attribute ot the library using an ugly regex
+        //content = Regex.Replace(content,
+        //    "(?<="+ buildPhaseName + ")(?:.*)(\\/\\* " + Regex.Escape(dylibName) + " \\*\\/)(?=; };)",
+        //    m => m.Value.Replace(
+        //            "/* " + dylibName + " */",
+        //            "/* " + dylibName + " */; settings = {ATTRIBUTES = (CodeSignOnCopy, );}"
+        //            )
+        //            );
+        //File.WriteAllText(projectPath, content);
     }
 
 }
