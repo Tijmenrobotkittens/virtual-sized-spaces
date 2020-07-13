@@ -15,6 +15,7 @@
     float rotationX = 0F;
     float rotationY = 0F;
     Quaternion originalRotation;
+    float height = 2.14f;
 
     private void Start()
     {
@@ -33,23 +34,6 @@
 
     void Update()
     {
-
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            transform.position += Vector3.left * speed * Time.deltaTime;
-        }
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            transform.position += Vector3.right * speed * Time.deltaTime;
-        }
-        if (Input.GetKey(KeyCode.UpArrow))
-        {
-            transform.position += Vector3.forward * speed * Time.deltaTime;
-        }
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            transform.position += Vector3.back * speed * Time.deltaTime;
-        }
 
         if (axes == RotationAxes.MouseXAndY)
         {
@@ -75,5 +59,27 @@
             Quaternion yQuaternion = Quaternion.AngleAxis(-rotationY, Vector3.right);
             transform.localRotation = originalRotation * yQuaternion;
         }
+
+        transform.TransformDirection(transform.localRotation.eulerAngles);
+
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+          //  transform.position += Vector3.left * speed * Time.deltaTime;
+        }
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
+           // transform.position += Vector3.right * speed * Time.deltaTime;
+        }
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            transform.Translate(0, 0, speed * Time.deltaTime, Space.Self);
+           
+        }
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            transform.Translate(0, 0, -speed * Time.deltaTime, Space.Self);
+        }
+        transform.position = new Vector3(transform.position.x, height, transform.position.z);
+
     }
 }
