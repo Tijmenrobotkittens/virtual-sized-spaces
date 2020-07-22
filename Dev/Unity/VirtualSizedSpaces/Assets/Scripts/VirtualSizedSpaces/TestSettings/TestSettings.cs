@@ -18,7 +18,8 @@ public class TestSettings
         TestingResult settings = new TestingResult();
         switch (testname) {
             case "test1":
-
+                settings.XWallDistance = 400;
+                settings.YWallDistance = 200;
                 break;
         }
         return settings;
