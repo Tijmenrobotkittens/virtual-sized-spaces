@@ -9,7 +9,7 @@ public class TestingResult {
     public float DistanceZ = 0;
     public float AngleX = 2;
     public float AngleY = 2;
-    public float NrBoxes = 500;
+    public int NrBoxes = 500;
 }
 
 public class TestSettings
