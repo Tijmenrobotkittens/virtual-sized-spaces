@@ -12,12 +12,14 @@ public class ScenePRController : MonoBehaviour
     private GameObject _wallFront;
     private GameObject _wallBack;
     private Scatter _scatter = new Scatter();
+    private UserController _userController;
 
     private void Init() {
         _wallLeft = transform.Find("Walls/left").gameObject;
         _wallRight = transform.Find("Walls/right").gameObject;
         _wallFront = transform.Find("Walls/front").gameObject;
         _wallBack = transform.Find("Walls/back").gameObject;
+        _userController = transform.Find("OVRCameraRig").GetComponent<UserController>();
     }
 
     void Start()
@@ -35,7 +37,8 @@ public class ScenePRController : MonoBehaviour
         _wallRight.transform.position = new Vector3(-_currentTest.XWallDistance, 500, 0);
         _wallFront.transform.position = new Vector3(0, 500, _currentTest.YWallDistance);
         _wallBack.transform.position = new Vector3(0, 500, -_currentTest.YWallDistance);
-        _scatter.Make("Cube", this.gameObject, _currentTest.NrBoxes, 0.5, 1000, 1000);
+        _scatter.Make("Cube", this.gameObject, _currentTest.NrBoxes, 0.5f, 1000, 1000);
+        _userController.setSettings(_currentTest);
     }
 
     // Update is called once per frame

@@ -12,10 +12,12 @@
     public float maximumX = 360F;
     public float minimumY = -60F;
     public float maximumY = 60F;
+    private Vector3 _lastPosition;
     float rotationX = 0F;
     float rotationY = 0F;
     Quaternion originalRotation;
     float height = 2.14f;
+    private TestingResult _currentTest;
 
     private void Start()
     {
@@ -31,6 +33,10 @@
         return Mathf.Clamp(angle, min, max);
     }
 
+    public void setSettings(TestingResult testingResult) {
+        Debug.Log("adding testresults" + testingResult);
+        _currentTest = testingResult;
+    }
 
     void Update()
     {
@@ -80,6 +86,13 @@
             transform.Translate(0, 0, -speed * Time.deltaTime, Space.Self);
         }
         transform.position = new Vector3(transform.position.x, height, transform.position.z);
+
+        if (_currentTest != null && _lastPosition != null) {
+            float distance = Vector3.Distance(_lastPosition, transform.position);
+            Debug.Log("distance "+distance);
+        }
+
+        _lastPosition = transform.position;
 
     }
 }
