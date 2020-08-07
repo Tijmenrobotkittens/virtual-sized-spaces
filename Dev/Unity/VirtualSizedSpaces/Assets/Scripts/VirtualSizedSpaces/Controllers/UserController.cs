@@ -18,6 +18,7 @@
     Quaternion originalRotation;
     float height = 2.14f;
     private TestingResult _currentTest;
+    private Quaternion _offset =  Quaternion.Euler(0,0,0);
 
     private void Start()
     {
@@ -48,7 +49,7 @@
             rotationX = ClampAngle(rotationX, minimumX, maximumX);
             rotationY = ClampAngle(rotationY, minimumY, maximumY);
             Quaternion xQuaternion = Quaternion.AngleAxis(rotationX, Vector3.up);
-            Quaternion yQuaternion = Quaternion.AngleAxis(rotationY, -Vector3.right);
+            Quaternion yQuaternion = Quaternion.AngleAxis(rotationY, -Vector3.right) * _offset;
             transform.localRotation = originalRotation * xQuaternion * yQuaternion;
         }
         else if (axes == RotationAxes.MouseX)
@@ -62,7 +63,7 @@
         {
             rotationY += Input.GetAxis("Mouse Y") * sensitivityY;
             rotationY = ClampAngle(rotationY, minimumY, maximumY);
-            Quaternion yQuaternion = Quaternion.AngleAxis(-rotationY, Vector3.right);
+            Quaternion yQuaternion = Quaternion.AngleAxis(-rotationY, Vector3.right) * _offset;
             transform.localRotation = originalRotation * yQuaternion;
         }
 
@@ -89,10 +90,18 @@
 
         if (_currentTest != null && _lastPosition != null) {
             float distance = Vector3.Distance(_lastPosition, transform.position);
-            Debug.Log("distance "+distance);
+            if (distance > 0) {
+                float change = (distance / _currentTest.Distance) * _currentTest.MaxAngle;
+                ApplyManipulation(change);
+            }
         }
 
         _lastPosition = transform.position;
 
+    }
+
+    private void ApplyManipulation(float val)
+    {
+        _offset = Quaternion.Euler(0, val, 0);
     }
 }

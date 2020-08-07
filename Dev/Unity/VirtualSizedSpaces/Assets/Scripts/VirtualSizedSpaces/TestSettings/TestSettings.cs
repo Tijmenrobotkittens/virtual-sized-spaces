@@ -5,10 +5,8 @@ using UnityEngine;
 public class TestingResult {
     public int XWallDistance = 1000;
     public int YWallDistance = 1000;
-    public float DistanceX = 0;
-    public float DistanceZ = 0;
-    public float AngleX = 2;
-    public float AngleY = 2;
+    public float Distance = 1;
+    public float MaxAngle = 50;
     public int NrBoxes = 500;
 }
 
