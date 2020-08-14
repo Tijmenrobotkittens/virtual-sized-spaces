@@ -49,8 +49,8 @@
             rotationX = ClampAngle(rotationX, minimumX, maximumX);
             rotationY = ClampAngle(rotationY, minimumY, maximumY);
             Quaternion xQuaternion = Quaternion.AngleAxis(rotationX, Vector3.up);
-            Quaternion yQuaternion = Quaternion.AngleAxis(rotationY, -Vector3.right) * _offset;
-            transform.localRotation = originalRotation * xQuaternion * yQuaternion;
+            Quaternion yQuaternion = Quaternion.AngleAxis(rotationY, -Vector3.right) ;
+            transform.localRotation = originalRotation * xQuaternion * yQuaternion * _offset;
         }
         else if (axes == RotationAxes.MouseX)
         {
@@ -63,8 +63,8 @@
         {
             rotationY += Input.GetAxis("Mouse Y") * sensitivityY;
             rotationY = ClampAngle(rotationY, minimumY, maximumY);
-            Quaternion yQuaternion = Quaternion.AngleAxis(-rotationY, Vector3.right) * _offset;
-            transform.localRotation = originalRotation * yQuaternion;
+            Quaternion yQuaternion = Quaternion.AngleAxis(-rotationY, Vector3.right);
+            transform.localRotation = originalRotation * yQuaternion * _offset;
         }
 
         transform.TransformDirection(transform.localRotation.eulerAngles);
@@ -102,6 +102,6 @@
 
     private void ApplyManipulation(float val)
     {
-        _offset = Quaternion.Euler(0, val, 0);
+        _offset *= Quaternion.Euler(0, val, 0);
     }
 }
