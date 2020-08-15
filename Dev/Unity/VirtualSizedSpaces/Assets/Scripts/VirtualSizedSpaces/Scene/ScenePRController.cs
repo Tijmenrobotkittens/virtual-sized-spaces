@@ -1,18 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ScenePRController : MonoBehaviour
 {
     private TestSettings _testSettings = new TestSettings();
     private TestingResult _currentTest;
-    private string _currentTestName = "test1";
+    private int _currentTestKey = 0;
     private GameObject _wallLeft;
     private GameObject _wallRight;
     private GameObject _wallFront;
     private GameObject _wallBack;
     private Scatter _scatter = new Scatter();
     private UserController _userController;
+    private Button _selectButton;
 
     private void Init() {
         _wallLeft = transform.Find("Walls/left").gameObject;
@@ -20,15 +22,42 @@ public class ScenePRController : MonoBehaviour
         _wallFront = transform.Find("Walls/front").gameObject;
         _wallBack = transform.Find("Walls/back").gameObject;
         _userController = transform.Find("OVRCameraRig").GetComponent<UserController>();
+        _selectButton = GameObject.Find("SelectButton").GetComponent<Button>();
+        _selectButton.onClick.AddListener(NextTest);
+    }
+
+    private void NextTest()
+    {
+        _currentTestKey++;
+        UpdateButton();
+        StartTest(_currentTestKey);
+
     }
 
     void Start()
     {
         Init();
+        StartTest(_currentTestKey);
+       
+    }
+
+    private void UpdateButton() {
+        if (_testSettings.tests.Count - 1 > _currentTestKey)
+        {
+            _selectButton.transform.Find("Text").GetComponent<Text>().text = _testSettings.tests[_currentTestKey + 1];
+            _selectButton.gameObject.SetActive(true);
+        }
+        else {
+            _selectButton.gameObject.SetActive(false);
+        }
+    }
+
+    private void StartTest(int testnr) {
+        string _currentTestName = _testSettings.tests[testnr];
+        UpdateButton();
+
         _currentTest = _testSettings.GetSettings(_currentTestName);
         ApplySettings();
-
-       
     }
 
     private void ApplySettings() {

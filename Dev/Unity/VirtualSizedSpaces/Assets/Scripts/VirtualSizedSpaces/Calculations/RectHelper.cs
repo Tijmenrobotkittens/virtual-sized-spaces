@@ -335,7 +335,6 @@ namespace RektTransform
 
         public static void MoveTop(this RectTransform RT, float top = 0)
         {
-            Log("MoveTop called on " + RT + ".");
 
             float ymax = RT.GetParent().rect.yMax;
             float center = RT.anchorMax.y - RT.anchorMin.y;
