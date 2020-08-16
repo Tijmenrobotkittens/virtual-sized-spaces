@@ -12,7 +12,7 @@ public class TestingResult {
 
 public class TestSettings
 {
-    public List<string> tests = new List<string>{{"test1"}, { "test2" } , { "test3" } , { "test4" } , { "test5" } , { "test6" } , { "test7" } , { "test8" } };
+    public List<string> tests = new List<string>{{"test1"}, { "test2" } , { "test3" } , { "test4" } , { "test5" } , { "test6" } , { "test7" } , { "test8" }, { "test9" }, { "test10" }, { "test11" } };
 
     public TestingResult GetSettings(string testname) {
         TestingResult settings = new TestingResult();
@@ -20,7 +20,7 @@ public class TestSettings
             case "test1":
                 settings.XWallDistance = 1000;
                 settings.YWallDistance = 1000;
-                settings.MaxAngle = 0.5f;
+                settings.MaxAngle = 0f;
                 break;
             case "test2":
                 settings.XWallDistance = 1000;
@@ -57,6 +57,21 @@ public class TestSettings
                 settings.XWallDistance = 1000;
                 settings.YWallDistance = 1000;
                 settings.MaxAngle = 7f;
+                break;
+            case "test9":
+                settings.XWallDistance = 1000;
+                settings.YWallDistance = 1000;
+                settings.MaxAngle = 8f;
+                break;
+            case "test10":
+                settings.XWallDistance = 1000;
+                settings.YWallDistance = 1000;
+                settings.MaxAngle = 9f;
+                break;
+            case "test11":
+                settings.XWallDistance = 1000;
+                settings.YWallDistance = 1000;
+                settings.MaxAngle = 9f;
                 break;
         }
         return settings;

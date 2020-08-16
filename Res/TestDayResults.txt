@@ -1,0 +1,62 @@
+Test day 1:
+
+Goal: Simple test day. See what subtle changes are noticeable to a person in virtual reality
+Test people: Niels & Didi
+
+The space we tested it in was 10x10, so it included turning of the testers.
+
+The value is of how noticeable it was to the person:
+
+Test 1:
+Niels:0
+Didi:0
+
+Test 2:
+Niels:0
+Didi:0
+
+Test 3:
+Niels:0
+Didi:0
+
+Test 4:
+Niels:0
+Didi:0
+
+Test 5:
+Niels:0
+Didi:0
+
+Test 6:
+Niels:2
+Didi:0
+
+Test 7:
+Niels:2
+Didi:1
+
+Test 8:
+Niels:2
+Didi:1
+
+Test 9:
+Niels:3
+Didi:2
+
+Test 10:
+Niels:3
+Didi:2
+
+Test 11:
+Niels:3
+Didi:2
+
+Conclusions: The slight manipulation of movement were only barely noticeable for users knowing what to look for. In the next test setup we will do more extreme tests.
+
+
+
+
+
+
+
+
