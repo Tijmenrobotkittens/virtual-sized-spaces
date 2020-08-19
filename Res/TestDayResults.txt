@@ -3,6 +3,8 @@ Test day 1:
 Goal: Simple test day. See what subtle changes are noticeable to a person in virtual reality
 Test people: Niels & Didi
 
+The scale = 0 - 10
+
 The space we tested it in was 10x10, so it included turning of the testers.
 
 The value is of how noticeable it was to the person:
@@ -53,6 +55,64 @@ Didi:2
 
 Conclusions: The slight manipulation of movement were only barely noticeable for users knowing what to look for. In the next test setup we will do more extreme tests.
 
+Test day 2:
+
+Goal: Continuation of test days 
+Test people: Niels & Didi
+
+The scale = 0 - 10
+
+The space we tested it in was 10x10, so it included turning of the testers.
+
+The value is of how noticeable it was to the person:
+
+Test 12:
+Niels:3
+Didi:2
+
+Test 13:
+Niels:3.5
+Didi:2
+
+Test 14:
+Niels:3.5
+Didi:2
+
+Test 15:
+Niels:4
+Didi:3
+
+Test 16:
+Niels:4
+Didi:3
+
+Test 17:
+Niels:4
+Didi:3
+
+Test 18:
+Niels:5
+Didi:3
+
+Test 19:
+Niels:5
+Didi:3
+
+Test 20:
+Niels:6
+Didi:3.5
+
+Test 21:
+Niels:6.5
+Didi:3.5
+
+Test 22:
+Niels:6.5
+Didi:3.5
+
+Conclusions: I would say test 14 is the maximum manipulation acceptable.
+That means that an angle change of 1.4 degrees per meter is barely noticeable.
+This also means that this method has too little effect to properly use.
 
 
 

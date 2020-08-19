@@ -12,11 +12,13 @@ public class TestingResult {
 
 public class TestSettings
 {
-    public List<string> tests = new List<string>{{"test1"}, { "test2" } , { "test3" } , { "test4" } , { "test5" } , { "test6" } , { "test7" } , { "test8" }, { "test9" }, { "test10" }, { "test11" } };
+    public List<string> tests = new List<string> { { "test1" }, { "test2" }, { "test3" }, { "test4" }, { "test5" }, { "test6" }, { "test7" }, { "test8" }, { "test9" }, { "test10" }, { "test11" }, { "test12" }, { "test13" }, { "test14" }, { "test15" }, { "test16" }, { "test17" }, { "test18" }, { "test19" }, { "test20" }, { "test21" }, { "test22" } };
 
-    public TestingResult GetSettings(string testname) {
+    public TestingResult GetSettings(string testname)
+    {
         TestingResult settings = new TestingResult();
-        switch (testname) {
+        switch (testname)
+        {
             case "test1":
                 settings.XWallDistance = 1000;
                 settings.YWallDistance = 1000;
@@ -36,7 +38,7 @@ public class TestSettings
                 settings.XWallDistance = 1000;
                 settings.YWallDistance = 1000;
                 settings.MaxAngle = 3f;
-                
+
                 break;
             case "test5":
                 settings.XWallDistance = 1000;
@@ -71,11 +73,68 @@ public class TestSettings
             case "test11":
                 settings.XWallDistance = 1000;
                 settings.YWallDistance = 1000;
-                settings.MaxAngle = 9f;
+                settings.MaxAngle = 9.5f;
+                break;
+            //Test day 2
+            case "test12":
+                settings.XWallDistance = 1000;
+                settings.YWallDistance = 1000;
+                settings.MaxAngle = 10f;
+                break;
+            case "test13":
+                settings.XWallDistance = 1000;
+                settings.YWallDistance = 1000;
+                settings.MaxAngle = 12f;
+                break;
+            case "test14":
+                settings.XWallDistance = 1000;
+                settings.YWallDistance = 1000;
+                settings.MaxAngle = 14f;
+                break;
+            case "test15":
+                settings.XWallDistance = 1000;
+                settings.YWallDistance = 1000;
+                settings.MaxAngle = 15f;
+
+                break;
+            case "test16":
+                settings.XWallDistance = 1000;
+                settings.YWallDistance = 1000;
+                settings.MaxAngle = 16f;
+                break;
+            case "test17":
+                settings.XWallDistance = 1000;
+                settings.YWallDistance = 1000;
+                settings.MaxAngle = 17f;
+                break;
+            case "test18":
+                settings.XWallDistance = 1000;
+                settings.YWallDistance = 1000;
+                settings.MaxAngle = 18f;
+                break;
+            case "test19":
+                settings.XWallDistance = 1000;
+                settings.YWallDistance = 1000;
+                settings.MaxAngle = 19f;
+                break;
+            case "test20":
+                settings.XWallDistance = 1000;
+                settings.YWallDistance = 1000;
+                settings.MaxAngle = 20f;
+                break;
+            case "test21":
+                settings.XWallDistance = 1000;
+                settings.YWallDistance = 1000;
+                settings.MaxAngle = 21f;
+                break;
+            case "test22":
+                settings.XWallDistance = 1000;
+                settings.YWallDistance = 1000;
+                settings.MaxAngle = 22f;
                 break;
         }
         return settings;
     }
-
-   
 }
+
+  

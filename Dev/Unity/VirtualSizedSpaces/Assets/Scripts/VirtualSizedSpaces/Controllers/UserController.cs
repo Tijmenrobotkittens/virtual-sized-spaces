@@ -3,7 +3,7 @@
  using UnityEngine;
   
  public class UserController : MonoBehaviour {
-    public float speed = 5;
+    public float speed = 1;
     public enum RotationAxes { MouseXAndY = 0, MouseX = 1, MouseY = 2 }
     public RotationAxes axes = RotationAxes.MouseXAndY;
     public float sensitivityX = 15F;
