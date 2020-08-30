@@ -19,6 +19,7 @@
     float height = 2.14f;
     private TestingResult _currentTest;
     private Quaternion _offset =  Quaternion.Euler(0,0,0);
+    private Quaternion _lastRotation = Quaternion.Euler(0,0,0);
 
     private void Start()
     {
@@ -89,14 +90,15 @@
         transform.position = new Vector3(transform.position.x, height, transform.position.z);
 
         if (_currentTest != null && _lastPosition != null) {
-            float distance = Vector3.Distance(_lastPosition, transform.position);
-            if (distance > 0) {
-                float change = (distance / _currentTest.Distance) * _currentTest.MaxAngle;
-                ApplyManipulation(change);
-            }
+            //float distance = Vector3.Distance(_lastPosition, transform.position);
+            //if (distance > 0) {
+            //    float change = (distance / _currentTest.Distance) * _currentTest.MaxAngle;
+            //    ApplyManipulation(change);
+            //}
         }
 
         _lastPosition = transform.position;
+        _lastRotation = transform.rotation;
 
     }
 
