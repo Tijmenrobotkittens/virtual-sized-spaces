@@ -15,8 +15,11 @@ public class ScenePRController2 : MonoBehaviour
     private Scatter _scatter = new Scatter();
     private UserController2 _userController;
     private Button _selectButton;
+    private SceneRotaterController _sceneRotator;
+    private GameObject _allContainer;
 
     private void Init() {
+        _allContainer = transform.Find("AllContainer").gameObject;
         _wallLeft = transform.Find("AllContainer/Walls/left").gameObject;
         _wallRight = transform.Find("AllContainer/Walls/right").gameObject;
         _wallFront = transform.Find("AllContainer/Walls/front").gameObject;
@@ -24,6 +27,8 @@ public class ScenePRController2 : MonoBehaviour
         _userController = transform.Find("OVRCameraRig").GetComponent<UserController2>();
         _selectButton = GameObject.Find("SelectButton").GetComponent<Button>();
         _selectButton.onClick.AddListener(NextTest);
+        _sceneRotator = new SceneRotaterController(_userController.gameObject,_allContainer.gameObject);
+        _userController.setRotator(_sceneRotator);
     }
 
     private void NextTest()
@@ -71,6 +76,7 @@ public class ScenePRController2 : MonoBehaviour
         _wallBack.transform.position = new Vector3(0, 500, -_currentTest.YWallDistance);
         _scatter.Make("Cube", this.transform.Find("AllContainer").gameObject, _currentTest.NrBoxes, 0.5f, 1000, 1000);
         _userController.setSettings(_currentTest);
+
     }
 
     // Update is called once per frame

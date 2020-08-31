@@ -20,6 +20,11 @@
     private TestingResult _currentTest;
     private Quaternion _offset =  Quaternion.Euler(0,0,0);
     private Quaternion _lastRotation = Quaternion.Euler(0,0,0);
+    private SceneRotaterController _rotator;
+
+    public void setRotator(SceneRotaterController rotator) {
+        _rotator = rotator;
+    }
 
     private void Start()
     {
@@ -97,8 +102,10 @@
             //}
         }
 
+        _rotator.setRotation(transform.rotation, _lastRotation);
         _lastPosition = transform.position;
         _lastRotation = transform.rotation;
+        
 
     }
 
