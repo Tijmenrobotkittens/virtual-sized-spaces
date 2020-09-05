@@ -6,8 +6,12 @@ public class SceneRotaterController : MonoBehaviour
 {
     private GameObject _user;
     private GameObject _stage;
-    private float _threshold = 3;
-    public SceneRotaterController(GameObject user, GameObject stage) {
+    private float _threshold = 4;
+    private float _angle = 0;
+    private float _factor = 500;
+    private float _totalAngleManipulated = 0;
+    
+    public void set(GameObject user, GameObject stage) {
         _user = user;
         _stage = stage;
 
@@ -19,7 +23,22 @@ public class SceneRotaterController : MonoBehaviour
         float move = 0f;
         if (totalmovement > _threshold) {
             move = totalmovement - _threshold;
-            Debug.Log("moving "+move);
+            float moveangle = move / _factor;
+            UpdateAngle(moveangle);
+            _totalAngleManipulated += moveangle;
+            Debug.Log("Manipulated angle "+_totalAngleManipulated);
+
         }
+    }
+
+    private void UpdateAngle(float angle)
+    {
+        
+        _stage.transform.RotateAround(_user.transform.position, Vector3.up, angle);
+    }
+
+    private void Update()
+    {
+       
     }
 }

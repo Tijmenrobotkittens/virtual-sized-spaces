@@ -27,7 +27,8 @@ public class ScenePRController2 : MonoBehaviour
         _userController = transform.Find("OVRCameraRig").GetComponent<UserController2>();
         _selectButton = GameObject.Find("SelectButton").GetComponent<Button>();
         _selectButton.onClick.AddListener(NextTest);
-        _sceneRotator = new SceneRotaterController(_userController.gameObject,_allContainer.gameObject);
+        _sceneRotator = this.gameObject.AddComponent<SceneRotaterController>();
+        _sceneRotator.set(_userController.gameObject,_allContainer.gameObject);
         _userController.setRotator(_sceneRotator);
     }
 
