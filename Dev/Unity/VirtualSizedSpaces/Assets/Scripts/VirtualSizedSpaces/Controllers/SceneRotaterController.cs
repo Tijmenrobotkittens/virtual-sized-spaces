@@ -6,9 +6,9 @@ public class SceneRotaterController : MonoBehaviour
 {
     private GameObject _user;
     private GameObject _stage;
-    private float _threshold = 4;
+    public float _threshold = 4;
     private float _angle = 0;
-    private float _factor = 500;
+    public float _factor = 500;
     private float _totalAngleManipulated = 0;
     
     public void set(GameObject user, GameObject stage) {

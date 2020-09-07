@@ -7,7 +7,7 @@ public class ScenePRController2 : MonoBehaviour
 {
     private TestSettings _testSettings = new TestSettings();
     private TestingResult _currentTest;
-    private int _currentTestKey = 10;
+    private int _currentTestKey = 22;
     private GameObject _wallLeft;
     private GameObject _wallRight;
     private GameObject _wallFront;
@@ -71,12 +71,14 @@ public class ScenePRController2 : MonoBehaviour
 
     private void ApplySettings() {
        
-        _wallLeft.transform.position = new Vector3(_currentTest.XWallDistance,500,0);
-        _wallRight.transform.position = new Vector3(-_currentTest.XWallDistance, 500, 0);
-        _wallFront.transform.position = new Vector3(0, 500, _currentTest.YWallDistance);
-        _wallBack.transform.position = new Vector3(0, 500, -_currentTest.YWallDistance);
-        _scatter.Make("Cube", this.transform.Find("AllContainer").gameObject, _currentTest.NrBoxes, 0.5f, 1000, 1000);
+        //_wallLeft.transform.position = new Vector3(_currentTest.XWallDistance,500,0);
+        //_wallRight.transform.position = new Vector3(-_currentTest.XWallDistance, 500, 0);
+        //_wallFront.transform.position = new Vector3(0, 500, _currentTest.YWallDistance);
+        //_wallBack.transform.position = new Vector3(0, 500, -_currentTest.YWallDistance);
+        //_scatter.Make("Cube", this.transform.Find("AllContainer").gameObject, _currentTest.NrBoxes, 0.5f, 1000, 1000);
         _userController.setSettings(_currentTest);
+        _sceneRotator._threshold = _currentTest.threshold;
+        _sceneRotator._factor = _currentTest.factor;
 
     }
 
