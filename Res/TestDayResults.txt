@@ -114,6 +114,65 @@ Conclusions: I would say test 14 is the maximum manipulation acceptable.
 That means that an angle change of 1.4 degrees per meter is barely noticeable.
 This also means that this method has too little effect to properly use.
 
+Test day 3:
+
+Goal: See if the new method works, this is rotating the scene around the testperson
+Test people: Niels & Didi
+
+The scale = 0 - 10
+
+The space we tested it in was 10x10, so it included turning of the testers.
+
+The value is of how noticeable it was to the person:
+
+Test 23:
+Niels:1
+Didi:0
+
+Test 23:
+Niels:1
+Didi:0
+
+Test 24:
+Niels:2
+Didi:0
+
+Test 25:
+Niels:2
+Didi:0
+
+Test 26:
+Niels:3
+Didi:0
+
+Test 27:
+Niels:3
+Didi:1
+
+Test 28:
+Niels:3
+Didi:1
+
+Test 29:
+Niels:4
+Didi:2
+
+Test 30:
+Niels:5
+Didi:3.5
+
+Test 31:
+Niels:6.5
+Didi:5
+
+Test 32:
+Niels:7
+Didi:6
+
+Conclusions: I would say test 14 is the maximum manipulation acceptable.
+That means that an angle change of 1.4 degrees per meter is barely noticeable.
+This also means that this method has too little effect to properly use.
+
 
 
 
