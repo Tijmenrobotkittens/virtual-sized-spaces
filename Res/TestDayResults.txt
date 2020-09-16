@@ -169,9 +169,8 @@ Test 32:
 Niels:7
 Didi:6
 
-Conclusions: I would say test 14 is the maximum manipulation acceptable.
-That means that an angle change of 1.4 degrees per meter is barely noticeable.
-This also means that this method has too little effect to properly use.
+Conclusions: For this method 28 was probably the acceptable result. We were able to manipulate +/- 100 degrees in a small walking test. This means we are able to steer people towards not
+Reaching vr boundries. 
 
 
 
