@@ -100,31 +100,37 @@ public class TestSettings
                 settings.YWallDistance = 1000;
                 settings.MaxAngle = 8f;
                 break;
+            //Test day 4
             case "test10":
                 settings.XWallDistance = 1000;
                 settings.YWallDistance = 1000;
                 settings.MaxAngle = 9f;
+                settings.factor = 450;
                 break;
             case "test11":
                 settings.XWallDistance = 1000;
                 settings.YWallDistance = 1000;
                 settings.MaxAngle = 9.5f;
+                settings.factor = 400;
                 break;
             //Test day 2
             case "test12":
                 settings.XWallDistance = 1000;
                 settings.YWallDistance = 1000;
                 settings.MaxAngle = 10f;
+                settings.factor = 350;
                 break;
             case "test13":
                 settings.XWallDistance = 1000;
                 settings.YWallDistance = 1000;
                 settings.MaxAngle = 12f;
+                settings.factor = 350;
                 break;
             case "test14":
                 settings.XWallDistance = 1000;
                 settings.YWallDistance = 1000;
                 settings.MaxAngle = 14f;
+                settings.factor = 350;
                 break;
             case "test15":
                 settings.XWallDistance = 1000;

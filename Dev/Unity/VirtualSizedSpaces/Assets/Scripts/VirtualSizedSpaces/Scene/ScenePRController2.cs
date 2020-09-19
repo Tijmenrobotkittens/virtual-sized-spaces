@@ -71,11 +71,11 @@ public class ScenePRController2 : MonoBehaviour
 
     private void ApplySettings() {
        
-        //_wallLeft.transform.position = new Vector3(_currentTest.XWallDistance,500,0);
-        //_wallRight.transform.position = new Vector3(-_currentTest.XWallDistance, 500, 0);
-        //_wallFront.transform.position = new Vector3(0, 500, _currentTest.YWallDistance);
-        //_wallBack.transform.position = new Vector3(0, 500, -_currentTest.YWallDistance);
-        //_scatter.Make("Cube", this.transform.Find("AllContainer").gameObject, _currentTest.NrBoxes, 0.5f, 1000, 1000);
+        _wallLeft.transform.localPosition = new Vector3(_currentTest.XWallDistance,500,0);
+        _wallRight.transform.localPosition = new Vector3(-_currentTest.XWallDistance, 500, 0);
+        _wallFront.transform.localPosition = new Vector3(0, 500, _currentTest.YWallDistance);
+        _wallBack.transform.localPosition = new Vector3(0, 500, -_currentTest.YWallDistance);
+        _scatter.Make("Cube", this.transform.Find("AllContainer").gameObject, _currentTest.NrBoxes, 0.5f, 1000, 1000);
         _userController.setSettings(_currentTest);
         _sceneRotator._threshold = _currentTest.threshold;
         _sceneRotator._factor = _currentTest.factor;

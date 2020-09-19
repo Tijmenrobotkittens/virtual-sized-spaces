@@ -15,6 +15,7 @@
     private Vector3 _lastPosition;
     float rotationX = 0F;
     float rotationY = 0F;
+    public float total = 0;
     Quaternion originalRotation;
     float height = 2.14f;
     private TestingResult _currentTest;
@@ -94,14 +95,23 @@
         }
         transform.position = new Vector3(transform.position.x, height, transform.position.z);
 
-        if (_currentTest != null && _lastPosition != null) {
-            //float distance = Vector3.Distance(_lastPosition, transform.position);
-            //if (distance > 0) {
-            //    float change = (distance / _currentTest.Distance) * _currentTest.MaxAngle;
-            //    ApplyManipulation(change);
-            //}
+        if (_currentTest != null && _lastPosition != null)
+        {
+            float distance = Vector3.Distance(_lastPosition, transform.position);
+            if (distance > 0)
+            {
+                float change = (distance / _currentTest.Distance) * _currentTest.MaxAngle;
+                ApplyManipulation(change);
+            }
+            else {
+                Debug.Log("No distance");
+            }
         }
-
+        else {
+            Debug.Log("noopo");
+        }
+        Debug.Log(_offset);
+        total = _offset.y;
         _rotator.setRotation(transform.rotation, _lastRotation);
         _lastPosition = transform.position;
         _lastRotation = transform.rotation;
@@ -111,6 +121,7 @@
 
     private void ApplyManipulation(float val)
     {
+        Debug.Log("Apply manipulation");
         _offset *= Quaternion.Euler(0, val, 0);
     }
 }
