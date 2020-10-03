@@ -26,7 +26,7 @@ public class SceneRotaterController : MonoBehaviour
             float moveangle = move / _factor;
             UpdateAngle(moveangle);
             _totalAngleManipulated += moveangle;
-            Debug.Log("Manipulated angle "+_totalAngleManipulated +" head "+ _user.GetComponent<UserController2>().total);
+            Debug.Log("Manipulated angle "+(_totalAngleManipulated + _user.GetComponent<UserController2>().total));
 
         }
     }

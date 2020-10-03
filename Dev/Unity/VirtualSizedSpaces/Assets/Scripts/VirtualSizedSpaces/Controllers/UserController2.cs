@@ -104,14 +104,14 @@
                 ApplyManipulation(change);
             }
             else {
-                Debug.Log("No distance");
+               // Debug.Log("No distance");
             }
         }
         else {
-            Debug.Log("noopo");
+          //  Debug.Log("noopo");
         }
-        Debug.Log(_offset);
-        total = _offset.y;
+     
+        total = _offset.eulerAngles.y;
         _rotator.setRotation(transform.rotation, _lastRotation);
         _lastPosition = transform.position;
         _lastRotation = transform.rotation;
@@ -121,7 +121,7 @@
 
     private void ApplyManipulation(float val)
     {
-        Debug.Log("Apply manipulation");
+        //Debug.Log("Apply manipulation "+val);
         _offset *= Quaternion.Euler(0, val, 0);
     }
 }

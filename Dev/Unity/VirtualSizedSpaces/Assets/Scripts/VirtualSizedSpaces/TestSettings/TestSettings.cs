@@ -46,7 +46,17 @@ public class TestSettings
         { "test29" },
         { "test30" },
         { "test31" },
-        { "test32" }
+        { "test32" },
+        { "test33" },
+        { "test34" },
+        { "test35" },
+        { "test36" },
+        { "test37" },
+        { "test38" },
+        { "test39" },
+        { "test40" },
+        { "test41" },
+        { "test42" }
     };
 
     public TestingResult GetSettings(string testname)
@@ -100,7 +110,6 @@ public class TestSettings
                 settings.YWallDistance = 1000;
                 settings.MaxAngle = 8f;
                 break;
-            //Test day 4
             case "test10":
                 settings.XWallDistance = 1000;
                 settings.YWallDistance = 1000;
@@ -111,26 +120,22 @@ public class TestSettings
                 settings.XWallDistance = 1000;
                 settings.YWallDistance = 1000;
                 settings.MaxAngle = 9.5f;
-                settings.factor = 400;
                 break;
             //Test day 2
             case "test12":
                 settings.XWallDistance = 1000;
                 settings.YWallDistance = 1000;
                 settings.MaxAngle = 10f;
-                settings.factor = 350;
                 break;
             case "test13":
                 settings.XWallDistance = 1000;
                 settings.YWallDistance = 1000;
                 settings.MaxAngle = 12f;
-                settings.factor = 350;
                 break;
             case "test14":
                 settings.XWallDistance = 1000;
                 settings.YWallDistance = 1000;
                 settings.MaxAngle = 14f;
-                settings.factor = 350;
                 break;
             case "test15":
                 settings.XWallDistance = 1000;
@@ -205,6 +210,78 @@ public class TestSettings
             case "test32":
                 settings.factor = 500;
                 settings.threshold = 3f;
+                break;
+            //Test 4
+            case "test33":
+                settings.XWallDistance = 1000;
+                settings.YWallDistance = 1000;
+                settings.MaxAngle = 10f;
+                settings.factor = 450;
+                settings.threshold = 4f;
+                break;
+            case "test34":
+                settings.XWallDistance = 1000;
+                settings.YWallDistance = 1000;
+                settings.MaxAngle = 12f;
+                settings.factor = 400;
+                settings.threshold = 3.8f;
+                break;
+            case "test35":
+                settings.XWallDistance = 1000;
+                settings.YWallDistance = 1000;
+                settings.MaxAngle = 14f;
+                settings.factor = 350;
+                settings.threshold = 3.5f;
+                break;
+            case "test36":
+                settings.XWallDistance = 1000;
+                settings.YWallDistance = 1000;
+                settings.MaxAngle = 15f;
+                settings.factor = 300;
+                settings.threshold = 3.4f;
+
+                break;
+            case "test37":
+                settings.XWallDistance = 1000;
+                settings.YWallDistance = 1000;
+                settings.MaxAngle = 16f;
+                settings.factor = 250;
+                settings.threshold = 3.3f;
+                break;
+            case "test38":
+                settings.XWallDistance = 1000;
+                settings.YWallDistance = 1000;
+                settings.MaxAngle = 17f;
+                settings.factor = 200;
+                settings.threshold = 3.2f;
+                break;
+            case "test39":
+                settings.XWallDistance = 1000;
+                settings.YWallDistance = 1000;
+                settings.MaxAngle = 18f;
+                settings.factor =150;
+                settings.threshold = 3.1f;
+                break;
+            case "test40":
+                settings.XWallDistance = 1000;
+                settings.YWallDistance = 1000;
+                settings.MaxAngle = 19f;
+                settings.factor = 100;
+                settings.threshold = 3.0f;
+                break;
+            case "test41":
+                settings.XWallDistance = 1000;
+                settings.YWallDistance = 1000;
+                settings.MaxAngle = 20f;
+                settings.factor = 50;
+                settings.threshold = 2.9f;
+                break;
+            case "test42":
+                settings.XWallDistance = 1000;
+                settings.YWallDistance = 1000;
+                settings.MaxAngle = 21f;
+                settings.factor =25;
+                settings.threshold = 2.8f;
                 break;
 
         }

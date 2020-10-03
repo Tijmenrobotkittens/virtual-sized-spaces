@@ -7,7 +7,7 @@ public class ScenePRController2 : MonoBehaviour
 {
     private TestSettings _testSettings = new TestSettings();
     private TestingResult _currentTest;
-    private int _currentTestKey = 22;
+    private int _currentTestKey = 32;
     private GameObject _wallLeft;
     private GameObject _wallRight;
     private GameObject _wallFront;
