@@ -173,6 +173,60 @@ Conclusions: For this method 28 was probably the acceptable result. We were able
 Reaching vr boundries. 
 
 
+Test day 4:
+
+Goal: See if combining both methods work. Starting from the acceptance values from both tests
+Test people: Niels & Didi
+
+The scale = 0 - 10
+
+The space we tested it in was 10x10, so it included turning of the testers.
+
+The value is of how noticeable it was to the person:
+
+Test 33:
+Niels:2
+Didi:2
+
+Test 34:
+Niels:2
+Didi:2
+
+Test 35:
+Niels:3
+Didi:2
+
+Test 36:
+Niels:3
+Didi:2
+
+Test 37:
+Niels:4
+Didi:3
+
+Test 38:
+Niels:5
+Didi:3.5
+
+Test 39:
+Niels:5
+Didi:4
+
+Test 40:
+Niels:6
+Didi:4
+
+Test 41:
+Niels:6
+Didi:4.5
+
+Test 42:
+Niels:6
+Didi:4.5
+
+Conclusions: Both method combined are working perfectly together, and we got +/- 180 degrees, so a full turnaround in our test.
+36 seems like the most acceptable seeing acceptable user discomfort and performance.
+
 
 
 
