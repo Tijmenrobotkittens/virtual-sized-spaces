@@ -783,17 +783,17 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLWasmStreaming: 0
   scriptingDefineSymbols:
-    1: TextMeshPro
+    1: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2
     4: TextMeshPro
-    7: TextMeshPro
-    13: TextMeshPro
+    7: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2
+    13: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2
     14: TextMeshPro
-    19: TextMeshPro
-    21: TextMeshPro
-    25: TextMeshPro
-    27: TextMeshPro
-    28: TextMeshPro
-    29: TextMeshPro
+    19: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2
+    21: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2
+    25: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2
+    27: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2
+    28: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2
+    29: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2
     30: TextMeshPro
   platformArchitecture: {}
   scriptingBackend:
