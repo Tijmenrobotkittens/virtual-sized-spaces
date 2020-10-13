@@ -17,6 +17,8 @@ public class ScenePRController2 : MonoBehaviour
     private Button _selectButton;
     private SceneRotaterController _sceneRotator;
     private GameObject _allContainer;
+    private MultiUserController _multiUser;
+
 
     private void Init() {
         _allContainer = transform.Find("AllContainer").gameObject;
@@ -30,6 +32,7 @@ public class ScenePRController2 : MonoBehaviour
         _sceneRotator = this.gameObject.AddComponent<SceneRotaterController>();
         _sceneRotator.set(_userController.gameObject,_allContainer.gameObject);
         _userController.setRotator(_sceneRotator);
+        _multiUser = gameObject.AddComponent<MultiUserController>();
     }
 
     private void NextTest()

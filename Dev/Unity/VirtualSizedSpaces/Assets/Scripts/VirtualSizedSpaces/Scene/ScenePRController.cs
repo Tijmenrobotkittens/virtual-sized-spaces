@@ -15,6 +15,7 @@ public class ScenePRController : MonoBehaviour
     private Scatter _scatter = new Scatter();
     private UserController _userController;
     private Button _selectButton;
+    
 
     private void Init() {
         _wallLeft = transform.Find("Walls/left").gameObject;
@@ -24,6 +25,7 @@ public class ScenePRController : MonoBehaviour
         _userController = transform.Find("OVRCameraRig").GetComponent<UserController>();
         _selectButton = GameObject.Find("SelectButton").GetComponent<Button>();
         _selectButton.onClick.AddListener(NextTest);
+        
     }
 
     private void NextTest()
