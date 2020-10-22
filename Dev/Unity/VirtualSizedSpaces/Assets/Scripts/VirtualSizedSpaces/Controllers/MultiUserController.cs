@@ -6,9 +6,11 @@ using UnityEngine;
 public class MultiUserController : MonoBehaviour
 {
     private List<GameObject> _users = new List<GameObject>();
+    private NetworkDisable _networkDisable;
+
     void Start()
     {
-        Debug.Log("start multiUserController");   
+        _networkDisable = gameObject.AddComponent<NetworkDisable>();
     }
 
     internal void AddUser(GameObject user)
