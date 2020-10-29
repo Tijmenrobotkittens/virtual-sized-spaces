@@ -6,6 +6,7 @@ using UnityEngine;
 public class VSNetworkManager : NetworkManager
 {
     private MultiUserController _controller;
+    public static  MultiUserController _multiUserController;
     private MultiUserController Controller
     {
         get
@@ -14,7 +15,8 @@ public class VSNetworkManager : NetworkManager
             {
                 _controller = FindObjectOfType<MultiUserController>();
             }
-                
+
+            _multiUserController = transform.Find("Stage").GetComponent<MultiUserController>();
             return _controller;
         }
     }
@@ -29,7 +31,9 @@ public class VSNetworkManager : NetworkManager
             : Instantiate(playerPrefab);
 
         NetworkServer.AddPlayerForConnection(conn, user);
-            
+        _multiUserController.AddUser(user);
+
+
         StartCoroutine(DelayAddPlayer(3, user));
     }
         

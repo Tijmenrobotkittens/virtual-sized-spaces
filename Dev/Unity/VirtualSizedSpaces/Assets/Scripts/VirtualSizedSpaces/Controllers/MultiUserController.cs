@@ -8,9 +8,12 @@ public class MultiUserController : MonoBehaviour
     private List<GameObject> _users = new List<GameObject>();
     private NetworkDisable _networkDisable;
     private string _otherUserPrefab;
+    private GameObject _parent;
 
-    public void SetOtherUser(string prefab) {
+
+    public void SetOtherUser(string prefab,GameObject parent) {
         _otherUserPrefab = prefab;
+        _parent = parent;
     }
 
     void Start()
