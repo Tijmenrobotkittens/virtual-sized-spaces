@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class MultiUserController : Photon.MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class MultiUserController : Photon.MonoBehaviour
     public byte Version = 1;
     private bool ConnectInUpdate = true;
     public string _roomName = "VirtualSpacesTest";
+    private UnityEvent UserConnected = new UnityEvent();
+    private bool _userConnected = false;
 
 
     public void SetOtherUser(string prefab,GameObject parent) {
@@ -44,7 +47,7 @@ public class MultiUserController : Photon.MonoBehaviour
     public virtual void OnConnectedToMaster()
     {
         Debug.Log("Multi: Connect to master");
-        PhotonNetwork.JoinRoom(_roomName);
+        PhotonNetwork.JoinOrCreateRoom(_roomName, new RoomOptions() { MaxPlayers = 4 }, null);
     }
 
     public virtual void OnJoinedLobby()
@@ -53,14 +56,17 @@ public class MultiUserController : Photon.MonoBehaviour
         PhotonNetwork.JoinRoom(_roomName);
     }
 
-    public virtual void OnPhotonJoinFailed()
+
+    public virtual void OnPhotonRoomJoinFailed()
     {
         Debug.Log("Multi: Room joined failed!");
-        PhotonNetwork.CreateRoom(null, new RoomOptions() { MaxPlayers = 4 }, null);
+       
     }
 
     public void OnJoinedRoom()
     {
         Debug.Log("Multi: Room joined!");
+        _userConnected = true;
+        UserConnected.Invoke();
     }
 }
