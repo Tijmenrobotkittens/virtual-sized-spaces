@@ -34,6 +34,7 @@ public class ScenePRController2 : MonoBehaviour
         _userController.setRotator(_sceneRotator);
         _multiUser = gameObject.AddComponent<MultiUserController>();
         _multiUser.SetOtherUser("Prefab/OtherUser",_allContainer);
+        _multiUser.SetMe(_userController.gameObject);
     }
 
     private void NextTest()
