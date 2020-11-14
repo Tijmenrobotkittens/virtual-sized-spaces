@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using ExitGames.Client.Photon;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -20,6 +21,9 @@ public class MultiUserController : Photon.MonoBehaviour
     private PhotonView _photonView;
     private GameObject _me;
 
+    public const byte MoveUserEvent = 1;
+
+
     public void SetOtherUser(string prefab,GameObject parent) {
         _otherUserPrefab = prefab;
         _parent = parent;
@@ -33,6 +37,7 @@ public class MultiUserController : Photon.MonoBehaviour
     {
         PhotonNetwork.autoJoinLobby = false;
         _photonView = gameObject.AddComponent<PhotonView>();
+        PhotonNetwork.OnEventCall += OnEvent;
     }
 
     internal void AddUser(GameObject user)
@@ -50,8 +55,22 @@ public class MultiUserController : Photon.MonoBehaviour
             PhotonNetwork.ConnectUsingSettings(Version + "." + SceneManagerHelper.ActiveSceneBuildIndex);
         }
         else {
-            Debug.Log("connected! send location");
+            object[] content = new object[] { _me.transform.position,_me.transform.rotation }; // Array contains the target position and the IDs of the selected units
+            RaiseEventOptions raiseEventOptions = new RaiseEventOptions { Receivers = ReceiverGroup.All }; // You would have to set the Receivers to All in order to receive this event on the local client as well
+            PhotonNetwork.RaiseEvent(MoveUserEvent, content,true,raiseEventOptions);
+        }
+    }
 
+    private void CreateUser(int id)
+    {
+        GameObject otherUser = HelperFunctions.GetPrefab(_otherUserPrefab, _parent);
+        _playerObjects[id] = otherUser;
+    }
+
+    private void OnEvent(byte _eventCode, object _content, int _senderID)
+    {
+        if (!_playerObjects.ContainsKey(_senderID)) {
+            CreateUser(_senderID);
         }
     }
 
