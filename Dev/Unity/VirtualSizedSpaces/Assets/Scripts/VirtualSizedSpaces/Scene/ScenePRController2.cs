@@ -33,7 +33,7 @@ public class ScenePRController2 : MonoBehaviour
         _sceneRotator.set(_userController.gameObject,_allContainer.gameObject);
         _userController.setRotator(_sceneRotator);
         _multiUser = gameObject.AddComponent<MultiUserController>();
-        _multiUser.SetOtherUser("Prefab/OtherUser",_allContainer);
+        _multiUser.SetOtherUser("Prefabs/OtherUser",_allContainer);
         _multiUser.SetMe(_userController.gameObject);
     }
 

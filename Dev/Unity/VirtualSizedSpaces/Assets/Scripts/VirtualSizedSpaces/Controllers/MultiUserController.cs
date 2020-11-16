@@ -55,7 +55,7 @@ public class MultiUserController : Photon.MonoBehaviour
             PhotonNetwork.ConnectUsingSettings(Version + "." + SceneManagerHelper.ActiveSceneBuildIndex);
         }
         else {
-            object[] content = new object[] { _me.transform.position,_me.transform.rotation }; // Array contains the target position and the IDs of the selected units
+            object[] content = new object[] {_me.transform.position,_me.transform.rotation }; // Array contains the target position and the IDs of the selected units
             RaiseEventOptions raiseEventOptions = new RaiseEventOptions { Receivers = ReceiverGroup.All }; // You would have to set the Receivers to All in order to receive this event on the local client as well
             PhotonNetwork.RaiseEvent(MoveUserEvent, content,true,raiseEventOptions);
         }
@@ -69,9 +69,26 @@ public class MultiUserController : Photon.MonoBehaviour
 
     private void OnEvent(byte _eventCode, object _content, int _senderID)
     {
+        if (_senderID == ownId) {
+            return;
+        }
         if (!_playerObjects.ContainsKey(_senderID)) {
             CreateUser(_senderID);
         }
+        object[] mydata = (object[])_content;
+        Vector3 position = (Vector3)mydata[0];
+        Quaternion rotation = (Quaternion)mydata[1];
+        Debug.Log(position);
+        Debug.Log(rotation);
+
+
+        //for (int i = 0; i < positions.Length; i++) {
+        //    Debug.Log(positions[i]);
+        //}
+
+        _playerObjects[_senderID].transform.position = position;
+        _playerObjects[_senderID].transform.rotation = rotation;
+        //_playerObjects[_senderID].transform.rotation = Quaternion.Euler(positions[1]);
     }
 
     public virtual void OnConnectedToMaster()
