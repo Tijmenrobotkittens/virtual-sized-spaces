@@ -229,6 +229,13 @@ Conclusions: Both method combined are working perfectly together, and we got +/-
 
 
 
+Test day 5:
+
+Goal: See if it feels natural and fluid to see other users moving in the same space
+Test people: Niels & Didi & Patrick
+Result: People saw each other, since no interpolation is applied on the network traffic users could seem a little jaggy at certain moments.
+
+
 
 
 

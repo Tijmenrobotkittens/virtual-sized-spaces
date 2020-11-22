@@ -20,6 +20,7 @@ public class MultiUserController : Photon.MonoBehaviour
     public Dictionary<int, GameObject> _playerObjects = new Dictionary<int, GameObject>();
     private PhotonView _photonView;
     private GameObject _me;
+    long microseconds = 0;
 
     public const byte MoveUserEvent = 1;
 
@@ -78,9 +79,6 @@ public class MultiUserController : Photon.MonoBehaviour
         object[] mydata = (object[])_content;
         Vector3 position = (Vector3)mydata[0];
         Quaternion rotation = (Quaternion)mydata[1];
-        Debug.Log(position);
-        Debug.Log(rotation);
-
 
         //for (int i = 0; i < positions.Length; i++) {
         //    Debug.Log(positions[i]);
