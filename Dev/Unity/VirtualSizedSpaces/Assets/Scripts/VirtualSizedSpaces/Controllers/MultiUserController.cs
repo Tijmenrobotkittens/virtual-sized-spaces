@@ -70,9 +70,9 @@ public class MultiUserController : Photon.MonoBehaviour
 
     private void OnEvent(byte _eventCode, object _content, int _senderID)
     {
-        if (_senderID == ownId) {
-            return;
-        }
+        //if (_senderID == ownId) {
+        //    return;
+        //}
         if (!_playerObjects.ContainsKey(_senderID)) {
             CreateUser(_senderID);
         }
