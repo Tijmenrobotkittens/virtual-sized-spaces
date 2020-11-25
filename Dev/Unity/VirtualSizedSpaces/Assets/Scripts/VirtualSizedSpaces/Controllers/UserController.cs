@@ -1,6 +1,7 @@
 ﻿using System.Collections;
  using System.Collections.Generic;
  using UnityEngine;
+
   
  public class UserController : MonoBehaviour {
     public float speed = 1;
@@ -19,6 +20,7 @@
     float height = 2.14f;
     private TestingResult _currentTest;
     private Quaternion _offset =  Quaternion.Euler(0,0,0);
+    private AbsolutePositionPlacer _placer = new AbsolutePositionPlacer();
 
     private void Start()
     {
