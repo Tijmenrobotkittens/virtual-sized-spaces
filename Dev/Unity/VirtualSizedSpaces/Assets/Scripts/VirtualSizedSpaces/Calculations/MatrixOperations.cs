@@ -48,4 +48,62 @@ public static class MatrixOperations
         }
         return res;
     }
+
+    public static float[,] outerMatrix(this float[] a, float[] b)
+    {
+        int M = a.Length;
+        int N = b.Length;
+
+        var res = new float[M, N];
+        for (int m = 0; m < M; ++m)
+        {
+            for (int n = 0; n < N; ++n)
+            {
+                res[m, n] = a[m] * b[n];
+            }
+        }
+
+        return res;
+    }
+
+    public static float[,] transpose(this float[,] inp)
+    {
+        int N = inp.GetLength(0);
+        int M = inp.GetLength(1);
+
+        var res = new float[M, N];
+        for (int m = 0; m < M; ++m)
+        {
+            for (int n = 0; n < N; ++n)
+            {
+                res[m, n] = inp[n, m];
+            }
+        }
+
+        return res;
+    }
+
+    //Hmmmmmm
+    public static float[,] inverse(this float[,] inp)
+    {
+        if (inp.GetLength(0) != 4 || inp.GetLength(1) != 4)
+            throw new System.NotImplementedException();
+
+        var mat = new Matrix4x4();
+        for (int i = 0; i < 4; ++i)
+        {
+            for (int j = 0; j < 4; ++j)
+                mat[i, j] = inp[i, j];
+        }
+
+        mat = mat.inverse;
+        var res = new float[4, 4];
+        for (int i = 0; i < 4; ++i)
+        {
+            for (int j = 0; j < 4; ++j)
+                res[i, j] = mat[i, j];
+        }
+
+        return res;
+    }
 }
