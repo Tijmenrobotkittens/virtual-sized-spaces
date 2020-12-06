@@ -63,7 +63,7 @@ namespace Antilatency.Integration {
                 return;
             }
 
-            var envMarkers = nativeEnvironment.getMarkers();
+            var envMarkers = nativeEnvironment.GetUsers();
 
             var markerPositionUpdateRequired = false;
 

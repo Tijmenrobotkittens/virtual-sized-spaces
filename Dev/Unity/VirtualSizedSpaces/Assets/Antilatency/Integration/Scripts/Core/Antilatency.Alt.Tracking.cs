@@ -36,7 +36,7 @@ public partial struct MarkerIndex {
 [Guid("c257c858-f296-43b7-b6b5-c14b9afb1a13")]
 public interface IEnvironment : Antilatency.InterfaceContract.IInterface {
 	Antilatency.InterfaceContract.Bool isMutable();
-	UnityEngine.Vector3[] getMarkers();
+	UnityEngine.Vector3[] GetUsers();
 	Antilatency.InterfaceContract.Bool filterRay(UnityEngine.Vector3 up, UnityEngine.Vector3 ray);
 	/// <param name = "raysUpSpace">
 	/// rays directions. Normalized
@@ -68,7 +68,7 @@ namespace Details {
 			result = resultMarshaler;
 			return result;
 		}
-		public UnityEngine.Vector3[] getMarkers() {
+		public UnityEngine.Vector3[] GetUsers() {
 			UnityEngine.Vector3[] result;
 			var resultMarshaler = Antilatency.InterfaceContract.Details.ArrayOutMarshaler.create<UnityEngine.Vector3>();
 			HandleExceptionCode(_VMT.getMarkers(_object, resultMarshaler));
@@ -147,7 +147,7 @@ namespace Details {
 			vmt.getMarkers = (System.IntPtr _this, Antilatency.InterfaceContract.Details.ArrayOutMarshaler.Intermediate result) => {
 				try {
 					var obj = GetContext(_this) as IEnvironment;
-					var resultMarshaler = obj.getMarkers();
+					var resultMarshaler = obj.GetUsers();
 					result.assign(resultMarshaler);
 				}
 				catch (System.Exception ex) {
