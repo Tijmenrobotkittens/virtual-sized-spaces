@@ -135,4 +135,108 @@ public class DynamicUserEnvironment : Antilatency.InterfaceContract.InterfacedOb
 
         return true;
     }
+
+    MarkerIndex[] IEnvironment.matchByPosition(Vector3[] rays, Vector3 origin)
+    {
+        float sqrTolerance = 0.01f;
+        var res = Enumerable.Repeat(MarkerIndex.Unknown, rays.Length).ToArray();
+
+       
+        Vector2 shift = new Vector2(origin.x, origin.z);
+        var projections = projectRaysOnFloor(rays, origin.y).Select(p => p + shift).ToList();
+
+        for (int idMarker = 0; idMarker < 3; ++idMarker)
+        {
+            for (int idProjection = 0; idProjection < rays.Length; ++idProjection)
+            {
+                int numMatches = 0;
+                if ((_markers[idMarker] - projections[idProjection]).sqrMagnitude < sqrTolerance)
+                {
+                    res[idProjection].value = (uint)idMarker;
+                    ++numMatches;
+                }
+
+                if (numMatches > 1)
+                    res[idProjection] = MarkerIndex.Invalid;
+            }
+        }
+
+        lock (_visobject)
+        {
+            _machPos = new MatchByPositionVisualization(rays.ToList(), origin, res);
+        }
+        return res;
+    }
+
+    static List<Vector2> projectRaysOnFloor(IList<Vector3> rays, float height = 1)
+    {
+        return rays
+            .Select(r => -height * new Vector2(r.x, r.z) / r.y)
+            .ToList();
+    }
+
+    public MatchVisualization getMatchVisualization()
+    {
+        lock (_visobject)
+        {
+            return new MatchVisualization(_matchViz);
+        }
+    }
+
+    public MatchByPositionVisualization getMatchByPositionVisualization()
+    {
+        lock (_visobject)
+        {
+            return new MatchByPositionVisualization(_machPos);
+        }
+    }
+
+    public class MatchByPositionVisualization
+    {
+        public List<Vector3> rays;
+        public List<MarkerIndex> markersIndices;
+        public Vector3 origin;
+
+        public MatchByPositionVisualization()
+        {
+            rays = new List<Vector3>();
+            markersIndices = new List<MarkerIndex>();
+            origin = Vector3.zero;
+        }
+
+        public MatchByPositionVisualization(MatchByPositionVisualization other)
+        {
+            rays = other.rays.ToList();
+            origin = other.origin;
+            markersIndices = other.markersIndices.ToList();
+        }
+
+        public MatchByPositionVisualization(IList<Vector3> rays_, Vector3 origin_, IList<MarkerIndex> markersIndices_)
+        {
+            rays = rays_.ToList();
+            origin = origin_;
+            markersIndices = markersIndices_.ToList();
+        }
+
+        public void Draw(IList<Vector3> markers)
+        {
+            for (int i = 0; i < rays.Count; ++i)
+            {
+                var r = rays[i];
+                r *= -origin.y / r.y;
+                r += origin;
+                var markerId = markersIndices[i];
+                if (markerId == MarkerIndex.Unknown || markerId == MarkerIndex.Invalid)
+                {
+                    Gizmos.color = Color.magenta;
+                    Gizmos.DrawLine(origin, r);
+                }
+                else
+                {
+                    Gizmos.color = Color.green;
+                    Gizmos.DrawLine(origin, r);
+                }
+            }
+        }
+    }
 }
