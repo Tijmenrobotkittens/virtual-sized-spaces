@@ -239,4 +239,71 @@ public class DynamicUserEnvironment : Antilatency.InterfaceContract.InterfacedOb
             }
         }
     }
+
+    public class MatchVisualization
+    {
+        public List<Vector3> raysUpSpace;
+        public List<MarkerIndex> markersIndices;
+        public List<Vector2> projectedRays;
+        public Pose poseOfUpSpace;
+
+        public MatchVisualization()
+        {
+            raysUpSpace = new List<Vector3>();
+            projectedRays = new List<Vector2>();
+            markersIndices = new List<MarkerIndex>();
+            poseOfUpSpace = new Pose();
+        }
+
+        public MatchVisualization(MatchVisualization other)
+        {
+            raysUpSpace = other.raysUpSpace.ToList();
+            poseOfUpSpace = other.poseOfUpSpace;
+            projectedRays = other.projectedRays.ToList();
+            markersIndices = other.markersIndices.ToList();
+        }
+
+        public MatchVisualization(IList<Vector3> raysUpSpace_, Pose poseOfUpSpace_, IList<Vector2> projectedRays_, IList<MarkerIndex> markersIndices_)
+        {
+            raysUpSpace = raysUpSpace_.ToList();
+            poseOfUpSpace = poseOfUpSpace_;
+            projectedRays = projectedRays_.ToList();
+            markersIndices = markersIndices_.ToList();
+        }
+
+        public void Draw(IList<Vector3> markers)
+        {
+            for (int i = 0; i < raysUpSpace.Count; ++i)
+            {
+                var r = poseOfUpSpace.rotation * raysUpSpace[i];
+                r *= -poseOfUpSpace.position.y / r.y;
+                r += poseOfUpSpace.position;
+                var markerId = markersIndices[i];
+                if (markerId == MarkerIndex.Unknown || markerId == MarkerIndex.Invalid)
+                {
+                    Gizmos.color = Color.magenta;
+                    Gizmos.DrawLine(poseOfUpSpace.position, r);
+                }
+                else
+                {
+                    Gizmos.color = Color.blue;
+                    Gizmos.DrawLine(poseOfUpSpace.position, r);
+                    Gizmos.color = Color.red;
+                    Gizmos.DrawLine(r, markers[(int)markerId.value]);
+                }
+            }
+
+            Gizmos.color = Color.blue;
+            for (int i = 0; i < projectedRays.Count; ++i)
+            {
+                DrawCross(projectedRays[i], 0.2f);
+            }
+        }
+
+        public static void DrawCross(Vector2 position, float size)
+        {
+            Gizmos.DrawLine(new Vector3(position.x - size, 0, position.y), new Vector3(position.x + size, 0, position.y));
+            Gizmos.DrawLine(new Vector3(position.x, 0, position.y - size), new Vector3(position.x, 0, position.y + size));
+        }
+    }
 }
