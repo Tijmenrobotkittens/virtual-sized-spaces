@@ -18,7 +18,7 @@ public class AbsolutePositionPlacer : Antilatency.InterfaceContract.InterfacedOb
     }
 
    
-    Vector3[] IEnvironment.getMarkers()
+    Vector3[] IEnvironment.GetUsers()
     {
         return new Vector3[0];
     }

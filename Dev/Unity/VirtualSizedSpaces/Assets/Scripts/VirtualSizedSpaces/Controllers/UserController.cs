@@ -1,9 +1,9 @@
 ﻿using System.Collections;
  using System.Collections.Generic;
  using UnityEngine;
+using static DynamicUserEnvironment;
 
-  
- public class UserController : MonoBehaviour {
+public class UserController : MonoBehaviour {
     public float speed = 1;
     public enum RotationAxes { MouseXAndY = 0, MouseX = 1, MouseY = 2 }
     public RotationAxes axes = RotationAxes.MouseXAndY;
@@ -21,10 +21,14 @@
     private TestingResult _currentTest;
     private Quaternion _offset =  Quaternion.Euler(0,0,0);
     private AbsolutePositionPlacer _placer = new AbsolutePositionPlacer();
+    private DynamicUserEnvironment _dyamicuser;
 
     private void Start()
     {
         originalRotation = transform.localRotation;
+        IList<Vector2> singleuserpositions = new List<Vector2>();
+        singleuserpositions.Add(new Vector2(transform.position.x, transform.position.y));
+        _dyamicuser = new DynamicUserEnvironment(singleuserpositions);
     }
 
     public static float ClampAngle(float angle, float min, float max)
@@ -43,7 +47,10 @@
 
     void Update()
     {
-
+        MatchByPositionVisualization positionsonfloor = _dyamicuser.getMatchByPositionVisualization();
+        if (positionsonfloor != null) {
+            transform.position = new Vector3(positionsonfloor.origin.x, positionsonfloor.origin.y, positionsonfloor.origin.z);
+        }
         if (axes == RotationAxes.MouseXAndY)
         {
             rotationX += Input.GetAxis("Mouse X") * sensitivityX;

@@ -168,7 +168,7 @@ public class DynamicUserEnvironment : Antilatency.InterfaceContract.InterfacedOb
         return res;
     }
 
-    static List<Vector2> projectRaysOnFloor(IList<Vector3> rays, float height = 1)
+    public static List<Vector2> projectRaysOnFloor(IList<Vector3> rays, float height = 1)
     {
         return rays
             .Select(r => -height * new Vector2(r.x, r.z) / r.y)
