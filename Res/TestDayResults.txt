@@ -228,14 +228,19 @@ Conclusions: Both method combined are working perfectly together, and we got +/-
 36 seems like the most acceptable seeing acceptable user discomfort and performance.
 
 
-
 Test day 5:
 
 Goal: See if it feels natural and fluid to see other users moving in the same space
 Test people: Niels & Didi & Patrick
 Result: People saw each other, since no interpolation is applied on the network traffic users could seem a little jaggy at certain moments.
 
+Test day 6:s
 
+Goal: Test the setup in an actual environment using anti latency hardware. The environment is only 5x6, which makes testing a little hard.
+Result: People were at the correct location, but there was a lot of jittering, also, the environment moving for single people is not really working for multiple users at the samen time, since
+We need to recalculate the positions being sent by the local offset of the users. But after this test we clearly know what is, and isn’t working in this setup. The next steps would be:
+1. Adding offsets to users based on the local movement on the environment
+2. Refactor and simplify the work that has been done currently
 
 
 

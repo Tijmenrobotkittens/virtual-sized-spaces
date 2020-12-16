@@ -53,7 +53,7 @@ public class DynamicUserEnvironment : Antilatency.InterfaceContract.InterfacedOb
 
     Bool IEnvironment.match(Vector3[] Rays, out MarkerIndex[] Markers, out Pose PositionofUp)
     {
-        const float projectionsMatchTolerance = 0.05f;
+        const float projectionsMatchTolerance = 0.06f;
 
         Markers = Enumerable.Repeat(MarkerIndex.Unknown, Rays.Length).ToArray();
         PositionofUp = new Pose();
@@ -89,7 +89,7 @@ public class DynamicUserEnvironment : Antilatency.InterfaceContract.InterfacedOb
         for (int idPermutation = 0; idPermutation < 6; ++idPermutation)
         {
             var curB = new float[6];
-            for (int i = 0; i < 3; ++i)
+            for (int i = 0; i < 4; ++i)
             {
                 int j = permutations[idPermutation][i];
                 curB[2 * i] = b[2 * j];
@@ -138,7 +138,7 @@ public class DynamicUserEnvironment : Antilatency.InterfaceContract.InterfacedOb
 
     MarkerIndex[] IEnvironment.matchByPosition(Vector3[] rays, Vector3 origin)
     {
-        float sqrTolerance = 0.01f;
+        float sqrTolerance = 0.02f;
         var res = Enumerable.Repeat(MarkerIndex.Unknown, rays.Length).ToArray();
 
        
@@ -168,7 +168,7 @@ public class DynamicUserEnvironment : Antilatency.InterfaceContract.InterfacedOb
         return res;
     }
 
-    public static List<Vector2> projectRaysOnFloor(IList<Vector3> rays, float height = 1)
+    public  List<Vector2> projectRaysOnFloor(IList<Vector3> rays, float height = 1)
     {
         return rays
             .Select(r => -height * new Vector2(r.x, r.z) / r.y)
@@ -302,6 +302,7 @@ public class DynamicUserEnvironment : Antilatency.InterfaceContract.InterfacedOb
 
         public static void DrawCross(Vector2 position, float size)
         {
+            size *= 2;
             Gizmos.DrawLine(new Vector3(position.x - size, 0, position.y), new Vector3(position.x + size, 0, position.y));
             Gizmos.DrawLine(new Vector3(position.x, 0, position.y - size), new Vector3(position.x, 0, position.y + size));
         }
